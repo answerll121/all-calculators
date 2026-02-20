@@ -15,10 +15,12 @@ const enTranslation = {
     "category_lifestyle": "Lifestyle",
     "category_unit": "Unit Converter",
     "category_lotto_main": "Lottery",
-            "action_install_app": "Install App",
-            "hero_subtitle": "Smart calculations for your daily life.",
+    "action_install_app": "Install App",
+    "hero_subtitle": "Smart calculations for your daily life.",
     "action_open_calc": "Open Calculator",
     "action_close": "Close Calculator",
+    "action_share": "Share",
+    "action_copy_link": "Copy Link",
     "general_calculator": "General Calculator",
     "unit_converter": "Unit Converter",
     "dark_mode": "Dark Mode",
@@ -561,6 +563,8 @@ const resources = {
             "category_lotto_main": "복권",
             "action_open_calc": "메인 계산기 열기",
             "action_close": "닫기",
+            "action_share": "공유하기",
+            "action_copy_link": "링크 복사",
             "general_calculator": "일반 계산기",
             "unit_converter": "단위 변환기",
             "calc_length_conv": "길이 변환",
@@ -1221,6 +1225,8 @@ const resources = {
             "category_lotto_main": "宝くじ",
             "action_open_calc": "メイン電卓を開く",
             "action_close": "閉じる",
+            "action_share": "共有",
+            "action_copy_link": "リンクをコピー",
             "general_calculator": "一般電卓",
             "unit_converter": "単位変換器",
             "calc_length_conv": "長さ変換",
@@ -1636,6 +1642,8 @@ const resources = {
             "category_lotto_main": "彩票",
             "action_open_calc": "打开计算器",
             "action_close": "关闭",
+            "action_share": "分享",
+            "action_copy_link": "复制链接",
             "general_calculator": "普通计算器",
             "unit_converter": "单位换算器",
             "dark_mode": "深色模式",
@@ -1967,16 +1975,16 @@ const resources = {
 };
 
 i18n
-    .use(initReactI18next)
-    // ... (existing content)
-    .init({
-        resources,
-        lng: 'en', // default language changed to English
-        fallbackLng: 'en',
-        // ...
-        interpolation: {
-            escapeValue: false
-        }
-    });
+.use(initReactI18next)
+// ... (existing content)
+.init({
+    resources,
+    lng: 'en', // default language changed to English
+    fallbackLng: 'en',
+    // ...
+    interpolation: {
+        escapeValue: false
+    }
+});
 
 export default i18n;

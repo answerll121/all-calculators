@@ -10,6 +10,8 @@ export default {
     "category_unit": "इकाई परिवर्तक",
     "action_open_calc": "कैलकुलेटर खोलें",
     "action_close": "बंद करें",
+    "action_share": "साझा करें",
+    "action_copy_link": "लिंक कॉपी करें",
     "general_calculator": "सामान्य कैलकुलेटर",
     "unit_converter": "इकाई परिवर्तक",
     "dark_mode": "डार्क मोड",

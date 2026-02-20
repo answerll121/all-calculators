@@ -10,6 +10,8 @@ export default {
     "category_unit": "تحويل الوحدات",
     "action_open_calc": "فتح الحاسبة",
     "action_close": "إغلاق",
+    "action_share": "مشاركة",
+    "action_copy_link": "نسخ الرابط",
     "general_calculator": "آلة حاسبة عامة",
     "unit_converter": "محول الوحدات",
     "dark_mode": "الوضع الداكن",

@@ -10,6 +10,8 @@ export default {
     "category_unit": "Einheitenumrechner",
     "action_open_calc": "Taschenrechner Öffnen",
     "action_close": "Schließen",
+    "action_share": "Teilen",
+    "action_copy_link": "Link kopieren",
     "general_calculator": "Allgemeiner Rechner",
     "unit_converter": "Einheitenumrechner",
     "dark_mode": "Dunkelmodus",

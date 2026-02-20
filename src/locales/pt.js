@@ -10,6 +10,8 @@ export default {
     "category_unit": "Conversor de Unidades",
     "action_open_calc": "Abrir Calculadora",
     "action_close": "Fechar",
+    "action_share": "Compartilhar",
+    "action_copy_link": "Copiar link",
     "general_calculator": "Calculadora Geral",
     "unit_converter": "Conversor de Unidades",
     "dark_mode": "Modo Escuro",

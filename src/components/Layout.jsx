@@ -8,6 +8,7 @@ import { useCurrency } from '../context/CurrencyContext';
 
 import LegalModal from './common/LegalModal';
 import CookieConsent from './common/CookieConsent';
+import ShareMenu from './common/ShareMenu';
 
 const Layout = () => {
     const { t, i18n } = useTranslation();
@@ -77,9 +78,9 @@ const Layout = () => {
                             {t('app_title')}
                         </Link>
 
-                        <div className="flex items-center space-x-4">
+                        <div className="flex items-center space-x-1 sm:space-x-3">
                             <InstallPWA />
-
+                            <ShareMenu />
                             <button
                                 onClick={toggleTheme}
                                 className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
