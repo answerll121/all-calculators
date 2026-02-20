@@ -32,8 +32,8 @@ const LottoPage = () => {
         <div className="space-y-12">
             <SEO
                 title={t('category_lotto_main')}
-                description="Global Lottery Number Generators for Lotto 6/45, Powerball, Mega Millions, and more."
-                keywords="lotto generator, powerball numbers, mega millions generator, lucky numbers"
+                description="Calculate net lottery winnings after taxes for Mega Millions, Powerball, and global lotteries."
+                keywords="lottery tax calculator, lotto tax, mega millions payout, powerball payout, net winnings, jackpot tax, euro millions"
                 schema={jsonLd}
             />
             <div className="flex items-center gap-4 border-b border-gray-200 dark:border-gray-700 pb-6">

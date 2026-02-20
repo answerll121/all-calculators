@@ -39,8 +39,8 @@ const LifestyleCalculator = () => {
         <div className="space-y-8">
             <SEO
                 title={t('category_lifestyle')}
-                description="Lifestyle tools for dates, age, dutch pay, and more."
-                keywords="lifestyle calculator, date calculator, age calculator, dutch pay"
+                description="Practical tools for daily life including tipping, discounts, and splitting bills."
+                keywords="lifestyle calculator, tip calculator, discount calculator, split bill, dutch pay, age calculator, d-day, pet age, ring size, clothing size"
                 schema={jsonLd}
             />
             <div className="flex items-center gap-4 border-b border-gray-200 dark:border-gray-700 pb-6">

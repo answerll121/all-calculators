@@ -17,7 +17,7 @@ const SEO = ({
     const location = useLocation();
 
     // Construct Canonical URL (remove query params for strict canonical)
-    const siteUrl = 'https://busan.dev'; // Replace with actual domain when deployed
+    const siteUrl = 'https://all-calculators-seven.vercel.app'; // Replace with actual domain when deployed
     const canonicalUrl = `${siteUrl}${location.pathname}`;
 
     const appTitle = t('app_title');

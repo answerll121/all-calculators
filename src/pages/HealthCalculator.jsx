@@ -44,8 +44,8 @@ const HealthCalculator = () => {
         <div className="space-y-8">
             <SEO
                 title={t('category_health')}
-                description="Health calculators for BMI, calories, hydration, and more."
-                keywords="health calculator, bmi calculator, calorie calculator, tdee calculator"
+                description="Calculate BMI, BMR, TDEE, Macros, Ideal Weight, and other health metrics."
+                keywords="health calculator, body mass index, bmi calculator, basal metabolic rate, bmr, total daily energy expenditure, tdee, macro calculator, calorie tracker, weight loss, ideal weight"
                 schema={jsonLd}
             />
             <div className="flex items-center gap-4 border-b border-gray-200 dark:border-gray-700 pb-6">

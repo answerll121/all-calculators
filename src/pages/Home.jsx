@@ -195,7 +195,7 @@ const Home = () => {
                 title={t('app_title')}
                 fullTitle={true}
                 description="Free All-in-One Calculator for Finance, Health, Math, Lifestyle, and Unit Conversions."
-                keywords="calculator, online calculator, free calculator, finance calculator, health calculator"
+                keywords="free online calculator, all in one calculator, unit converter, finance calculator, health calculator, math tools, lifestyle utilities, bmi, loan calculation, savings planner"
                 schema={jsonLd}
             />
             {/* Hero Section */}
