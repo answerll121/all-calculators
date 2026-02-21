@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://all-calculators.vercel.app/</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://all-calculators-seven.vercel.app/</loc>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://all-calculators.vercel.app/calculator</loc>
+    <loc>https://all-calculators-seven.vercel.app/calculator</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://all-calculators.vercel.app/unit</loc>
+    <loc>https://all-calculators-seven.vercel.app/unit</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://all-calculators.vercel.app/lotto</loc>
+    <loc>https://all-calculators-seven.vercel.app/lotto</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://all-calculators.vercel.app/finance</loc>
+    <loc>https://all-calculators-seven.vercel.app/finance</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://all-calculators.vercel.app/health</loc>
+    <loc>https://all-calculators-seven.vercel.app/health</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://all-calculators.vercel.app/math</loc>
+    <loc>https://all-calculators-seven.vercel.app/math</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://all-calculators.vercel.app/lifestyle</loc>
+    <loc>https://all-calculators-seven.vercel.app/lifestyle</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
