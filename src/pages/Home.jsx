@@ -14,7 +14,7 @@ const Home = () => {
     const { favorites, toggleFavorite, isFavorite } = useFavorites();
     const [searchTerm, setSearchTerm] = useState('');
     const [isSearchFocused, setIsSearchFocused] = useState(false);
-    const [recentSearches, setRecentSearches] = useState(['Loan Calculator', 'BMI', 'Exchange Rate']);
+    const recentSearches = [t('calc_loan'), t('calc_bmi'), t('calc_exchange')];
     const [showMobileCalc, setShowMobileCalc] = useState(false);
 
 
@@ -199,7 +199,7 @@ const Home = () => {
                 schema={jsonLd}
             />
             {/* Hero Section */}
-            <section className="relative z-10 rounded-[32px] bg-gradient-to-r from-blue-600 to-indigo-600 shadow-xl text-white p-6 sm:p-8 md:p-12 overflow-hidden">
+            <section className="relative z-10 rounded-[32px] bg-gradient-to-r from-blue-600 to-indigo-600 shadow-xl text-white p-6 sm:p-8 md:p-12 overflow-visible">
                 <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 items-center">
                     <div className="max-w-2xl">
                         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-tight break-keep">{t('app_title')}</h1>
@@ -217,7 +217,7 @@ const Home = () => {
                             />
                             {isSearchFocused && !searchTerm && (
                                 <div className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-gray-800 rounded-2xl shadow-xl border border-gray-100 dark:border-gray-700 overflow-hidden z-20">
-                                    <div className="p-3 text-xs font-semibold text-gray-400 uppercase tracking-wider">Recent</div>
+                                    <div className="p-3 text-xs font-semibold text-gray-400 uppercase tracking-wider">{t('label_recent_search', 'Recent')}</div>
                                     {recentSearches.map((term, index) => (
                                         <button key={index} onClick={() => setSearchTerm(term)} className="w-full text-left px-4 py-3 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700 flex items-center gap-2">
                                             {term}
