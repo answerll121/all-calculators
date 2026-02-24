@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Outlet, Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import InstallPWA from './common/InstallPWA';
 import { useTranslation } from 'react-i18next';
 import { Moon, Sun, Languages, ChevronDown, ArrowUp } from 'lucide-react';
@@ -18,6 +19,52 @@ const Layout = () => {
     const [legalModalOpen, setLegalModalOpen] = useState(false);
     const [legalModalType, setLegalModalType] = useState('privacy');
     const [showScrollTop, setShowScrollTop] = useState(false);
+
+    const getSEOContent = (lang) => {
+        const defaultSEO = {
+            title: "초간편 로또 번호 생성기 & 대출 이자 계산기 | 모든 계산기",
+            description: "복잡한 설정 없이 바로 쓰는 로또 조합기, 정확한 대출 이자 계산, 건강 상태 BMI 측정을 한 번에 해결하세요. 100% 무료."
+        };
+
+        const seoData = {
+            ko: defaultSEO,
+            en: {
+                title: "Free Lotto Number Generator & Loan Interest Calculator",
+                description: "The easiest way to generate lucky lotto numbers and calculate loan payments. 100% free web tool, no login required."
+            },
+            ja: {
+                title: "無料ロト番号生成器 & かんたんローン利息計算機",
+                description: "幸運のロト番号を今すぐ生成！複雑なローンの利息計算やBMI健康管理もこれ一つで解決できます。"
+            },
+            zh: {
+                title: "免费彩票号码生成器 & 贷款利息计算器",
+                description: "轻松生成彩票号码和计算贷款利息。无需登录，100%免费的在线计算工具。"
+            },
+            de: {
+                title: "Kostenloser Lotto-Zahlen-Generator & Kreditrechner",
+                description: "Die einfachste Möglichkeit, Lottozahlen zu generieren und Kreditzinsen zu berechnen. 100% kostenlos."
+            },
+            es: {
+                title: "Generador de Lotería y Calculadora de Préstamos",
+                description: "Genera números de lotería y calcula los intereses de tu préstamo fácilmente. Herramienta 100% gratuita."
+            },
+            pt: {
+                title: "Gerador de Loteria e Calculadora de Empréstimos Grátis",
+                description: "Gere números da sorte e calcule os juros do seu empréstimo. Sem necessidade de login, 100% gratuito."
+            },
+            ar: {
+                title: "مولد أرقام اليانصيب المجاني وحاسبة قروض",
+                description: "أسهل طريقة لتوليد أرقام اليانصيب وحساب مدفوعات القروض. أداة ويب مجانية 100٪."
+            },
+            hi: {
+                title: "मुफ़्त लॉटरी नंबर जेनरेटर और लोन कैलकुलेटर",
+                description: "भाग्यशाली लॉटरी नंबर जेनरेट करने और लोन भुगतान की गणना करने का सबसे आसान तरीका। 100% मुफ़्त."
+            }
+        };
+
+        return seoData[lang] || defaultSEO;
+    };
+    const currentSEO = getSEOContent(i18n.language);
 
     React.useEffect(() => {
         const handleScroll = () => {
@@ -71,6 +118,15 @@ const Layout = () => {
 
     return (
         <div className="min-h-screen bg-[var(--bg-primary)] text-[var(--text-primary)] transition-colors duration-200 font-sans">
+            <Helmet>
+                <html lang={i18n.language} />
+                <title>{currentSEO.title}</title>
+                <meta name="description" content={currentSEO.description} />
+                <meta property="og:title" content={currentSEO.title} />
+                <meta property="og:description" content={currentSEO.description} />
+                <meta name="twitter:title" content={currentSEO.title} />
+                <meta name="twitter:description" content={currentSEO.description} />
+            </Helmet>
             <header className="relative z-40 bg-white dark:bg-gray-900 border-b border-gray-200/50 dark:border-gray-700/50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-between items-center h-16">
