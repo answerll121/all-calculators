@@ -20,10 +20,10 @@ const SEO = ({
     const siteUrl = 'https://all-calculators-seven.vercel.app'; // Replace with actual domain when deployed
     const canonicalUrl = `${siteUrl}${location.pathname}`;
 
-    const appTitle = t('app_title');
-    const pageTitle = fullTitle ? title : `${title} - ${appTitle}`;
-    const metaDescription = description || t('msg_financial_disclaimer'); // Fallback description
-    const metaImage = image || `${siteUrl}/default-og-image.png`; // Default OG image
+    const appTitle = t('app_title', { defaultValue: '모든 계산기' });
+    const pageTitle = fullTitle ? title : `${title} | ${appTitle}`;
+    const metaDescription = description || t('fallback_desc', { title: title || '모든 계산기', defaultValue: `${title || '모든 계산기'}는 쉽고 빠르게 처리해 주는 무료 계산기입니다.` });
+    const metaImage = image || `${siteUrl}/icon.png.png`; // Default OG image
 
     // Dynamic JSON-LD Schema
     const structuredData = schema ? JSON.stringify(schema) : null;

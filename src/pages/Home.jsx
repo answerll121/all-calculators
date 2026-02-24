@@ -152,7 +152,7 @@ const Home = () => {
         const isActive = activeCategory === cat.id;
 
         // Base styles
-        let style = "flex items-center gap-2 px-5 py-3 rounded-full text-sm font-bold transition-all duration-300 border shadow-sm hover:-translate-y-0.5 ";
+        let style = "flex items-center gap-2 px-5 py-3 rounded-full text-sm font-bold transition-all duration-300 border shadow-sm hover:-translate-y-0.5 whitespace-nowrap flex-shrink-0 ";
 
         // Active/Inactive Logic
         if (isActive) {
@@ -208,7 +208,7 @@ const Home = () => {
                             <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={20} />
                             <input
                                 type="text"
-                                placeholder={t('search_placeholder')}
+                                placeholder="원하는 계산기를 검색해 보세요"
                                 value={searchTerm}
                                 onFocus={() => setIsSearchFocused(true)}
                                 onBlur={() => setTimeout(() => setIsSearchFocused(false), 200)}
@@ -257,96 +257,73 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* Main Content - Sectioned Layout */}
-            {searchTerm ? (
-                // Search Results View
-                <section>
-                    <h2 className="text-2xl font-bold mb-6 flex items-center gap-2 text-gray-900 dark:text-white">
-                        <Search size={24} /> Search Results
-                    </h2>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {getFilteredCalculators('all').map(item => (
-                            <Link key={item.id} to={item.link} className="group flex flex-col justify-between p-6 bg-white dark:bg-gray-800 rounded-[24px] border border-gray-100 dark:border-gray-700 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 relative">
-                                <div className="absolute top-4 right-4 z-10">
-                                    <button onClick={(e) => toggleFav(e, item.id)} className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
-                                        <Star size={20} className={isFavorite(item.id) ? "fill-yellow-400 text-yellow-400" : "text-gray-300 hover:text-yellow-400"} />
-                                    </button>
-                                </div>
-                                <div className="flex justify-between items-start mb-4">
-                                    <div className="p-3.5 rounded-2xl bg-gray-50 dark:bg-gray-700/50 group-hover:scale-110 transition-transform duration-300">
-                                        {item.icon}
-                                    </div>
+            {/* Quick Navigation (Sticky) */}
+            <div className="sticky top-0 z-50 bg-white/90 dark:bg-gray-900/90 backdrop-blur-md py-4 border-b border-gray-100 dark:border-gray-800 -mx-4 px-4 sm:mx-0 sm:px-0 mb-8 shadow-sm">
+                <div className="flex overflow-x-auto no-scrollbar whitespace-nowrap gap-3 pb-1">
+                    {categories.map(cat => (
+                        <a
+                            key={cat.id}
+                            href={`#cat-${cat.id}`}
+                            onClick={(e) => setActiveCategory(cat.id)}
+                            className={getCategoryButtonStyle(cat)}
+                        >
+                            {React.cloneElement(cat.icon, { size: 18, className: activeCategory === cat.id ? "text-white" : "" })}
+                            <span>{cat.label}</span>
+                        </a>
+                    ))}
+                </div>
+            </div>
+
+            {/* Category Sections */}
+            <div className="space-y-16 pb-8">
+                {categories.map(cat => {
+                    const items = getFilteredCalculators(cat.id);
+                    if (items.length === 0) return null; // Hide category if no matches from search
+
+                    return (
+                        <section key={cat.id} id={`cat-${cat.id}`} className="scroll-mt-24 lg:scroll-mt-28">
+                            <div className="flex items-center gap-4 mb-6">
+                                <div className={`p-3 sm:p-4 rounded-xl ${cat.color} ${cat.text} shadow-sm`}>
+                                    {cat.icon}
                                 </div>
                                 <div>
-                                    <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-1">{item.title}</h3>
-                                    <p className="text-sm text-gray-500 dark:text-gray-400">{item.desc}</p>
+                                    <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white">{cat.label}</h2>
+                                    <p className="text-gray-500 dark:text-gray-400 text-xs sm:text-sm mt-1">{cat.desc}</p>
                                 </div>
-                            </Link>
-                        ))}
-                    </div>
-                </section>
-            ) : (
-                // Category Sections View
-                <div className="space-y-16">
-                    {/* Category Navigation Tabs (Quick Jump) */}
-                    <div className="flex flex-wrap gap-3 justify-center pb-4 sticky top-4 z-20">
-                        {categories.map(cat => (
-                            <a
-                                key={cat.id}
-                                href={`#cat-${cat.id}`}
-                                onClick={(e) => {
-                                    // Optional: smooth scroll manual override if scroll-behavior is not set
-                                    setActiveCategory(cat.id);
-                                }}
-                                className={getCategoryButtonStyle(cat)}
-                            >
-                                {React.cloneElement(cat.icon, { size: 18, className: activeCategory === cat.id ? "text-white" : "" })}
-                                {cat.label}
-                            </a>
-                        ))}
-                    </div>
+                            </div>
 
-                    {categories.map(cat => {
-                        const items = getFilteredCalculators(cat.id);
-
-                        return (
-                            <section key={cat.id} id={`cat-${cat.id}`} className="scroll-mt-24">
-                                <div className="flex items-center gap-4 mb-8">
-                                    <div className={`p-4 rounded-2xl ${cat.color} ${cat.text} shadow-sm`}>
-                                        {cat.icon}
-                                    </div>
-                                    <div>
-                                        <h2 className={`text-2xl font-bold text-gray-900 dark:text-white`}>{cat.label}</h2>
-                                        <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">{cat.desc}</p>
-                                    </div>
-                                </div>
-
-                                <div className="columns-1 sm:columns-2 lg:columns-4 gap-6 mb-6">
-                                    {items.map(item => (
-                                        <div key={item.id} className="break-inside-avoid mb-6">
-                                            <Link to={item.link} className="group flex flex-col p-6 bg-white dark:bg-gray-800 rounded-[24px] border border-gray-100 dark:border-gray-700 shadow-sm hover:shadow-[0_8px_30px_rgb(0,0,0,0.06)] transition-all duration-300 hover:-translate-y-1 relative">
-                                                <div className="absolute top-4 right-4 z-10">
-                                                    <button onClick={(e) => toggleFav(e, item.id)} className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
-                                                        <Star size={18} className={isFavorite(item.id) ? "fill-yellow-400 text-yellow-400" : "text-gray-300 hover:text-yellow-400"} />
-                                                    </button>
-                                                </div>
-                                                <div className="mb-4">
-                                                    <div className="w-12 h-12 flex items-center justify-center rounded-2xl bg-gray-50 dark:bg-gray-700/50 group-hover:scale-110 transition-transform duration-300 text-gray-700 dark:text-gray-300">
-                                                        {item.icon}
-                                                    </div>
-                                                </div>
-                                                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-1 leading-snug">{item.title}</h3>
-                                                <p className="text-xs text-gray-500 dark:text-gray-400 line-clamp-2">{item.desc}</p>
-                                            </Link>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+                                {items.map(item => (
+                                    <Link key={item.id} to={item.link} className="group flex flex-col justify-between p-5 sm:p-6 bg-white dark:bg-gray-800 rounded-[20px] border border-gray-100 dark:border-gray-700 shadow-sm hover:shadow-lg hover:-translate-y-2 hover:border-blue-300 dark:hover:border-blue-500 transition-all duration-300 relative h-full">
+                                        <div className="absolute top-4 right-4 z-10">
+                                            <button onClick={(e) => toggleFav(e, item.id)} className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+                                                <Star size={18} className={isFavorite(item.id) ? "fill-yellow-400 text-yellow-400" : "text-gray-300 hover:text-yellow-400"} />
+                                            </button>
                                         </div>
-                                    ))}
-                                </div>
-                            </section>
-                        );
-                    })}
-                </div>
-            )
-            }
+                                        <div>
+                                            <div className="mb-4">
+                                                <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-gray-50 dark:bg-gray-700/50 group-hover:scale-105 transition-transform duration-300">
+                                                    {item.icon}
+                                                </div>
+                                            </div>
+                                            <h3 className="text-base sm:text-lg font-bold text-gray-900 dark:text-white mb-2 leading-snug">{item.title}</h3>
+                                            <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 line-clamp-2 leading-relaxed">{item.desc}</p>
+                                        </div>
+                                    </Link>
+                                ))}
+                            </div>
+                        </section>
+                    );
+                })}
+
+                {getFilteredCalculators('all').length === 0 && (
+                    <div className="text-center py-20">
+                        <Search size={48} className="mx-auto text-gray-300 dark:text-gray-600 mb-4" />
+                        <h3 className="text-lg font-medium text-gray-900 dark:text-white">검색 결과가 없습니다</h3>
+                        <p className="text-gray-500 mt-2">다른 검색어로 시도해 보세요.</p>
+                    </div>
+                )}
+            </div>
         </div >
     );
 };
