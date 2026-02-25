@@ -33,7 +33,7 @@ const MathCalculator = () => {
         <div className="space-y-8">
             <SEO
                 title={t('category_math')}
-                description="Easy-to-use math calculators for percentages, VAT, GPA, time difference, geometry, and base conversion."
+                description={t('seo_desc_category_math')}
                 keywords="math calculator, percentage calculator, vat calculator, tax calculator, gpa calculator, geometry calculator, area volume, base converter, time calculator"
                 schema={jsonLd}
             />

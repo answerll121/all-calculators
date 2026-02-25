@@ -225,10 +225,9 @@ const Home = () => {
     return (
         <div className="space-y-12 pb-20">
             <SEO
-                title={t('app_title')}
-                fullTitle={true}
-                description="Free All-in-One Calculator for Finance, Health, Math, Lifestyle, and Unit Conversions."
-                keywords="free online calculator, all in one calculator, unit converter, finance calculator, health calculator, math tools, lifestyle utilities, bmi, loan calculation, savings planner"
+                title={t('app_title', '모든 계산기')}
+                description={t('seo_desc_home', '금융, 건강, 생활, 수학 등 일상에서 필요한 모든 계산기')}
+                keywords="calculator, online calculator, finance calculator, health calculator, math calculator, lifestyle tools"
                 schema={jsonLd}
             />
             {/* Hero Section */}

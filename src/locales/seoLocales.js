@@ -1,5 +1,18 @@
 export const seoTranslations = {
     ko: {
+        // [ 카테고리 및 홈 ]
+        "fallback_desc": "이 {{title}} 도구는 일상 속 복잡한 수치들을 빠르고 정확하게 풀어줍니다. 가입 없이 누구나 무료로 이용할 수 있는 다목적 온라인 계산기입니다.",
+        "seo_desc_home": "금융, 건강, 생활, 수학 등 일상에서 필요한 모든 계산기를 한곳에 모았습니다. 로그인 없이 빠르고 정확하게 이용 가능한 무료 다목적 계산기 포털입니다.",
+        "seo_desc_category_finance": "대출 이자, 예적금, 연봉 실수령액, 부동산 세금 등 자산 관리를 위한 필수 금융 계산기 모음입니다.",
+        "seo_desc_category_health": "BMI, 기초대사량, 권장 칼로리, 배란일 등 건강 상태를 점검하고 관리할 수 있는 맞춤형 건강 계산기 모음입니다.",
+        "seo_desc_category_math": "할인율, 퍼센트, 부가세, 평수 등 일상과 업무 속 복잡한 숫자를 쉽게 해결해주는 다목적 수학 계산기 모음입니다.",
+        "seo_desc_category_lifestyle": "기념일(D-Day), 만나이 산출, 더치페이, 글로벌 옷 사이즈 등 생활의 편의를 더해주는 라이프스타일 계산기 모음입니다.",
+        "seo_desc_category_unit": "길이, 무게, 넓이, 부피 등 전 세계 다양한 단위를 정확하고 손쉽게 변환해주는 단위 변환기 모음입니다.",
+        "seo_desc_category_lotto": "로또 6/45, 파워볼, 유로밀리언 등 전 세계 각국의 복권 예상 번호 생성 및 세금 계산기 모음입니다.",
+        "seo_desc_category_smartfarm": "수분 결핍차(VPD)와 농약/비료 희석 배율 등 스마트팜 및 정밀 농업 관리에 최적화된 전문 계산기 모음입니다.",
+        "seo_desc_category_electrical": "옴의 법칙, 전압 강하, 전선 굵기 등 전기 설계와 현장 필수 계산을 돕는 엔지니어 전용 도구 모음입니다.",
+
+        // [ 개별 계산기 최적화 ]
         "seo_desc_loan": "대출 금액, 금리, 상환 기간을 바탕으로 매월 상환해야 할 금액과 총 이자를 계산합니다. (원리금균등, 원금균등 방식 지원)",
         "seo_desc_deposit": "목돈을 일정 기간 예치했을 때 만기 시 받을 수 있는 예상 이자와 세후 수령액을 계산합니다.",
         "seo_desc_savings": "매월 일정한 금액을 저축했을 때, 목표 기간 후 모을 수 있는 총액과 이자 수익을 계산해 줍니다.",
@@ -17,9 +30,20 @@ export const seoTranslations = {
         "seo_desc_ohms_law": "전압(V), 전류(I), 저항(R), 전력(P) 중 두 가지 값을 입력하면 나머지 전기 물리량을 자동으로 계산하는 엔지니어용 필수 툴입니다.",
         "seo_desc_voltage_drop": "공급 전압, 부하 전류, 거리를 입력하면 규정에 맞는 최소 전선 굵기(SQ)와 전압 강하율을 도출해 줍니다.",
         "seo_desc_fertilizer": "식물 영양제나 농약 살포 시, 필요한 물의 양과 목표 희석 배수(예: 500배)에 맞춰 정확한 비료 투입량을 계산합니다.",
-        "seo_desc_vpd": "온도와 상대습도를 입력하여 식물 생장에 가장 중요한 지표인 수분 결핍차(VPD)를 측정하고, 현재 하우스 환경이 최적(Optimal)인지 위험 상태인지 진단합니다."
+        "seo_desc_vpd": "온도와 상대습도를 입력하여 식물 생장에 가장 중요한 지표인 수분 결핍차(VPD)를 측정하고, 현재 하우스 환경을 진단합니다."
     },
     en: {
+        "fallback_desc": "Calculate your {{title}} effortlessly. This free online tool delivers fast, accurate results to help you manage your daily metrics without any sign-up.",
+        "seo_desc_home": "All the calculators you need for daily life in one place: finance, health, math, and lifestyle. A fast, accurate, and free online tool hub.",
+        "seo_desc_category_finance": "Essential financial calculators for managing your wealth, including loan interest, savings payouts, net salary, and taxes.",
+        "seo_desc_category_health": "Check and manage your health status with our tailored tools like BMI, BMR, daily calories, and ovulation trackers.",
+        "seo_desc_category_math": "Easily solve complex everyday numbers like discounts, percentages, VAT, and square footage with our versatile math calculators.",
+        "seo_desc_category_lifestyle": "Convenient lifestyle calculators for D-Day event tracking, age conversion, tip splitting, and international shoe sizes.",
+        "seo_desc_category_unit": "Accurately convert lengths, weights, areas, and volumes between various global measurement units.",
+        "seo_desc_category_lotto": "Generate expected lottery numbers and calculate tax payouts for global lotteries like Lotto 6/45, Powerball, and EuroMillions.",
+        "seo_desc_category_smartfarm": "Professional agricultural calculators specialized for precision farming, VPD monitoring, and fertilizer dilution rates.",
+        "seo_desc_category_electrical": "Essential tools for electrical engineers to quickly calculate Ohm's law, voltage drops, and minimum wire sizes.",
+
         "seo_desc_loan": "Calculate your monthly loan payments and total interest based on your principal, interest rate, and term. Supports equal installments.",
         "seo_desc_deposit": "Calculate the estimated interest and after-tax payout for your lump sum fixed deposit when it matures.",
         "seo_desc_savings": "Find out the total amount and interest earned by consistently saving a fixed monthly amount.",
@@ -40,10 +64,21 @@ export const seoTranslations = {
         "seo_desc_vpd": "Calculate Vapor Pressure Deficit (VPD) by entering temperature and humidity to diagnose your greenhouse environment."
     },
     ja: {
+        "fallback_desc": "この{{title}}ツールは、日常の複雑な数値を素早く正確に計算します。登録不要で誰でも無料で利用できる多目的オンライン計算機です。",
+        "seo_desc_home": "金融、健康、生活、数学など、日常に必要なすべての計算機を一つに。登録不要で素早く正確に利用できる無料ポータルです。",
+        "seo_desc_category_finance": "ローン利息、預貯金、手取り給与、税金など、資産管理のための必須の金融計算機コレクションです。",
+        "seo_desc_category_health": "BMI、基礎代謝量、推奨カロリーなど、健康状態をチェックし管理できるカスタム健康計算機です。",
+        "seo_desc_category_math": "割引率、パーセント、消費税など、日常や業務の複雑な数字を簡単に解決する多目的数学計算機です。",
+        "seo_desc_category_lifestyle": "記念日(D-Day)、年齢計算、割り勘など、生活の利便性を高めるライフスタイル計算機コレクションです。",
+        "seo_desc_category_unit": "長さ、重さ、広さ、体積など、世界中の様々な単位を正確かつ簡単に変換する単位換算ツールです。",
+        "seo_desc_category_lotto": "ロト6/45、パワーボール、ユーロミリオンなど、世界中の宝くじ予想番号生成および税金計算機です。",
+        "seo_desc_category_smartfarm": "VPD（飽差）や肥料の希釈倍率など、スマートファームや精密農業に特化した専門的な計算機です。",
+        "seo_desc_category_electrical": "オームの法則、電圧降下、電線太さなど、電気設計や現場での必須計算をサポートするエンジニア専用ツールです。",
+
         "seo_desc_loan": "借入額、金利、返済期間を基に毎月の返済額と総利息を計算します。（元利均等・元金均等方式対応）",
         "seo_desc_deposit": "まとまったお金を預けた際の満期時の予想利息と税引後受取額を計算します。",
         "seo_desc_savings": "毎月一定額を貯蓄した場合の目標期間後の総額と利息収入を計算します。",
-        "seo_desc_bmi": "身長と体重を入力してBMIを確認し、正常・肥満などの健康状態を診断します。",
+        "seo_desc_bmi": "身長と体重を入力してBMIを確認し、正常・肥胖などの健康状態を診断します。",
         "seo_desc_bmr": "性別、年齢、身長、体重を基に、安静時の1日の基礎代謝量（BMR）を計算します。",
         "seo_desc_tdee": "基礎代謝量と活動レベルを考慮し、体重維持・減量に必要な1日の推奨カロリーをお知らせします。",
         "seo_desc_lotto_title_kr": "過去の統計と最適化された乱数アルゴリズムを活用し、ロト6/45の予想番号を無料で生成します。",
@@ -60,6 +95,17 @@ export const seoTranslations = {
         "seo_desc_vpd": "温度と湿度を入力して植物の成長に最も重要な水蒸気圧赤字(VPD)を測定・診断します。"
     },
     zh: {
+        "fallback_desc": "这款{{title}}工具助您快速、精准地解决复杂的日常数字挑战。免注册，完全免费的在线多功能计算器。",
+        "seo_desc_home": "将金融、健康、生活、数学等日常所需的计算器汇聚一处。无需登录，快速准确的免​​费多用途计算器平台。",
+        "seo_desc_category_finance": "涵盖贷款利息、定期存款、实际工资、税务等，助您轻松管理资产的必备金融计算器系列。",
+        "seo_desc_category_health": "提供BMI、基础代谢率、建议卡路里、排卵期等工具，助您检查并管理健康状况的最佳帮手。",
+        "seo_desc_category_math": "轻松解决折扣率、百分比、增值税等日常与工作中的复杂数字问题，多用数学计算器合集。",
+        "seo_desc_category_lifestyle": "纪念日（D-Day）、周岁计算、AA制、全球服装尺码转换等，为生活增添便利的计算器系列。",
+        "seo_desc_category_unit": "快速准确转化长度、重量、面积、体积等全球多种计量单位的实用转换工具。",
+        "seo_desc_category_lotto": "乐透6/45、强力球、欧洲百万等全球各地彩票的预测号码生成器及奖金税务计算器。",
+        "seo_desc_category_smartfarm": "专门针对智慧农业和精准农业优化，提供水汽压差(VPD)、农药化肥稀释比例等专业计算。",
+        "seo_desc_category_electrical": "欧姆定律、电压降、电线截面积等，协助工程师进行电气设计及现场核算的专业工具。",
+
         "seo_desc_loan": "根据贷款金额、利率和还款期限，计算每月还款额及总利息。支持等额本息和等额本金还款方式。",
         "seo_desc_deposit": "计算将一笔资金存入定期存款时，到期可获得的预计利息和税后总额。",
         "seo_desc_savings": "计算每月存入固定金额时，在目标期限后可获得的本金总额和利息收益。",
@@ -80,6 +126,17 @@ export const seoTranslations = {
         "seo_desc_vpd": "输入温度和相对湿度，测量对植物生长至关重要的饱和水汽压差（VPD），并诊断当前温室环境是否处于最佳状态。"
     },
     de: {
+        "fallback_desc": "Berechnen Sie {{title}} mühelos. Dieses kostenlose Online-Tool liefert schnelle und genaue Ergebnisse, um Ihre Daten ohne Anmeldung zu verwalten.",
+        "seo_desc_home": "Alle Rechner für den Alltag an einem Ort: Finanzen, Gesundheit, Mathematik und Lifestyle. Ein schnelles und kostenloses Portal.",
+        "seo_desc_category_finance": "Wichtige Finanzrechner zur Verwaltung Ihres Vermögens: Darlehenszinsen, Sparpläne, Nettogehalt und Steuern.",
+        "seo_desc_category_health": "Überprüfen und verwalten Sie Ihren Gesundheitszustand mit unseren Tools wie BMI, BMR und Kalorienrechner.",
+        "seo_desc_category_math": "Lösen Sie komplexe Zahlen des Alltags wie Rabatte, Prozentsätze, Mehrwertsteuer und Flächen mühelos.",
+        "seo_desc_category_lifestyle": "Rechner für den Alltag: D-Day Event Tracker, Altersumrechnung, Trinkgeld-Splitting und Schuhe.",
+        "seo_desc_category_unit": "Konvertieren Sie Längen, Gewichte, Flächen und Volumina präzise zwischen globalen Maßeinheiten.",
+        "seo_desc_category_lotto": "Erstellen Sie erwartete Lotteriezahlen und berechnen Sie Auszahlungen für globale Lotterien.",
+        "seo_desc_category_smartfarm": "Landwirtschaftliche Rechner für die Präzisionslandwirtschaft, VPD-Überwachung und Düngemittel.",
+        "seo_desc_category_electrical": "Unverzichtbare Werkzeuge für Elektroingenieure zur schnellen Berechnung des Ohmschen Gesetzes.",
+
         "seo_desc_loan": "Berechnen Sie Ihre monatlichen Kreditraten und Gesamtzinsen basierend auf Kreditsumme, Zinssatz und Laufzeit.",
         "seo_desc_deposit": "Berechnen Sie die geschätzten Zinsen und die Auszahlung nach Steuern für Ihre Festwurfanlage bei Fälligkeit.",
         "seo_desc_savings": "Ermitteln Sie den Gesamtbetrag und die Zinsen, die durch das monatliche Sparen eines festen Betrags erzielt werden.",
@@ -100,6 +157,17 @@ export const seoTranslations = {
         "seo_desc_vpd": "Berechnen Sie das Dampfdruckdefizit (VPD) durch Eingabe von Temperatur und Luftfeuchtigkeit."
     },
     es: {
+        "fallback_desc": "Calcule su {{title}} sin esfuerzo. Esta herramienta en línea gratuita ofrece resultados rápidos y precisos sin necesidad de registrarse.",
+        "seo_desc_home": "Todas las calculadoras que necesitas en un solo lugar: finanzas, salud, matemáticas y estilo de vida. Una herramienta rápida y gratuita.",
+        "seo_desc_category_finance": "Calculadoras financieras esenciales para administrar su patrimonio: préstamos, ahorros, salarios e impuestos.",
+        "seo_desc_category_health": "Gestione su estado de salud con nuestras herramientas para el IMC, el BMR y las calorías diarias.",
+        "seo_desc_category_math": "Resuelva números complejos como descuentos, porcentajes y cuotas con nuestras calculadoras matemáticas.",
+        "seo_desc_category_lifestyle": "Calculadoras prácticas para el seguimiento de eventos D-Day, edad, propinas y tallas de ropa.",
+        "seo_desc_category_unit": "Convierta longitudes, pesos, áreas y volúmenes con precisión entre unidades globales.",
+        "seo_desc_category_lotto": "Genere números de lotería esperados y calcule pagos para loterías como Powerball y EuroMillions.",
+        "seo_desc_category_smartfarm": "Calculadoras agrícolas profesionales especializadas para la agricultura de precisión y dilución de fertilizantes.",
+        "seo_desc_category_electrical": "Herramientas esenciales para que los ingenieros eléctricos calculen rápidamente la ley de Ohm y la caída de tensión.",
+
         "seo_desc_loan": "Calcule sus pagos mensuales de préstamo y el interés total según el monto principal, la tasa y el plazo.",
         "seo_desc_deposit": "Calcule el interés estimado y el pago después de impuestos para su depósito a plazo fijo.",
         "seo_desc_savings": "Descubra el monto total y los intereses ganados al ahorrar constantemente una suma mensual.",
@@ -120,6 +188,17 @@ export const seoTranslations = {
         "seo_desc_vpd": "Calcule el Déficit de Presión de Vapor (VPD) ingresando temperatura y humedad."
     },
     pt: {
+        "fallback_desc": "Calcule seu {{title}} sem esforço. Esta ferramenta online gratuita oferece resultados rápidos e precisos sem necessidade de registro.",
+        "seo_desc_home": "Todas as calculadoras que você precisa em um só lugar: finanças, saúde, matemática e estilo de vida. Uma ferramenta rápida, precisa e gratuita.",
+        "seo_desc_category_finance": "Calculadoras financeiras essenciais para gerir o seu património: juros de empréstimos, poupanças, salário líquido e impostos.",
+        "seo_desc_category_health": "Verifique e controle seu estado de saúde com nossas ferramentas personalizadas, como IMC, TMB e calorias.",
+        "seo_desc_category_math": "Resolva números cotidianos complexos, como descontos, porcentagens, IVA e metros quadrados.",
+        "seo_desc_category_lifestyle": "Calculadoras de estilo de vida convenientes para rastreamento de eventos, conversão de idade e tamanhos de calçados.",
+        "seo_desc_category_unit": "Converta com precisão comprimentos, pesos, áreas e volumes entre várias unidades de medida globais.",
+        "seo_desc_category_lotto": "Gere números de loteria esperados e calcule pagamentos de impostos para loterias globais.",
+        "seo_desc_category_smartfarm": "Calculadoras agrícolas profissionais especializadas em agricultura de precisão, monitoramento VPD e fertilizantes.",
+        "seo_desc_category_electrical": "Ferramentas essenciais para engenheiros elétricos calcularem a lei de Ohm e quedas de tensão.",
+
         "seo_desc_loan": "Calcule os pagamentos mensais do empréstimo e os juros totais com base no principal, taxa e prazo.",
         "seo_desc_deposit": "Calcule os juros estimados e o pagamento líquido para seu depósito a prazo fixo.",
         "seo_desc_savings": "Descubra o valor total e os juros ganhos economizando constantemente um valor mensal fixo.",
@@ -140,6 +219,17 @@ export const seoTranslations = {
         "seo_desc_vpd": "Calcule o Déficit de Pressão de Vapor (VPD) para diagnosticar o ambiente da sua estufa."
     },
     ar: {
+        "fallback_desc": "احسب {{title}} بسهولة. توفر هذه الأداة المجانية نتائج سريعة ودقيقة عبر الإنترنت لمساعدتك دون الحاجة إلى التسجيل.",
+        "seo_desc_home": "جميع الآلات الحاسبة التي تحتاجها للحياة اليومية في مكان واحد: التمويل والصحة والرياضيات ونمط الحياة.",
+        "seo_desc_category_finance": "الآلات الحاسبة المالية الأساسية لإدارة ثروتك، بما في ذلك فائدة القروض ومدفوعات المدخرات والضرائب.",
+        "seo_desc_category_health": "تحقق من حالتك الصحية وقم بإدارتها باستخدام أدواتنا المصممة مثل مؤشر كتلة الجسم (BMI) والسعرات الحرارية اليومية.",
+        "seo_desc_category_math": "قم بحل الأرقام اليومية المعقدة بسهولة مثل الخصومات والنسب المئوية وضريبة القيمة المضافة والمساحة المربعة.",
+        "seo_desc_category_lifestyle": "آلات حاسبة ملائمة لأسلوب الحياة لتتبع الأحداث وحساب العمر وأحجام الملابس العالمية.",
+        "seo_desc_category_unit": "تحويل الأطوال والأوزان والمساحات والأحجام بدقة بين وحدات القياس العالمية المختلفة.",
+        "seo_desc_category_lotto": "قم بإنشاء أرقام اليانصيب المتوقعة وحساب المدفوعات الضريبية لليانصيب العالمي مثل Powerball.",
+        "seo_desc_category_smartfarm": "الآلات الحاسبة الزراعية المهنية المتخصصة للزراعة الدقيقة ومراقبة عجز ضغط البخار (VPD).",
+        "seo_desc_category_electrical": "أدوات أساسية للمهندسين الكهربائيين لحساب قانون أوم وانخفاض الجهد بسرعة.",
+
         "seo_desc_loan": "احسب مدفوعات القرض الشهرية وإجمالي الفائدة بناءً على المبلغ الأساسي ومعدل الفائدة والمدة.",
         "seo_desc_deposit": "احسب الفائدة المقدرة والعائد بعد الضريبة للوديعة الثابتة الخاصة بك عند الاستحقاق.",
         "seo_desc_savings": "اكتشف المبلغ الإجمالي والفائدة المكتسبة عن طريق توفير مبلغ شهري ثابت بانتظام.",
@@ -160,6 +250,17 @@ export const seoTranslations = {
         "seo_desc_vpd": "احسب عجز ضغط البخار (VPD) لتشخيص بيئة الدفيئة الخاصة بك."
     },
     hi: {
+        "fallback_desc": "अपने {{title}} की आसानी से गणना करें। यह मुफ्त ऑनलाइन उपकरण बिना किसी साइन-अप के तेज और सटीक परिणाम प्रदान करता है।",
+        "seo_desc_home": "रोजमर्रा की जिंदगी के लिए आवश्यक सभी कैलकुलेटर एक ही स्थान पर: वित्त, स्वास्थ्य, गणित और जीवन शैली।",
+        "seo_desc_category_finance": "ऋण ब्याज, बचत भुगतान, शुद्ध वेतन और करों सहित आपके धन के प्रबंधन के लिए आवश्यक वित्तीय कैलकुलेटर।",
+        "seo_desc_category_health": "बीएमआई (BMI), बीएमआर (BMR) और दैनिक कैलोरी जैसे हमारे उपकरणों के साथ अपनी स्वास्थ्य स्थिति की जांच करें और प्रबंधित करें।",
+        "seo_desc_category_math": "छूट, प्रतिशत, वैट और क्षेत्रफल जैसी जटिल रोजमर्रा की संख्याओं को आसानी से हल करें।",
+        "seo_desc_category_lifestyle": "डी-डे इवेंट ट्रैकिंग, आयु रूपांतरण और अंतरराष्ट्रीय जूते के आकार के लिए सुविधाजनक जीवन शैली कैलकुलेटर।",
+        "seo_desc_category_unit": "विभिन्न माप इकाइयों के बीच सटीक रूप से लंबाई, वजन, क्षेत्र और वॉल्यूम परिवर्तित करें।",
+        "seo_desc_category_lotto": "पावरबॉल जैसे वैश्विक लॉटरी के लिए अपेक्षित लॉटरी नंबर बनाएं और कर भुगतान की गणना करें।",
+        "seo_desc_category_smartfarm": "सटीक खेती, वीपीडी निगरानी और उर्वरक के लिए विशेष पेशेवर कृषि कैलकुलेटर।",
+        "seo_desc_category_electrical": "इलेक्ट्रिकल इंजीनियरों के लिए ओम के नियम और वोल्टेज ड्रॉप की गणना करने के लिए आवश्यक उपकरण।",
+
         "seo_desc_loan": "अपने मूलधन, ब्याज दर और अवधि के आधार पर अपने मासिक ऋण भुगतान और कुल ब्याज की गणना करें।",
         "seo_desc_deposit": "परिपक्व होने पर अपनी एकमुश्त सावधि जमा के लिए अनुमानित ब्याज और कर-पश्चात भुगतान की गणना करें।",
         "seo_desc_savings": "नियमित रूप से एक निश्चित मासिक राशि बचाने पर अर्जित कुल राशि और ब्याज का पता लगाएं।",

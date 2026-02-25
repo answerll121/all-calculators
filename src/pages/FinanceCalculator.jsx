@@ -52,7 +52,7 @@ const FinanceCalculator = () => {
         <div className="space-y-8">
             <SEO
                 title={t('category_finance')}
-                description="Comprehensive financial calculators for loans, salary, savings, and investment."
+                description={t('seo_desc_category_finance')}
                 keywords="finance calculator, loan calculator, mortgage calculator, salary calculator, tax calculator, investment planner, 401k calculator, retirement planner, savings, compound interest"
                 schema={jsonLd}
             />

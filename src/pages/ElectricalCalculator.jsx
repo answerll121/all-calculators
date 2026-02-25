@@ -15,7 +15,7 @@ const ElectricalCalculator = () => {
         <div className="space-y-8">
             <SEO
                 title={t('category_electrical', 'Electrical')}
-                description="Electrical engineering calculators for professionals."
+                description={t('seo_desc_category_electrical')}
                 keywords="electrical calculator, ohms law calculator, voltage drop calculator, wire size calculator, electrical engineering tools"
             />
             <div className="flex items-center gap-4 border-b border-gray-200 dark:border-gray-700 pb-6">

@@ -29,7 +29,7 @@ const UnitConverter = () => {
         <div className="space-y-8">
             <SEO
                 title={t('category_unit')}
-                description="Fast and accurate unit converters for length, weight, volume, and area."
+                description={t('seo_desc_category_unit')}
                 keywords="unit converter, length conversion, weight conversion, volume converter, area converter, metric imperial, kg to lbs, miles to km"
                 schema={jsonLd}
             />

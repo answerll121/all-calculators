@@ -15,7 +15,7 @@ const SmartFarmCalculator = () => {
         <div className="space-y-8">
             <SEO
                 title={t('category_smartfarm', 'Smart Farm')}
-                description="Agriculture and hydroponics calculators for modern farming."
+                description={t('seo_desc_category_smartfarm')}
                 keywords="smart farm calculator, hydroponics calculator, fertilizer dilution, VPD calculator, vapor pressure deficit, agriculture tools"
             />
             <div className="flex items-center gap-4 border-b border-gray-200 dark:border-gray-700 pb-6">

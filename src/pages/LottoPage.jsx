@@ -5,6 +5,7 @@ import useScrollToHash from '../hooks/useScrollToHash';
 import SEO from '../components/common/SEO';
 import UniversalLotto from '../components/calculators/math/UniversalLotto';
 import LottoTaxCalculator from '../components/calculators/lotto/LottoTaxCalculator';
+import KeralaLotto from '../components/calculators/lotto/KeralaLotto';
 
 const LottoPage = () => {
     const { t } = useTranslation();
@@ -32,7 +33,7 @@ const LottoPage = () => {
         <div className="space-y-12">
             <SEO
                 title={t('category_lotto_main')}
-                description="Calculate net lottery winnings after taxes for Mega Millions, Powerball, and global lotteries."
+                description={t('seo_desc_category_lotto')}
                 keywords="lottery tax calculator, lotto tax, mega millions payout, powerball payout, net winnings, jackpot tax, euro millions"
                 schema={jsonLd}
             />
@@ -165,13 +166,10 @@ const LottoPage = () => {
 
                 {/* Kerala Lottery (India) - Generic 6 Digits */}
                 <div id="lotto_kerala" className="break-inside-avoid mb-6">
-                    <UniversalLotto
+                    <KeralaLotto
                         id="lotto_title_kerala"
                         title={t('calc_kerala')}
-                        maxNum={9}
-                        pickCount={6}
-                        hasBonus={false}
-                        themeColor="pink"
+                        icon={null}
                     />
                 </div>
             </div>
