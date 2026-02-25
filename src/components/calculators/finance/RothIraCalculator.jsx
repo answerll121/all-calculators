@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import { useCurrency } from '../../../context/CurrencyContext';
 import { DollarSign, Percent, TrendingUp, Clock, Scale } from 'lucide-react';
 import {
@@ -244,6 +246,7 @@ const RothIraCalculator = () => {
                     {t('msg_financial_disclaimer')}
                 </p>
             </div>
+            <CalculatorInfo calculatorId="rothIra" />
         </div>
     );
 };

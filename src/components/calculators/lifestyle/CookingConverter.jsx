@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
 
+import CalculatorInfo from '../../CalculatorInfo';
+
 const CookingConverter = () => {
     const { t } = useTranslation();
     const [amount, setAmount] = useState('');
@@ -71,6 +73,7 @@ const CookingConverter = () => {
                     </div>
                 </div>
             </div>
+            <CalculatorInfo calculatorId="cookingConverter" />
         </div>
     );
 };

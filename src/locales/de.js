@@ -4,6 +4,10 @@ export default {
     "hero_subtitle": "Smarte Berechnungen für Ihren Alltag.",
     "app_title": "Alle Rechner",
     "search_placeholder": "Rechner suchen...",
+    "label_about_calc": "Über diesen Rechner",
+    "label_how_to_use": "Wie benutzt man",
+    "label_formula_logic": "Formel / Logik",
+    "label_faq": "Häufig gestellte Fragen",
     "category_finance": "Finanzen",
     "category_health": "Gesundheit",
     "category_math": "Mathe",
@@ -422,6 +426,1148 @@ export default {
     "msg_tdee_desc": "Kalorien zur Gewichtserhaltung",
     "msg_bmr_desc": "Kalorienverbrauch im Ruhezustand",
     "label_tdee_result": "Erhaltungskalorien (TDEE)",
+    "info": {
+    "margin": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "loan": {
+        "description": "Berechnen Sie Ihre monatlichen Kreditraten und Gesamtzinsen basierend auf Kreditsumme, Zinssatz und Laufzeit.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "savings": {
+        "description": "Ermitteln Sie den Gesamtbetrag und die Zinsen, die durch das monatliche Sparen eines festen Betrags erzielt werden.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "deposit": {
+        "description": "Berechnen Sie die geschätzten Zinsen und die Auszahlung nach Steuern für Ihre Festwurfanlage bei Fälligkeit.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "salary": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "severance": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "estate": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "stock": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "exchange": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "inflation": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "giftTax": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "401k": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "rothIra": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "creditCardPayoff": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "salaryHourly": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "dutchPay": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "tip": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "bmi": {
+        "description": "Geben Sie Größe und Gewicht ein, um Ihren BMI zu berechnen und Ihren Gesundheitszustand zu überprüfen.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "bmr": {
+        "description": "Berechnen Sie Ihren Grundumsatz (BMR) – die Kalorien, die Ihr Körper im Ruhezustand verbrennt.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "calories": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "whr": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "idealWeight": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "waterIntake": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "smokingCost": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "menstrualCycle": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "childGrowth": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "caffeine": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "childObesity": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "macro": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "bac": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "tdee": {
+        "description": "Entdecken Sie Ihre empfohlene tägliche Kalorienzufuhr zum Abnehmen oder Gewichthalten.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "sleep": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "petAge": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "age": {
+        "description": "Geben Sie Ihr Geburtsdatum ein, um Ihr exaktes Alter, chinesisches Sternzeichen und Horoskop zu finden.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "date": {
+        "description": "Verfolgen Sie die verbleibenden Tage für wichtige Ereignisse wie Jubiläen oder Prüfungen.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "militaryService": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "percent": {
+        "description": "Ein vielseitiges Werkzeug zur schnellen Berechnung von Prozentsätzen und Verhältnissen.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "vat": {
+        "description": "Geben Sie den Netto- oder Bruttopreis ein, um automatisch die Mehrwertsteuer und den Nettobetrag zu trennen.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "area": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "volume": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "gpa": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "unitPrice": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "time": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "baseConverter": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "discount": {
+        "description": "Überprüfen Sie schnell Ihren endgültigen Zahlungsbetrag und Ihre Ersparnisse durch Eingabe von Preis und Rabatt.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "cookingConverter": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "globalSizeConverter": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "gasCost": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "areaConverter": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "lengthConverter": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "volumeConverter": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "weightConverter": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "ohmsLaw": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "voltageDrop": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "fertilizer": {
+        "description": "Bestimmen Sie die genaue Menge des benötigten Düngers basierend auf Wassermenge und Verdünnungsverhältnis.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "vpd": {
+        "description": "Berechnen Sie das Dampfdruckdefizit (VPD) durch Eingabe von Temperatur und Luftfeuchtigkeit.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "kerala": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "lottoTax": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "lotto": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    },
+    "universalLotto": {
+        "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
+        "howTo": [
+            "Geben Sie die erforderlichen Werte in die Eingabefelder ein.",
+            "Passen Sie die optionalen Einstellungen an.",
+            "Klicken Sie auf Berechnen und überprüfen Sie die Ergebnisse unten."
+        ],
+        "formula": "Das Tool verwendet mathematische Standardoperationen, die in Echtzeit ausgewertet werden.",
+        "faq": [
+            {
+                "q": "Ist das Ergebnis genau?",
+                "a": "Ja, alle Berechnungen verwenden Standardalgorithmen. Betrachten Sie es als genaue Schätzung."
+            },
+            {
+                "q": "Sind meine Daten sicher?",
+                "a": "Absolut, es wird nichts gespeichert. Die gesamte Berechnung erfolgt lokal."
+            }
+        ]
+    }
+},
     "legal": {
         "privacy_title": "Datenschutzerklärung",
         "terms_title": "Nutzungsbedingungen",

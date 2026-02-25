@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import { ArrowLeftRight } from 'lucide-react';
 
 const VolumeConverter = () => {
@@ -71,6 +73,7 @@ const VolumeConverter = () => {
                     </div>
                 </div>
             </div>
+            <CalculatorInfo calculatorId="volumeConverter" />
         </div>
     );
 };

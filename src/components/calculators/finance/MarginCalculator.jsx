@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import { Calculator } from 'lucide-react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import NumberInput from '../../common/NumberInput';
@@ -97,6 +99,7 @@ const MarginCalculator = () => {
                     </button>
                 </div>
             </div>
+            <CalculatorInfo calculatorId="margin" />
         </div>
     );
 };

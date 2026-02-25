@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
 
+import CalculatorInfo from '../../CalculatorInfo';
+
 const BaseConverter = () => {
     const { t } = useTranslation();
     const [input, setInput] = useState('10');
@@ -59,6 +61,7 @@ const BaseConverter = () => {
                     </div>
                 )}
             </div>
+            <CalculatorInfo calculatorId="baseConverter" />
         </div>
     );
 };

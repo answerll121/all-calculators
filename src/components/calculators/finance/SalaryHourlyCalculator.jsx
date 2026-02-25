@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import { DollarSign, Clock } from 'lucide-react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import NumberInput from '../../common/NumberInput';
@@ -116,6 +118,7 @@ const SalaryHourlyCalculator = () => {
                     )}
                 </div>
             </div>
+            <CalculatorInfo calculatorId="salaryHourly" />
         </div>
     );
 };

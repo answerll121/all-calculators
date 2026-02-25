@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import { useCurrency } from '../../../context/CurrencyContext';
 import { DollarSign, Percent, TrendingUp, Clock } from 'lucide-react';
 import {
@@ -272,6 +274,7 @@ const Retirement401kCalculator = () => {
                     {t('msg_financial_disclaimer')}
                 </p>
             </div>
+            <CalculatorInfo calculatorId="401k" />
         </div>
     );
 };

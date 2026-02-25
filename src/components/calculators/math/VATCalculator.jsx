@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import NumberInput from '../../common/NumberInput';
 import ResultCard from '../../common/ResultCard';
 import HistoryPanel from '../../common/HistoryPanel';
@@ -66,6 +68,7 @@ const VATCalculator = () => {
                 )}
                 <HistoryPanel history={history} />
             </div>
+            <CalculatorInfo calculatorId="vat" />
         </div>
     );
 };

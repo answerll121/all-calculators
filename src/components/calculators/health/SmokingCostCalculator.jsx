@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
 
+import CalculatorInfo from '../../CalculatorInfo';
+
 const SmokingCalculator = () => {
     const { t } = useTranslation();
     const [packsPerDay, setPacksPerDay] = useState(1);
@@ -45,6 +47,7 @@ const SmokingCalculator = () => {
                     </div>
                 )}
             </div>
+            <CalculatorInfo calculatorId="smokingCost" />
         </div>
     );
 };

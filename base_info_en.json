@@ -1,0 +1,1186 @@
+{
+  "margin": {
+    "description": "The Margin Calculator is a specialized tool designed to help you accurately determine profit margins, revenue, and product pricing strategy. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating profit margins, revenue, and product pricing strategy.",
+    "faq": [
+      {
+        "q": "Is this Margin calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise profit margins, revenue, and product pricing strategy. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "loan": {
+    "description": "A Loan Calculator is a powerful financial tool that helps you estimate your monthly loan payments. Whether you're looking at a mortgage, auto loan, or personal loan, understanding your monthly repayment obligations is crucial for maintaining financial health.",
+    "howTo": [
+      "Enter the total loan amount (Principal).",
+      "Input the annual interest rate (APR).",
+      "Specify the loan term in years or months.",
+      "Click 'Calculate' to see your monthly payment and total interest."
+    ],
+    "formula": "Monthly Payment = [P x r x (1 + r)^n] / [(1 + r)^n - 1]\nWhere:\nP = Principal loan amount\nr = Monthly interest rate (Annual Rate / 12)\nn = Number of months",
+    "faq": [
+      {
+        "q": "How is the monthly payment calculated?",
+        "a": "We use the standard amortization formula. This ensures that a portion of your payment goes towards interest and the rest reduces your principal balance."
+      },
+      {
+        "q": "Can I make extra payments?",
+        "a": "Yes! Making extra payments directly reduces your principal balance, which decreases the total interest paid and shortens your loan term."
+      }
+    ]
+  },
+  "savings": {
+    "description": "The Savings Calculator is a specialized tool designed to help you accurately determine future goal timelines and compounding effect for savings. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating future goal timelines and compounding effect for savings.",
+    "faq": [
+      {
+        "q": "Is this Savings calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise future goal timelines and compounding effect for savings. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "deposit": {
+    "description": "The Deposit Calculator is a specialized tool designed to help you accurately determine fixed-term deposit maturity amounts and after-tax interest. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating fixed-term deposit maturity amounts and after-tax interest.",
+    "faq": [
+      {
+        "q": "Is this Deposit calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise fixed-term deposit maturity amounts and after-tax interest. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "salary": {
+    "description": "The Salary Calculator is a specialized tool designed to help you accurately determine net take-home pay by estimating income taxes and deductions. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating net take-home pay by estimating income taxes and deductions.",
+    "faq": [
+      {
+        "q": "Is this Salary calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise net take-home pay by estimating income taxes and deductions. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "severance": {
+    "description": "The Severance Calculator is a specialized tool designed to help you accurately determine employee severance pay and retirement payouts. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating employee severance pay and retirement payouts.",
+    "faq": [
+      {
+        "q": "Is this Severance calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise employee severance pay and retirement payouts. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "estate": {
+    "description": "The Estate Calculator is a specialized tool designed to help you accurately determine real estate acquisition taxes and property closing costs. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating real estate acquisition taxes and property closing costs.",
+    "faq": [
+      {
+        "q": "Is this Estate calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise real estate acquisition taxes and property closing costs. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "stock": {
+    "description": "The Stock Calculator is a specialized tool designed to help you accurately determine stock investment returns, profit margins, and yield. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating stock investment returns, profit margins, and yield.",
+    "faq": [
+      {
+        "q": "Is this Stock calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise stock investment returns, profit margins, and yield. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "exchange": {
+    "description": "The Exchange Calculator is a specialized tool designed to help you accurately determine currency exchange rates for international finance. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating currency exchange rates for international finance.",
+    "faq": [
+      {
+        "q": "Is this Exchange calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise currency exchange rates for international finance. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "inflation": {
+    "description": "The Inflation Calculator is a specialized tool designed to help you accurately determine purchasing power adjustments across different years. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating purchasing power adjustments across different years.",
+    "faq": [
+      {
+        "q": "Is this Inflation calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise purchasing power adjustments across different years. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "giftTax": {
+    "description": "The Gift Tax Calculator is a specialized tool designed to help you accurately determine estimated gift tax liabilities and applicable deductions. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating estimated gift tax liabilities and applicable deductions.",
+    "faq": [
+      {
+        "q": "Is this Gift Tax calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise estimated gift tax liabilities and applicable deductions. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "401k": {
+    "description": "The 401(k) Retirement Calculator forecasts your retirement nest egg. It factors in employer matches, current balance, and expected market returns to help you plan your financial future.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating long-term 401(k) retirement balance and employer matches.",
+    "faq": [
+      {
+        "q": "Is this 401k calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise long-term 401(k) retirement balance and employer matches. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "rothIra": {
+    "description": "The Roth Ira Calculator is a specialized tool designed to help you accurately determine Roth vs Traditional IRA growth and tax advantages. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating Roth vs Traditional IRA growth and tax advantages.",
+    "faq": [
+      {
+        "q": "Is this Roth Ira calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise Roth vs Traditional IRA growth and tax advantages. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "creditCardPayoff": {
+    "description": "The Credit Card Payoff Calculator is a specialized tool designed to help you accurately determine debt elimination timelines and total interest paid. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating debt elimination timelines and total interest paid.",
+    "faq": [
+      {
+        "q": "Is this Credit Card Payoff calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise debt elimination timelines and total interest paid. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "salaryHourly": {
+    "description": "The Salary Hourly Calculator is a specialized tool designed to help you accurately determine annual salary equivalencies to hourly and weekly rates. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating annual salary equivalencies to hourly and weekly rates.",
+    "faq": [
+      {
+        "q": "Is this Salary Hourly calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise annual salary equivalencies to hourly and weekly rates. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "dutchPay": {
+    "description": "The Dutch Pay Calculator is a specialized tool designed to help you accurately determine splitting bills evenly among friends, including tips and taxes. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating splitting bills evenly among friends, including tips and taxes.",
+    "faq": [
+      {
+        "q": "Is this Dutch Pay calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise splitting bills evenly among friends, including tips and taxes. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "tip": {
+    "description": "The Tip Calculator is a specialized tool designed to help you accurately determine restaurant tips and split totals per person. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating restaurant tips and split totals per person.",
+    "faq": [
+      {
+        "q": "Is this Tip calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise restaurant tips and split totals per person. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "bmi": {
+    "description": "BMI (Body Mass Index) is a simple index of weight-for-height commonly used to classify underweight, overweight, and obesity in adults. It serves as an essential screening tool for metabolic health risks.",
+    "howTo": [
+      "Select your preferred measurement system.",
+      "Input your exact height and weight.",
+      "Click Calculate to view your BMI score.",
+      "Check your status against the standard WHO categories."
+    ],
+    "formula": "Metric: BMI = weight (kg) / [height (m)]²\nImperial: BMI = 703 × weight (lbs) / [height (in)]²",
+    "faq": [
+      {
+        "q": "Is this Bmi calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise Body Mass Index (BMI) categories to assess general health. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "bmr": {
+    "description": "The Bmr Calculator is a specialized tool designed to help you accurately determine Basal Metabolic Rate (BMR) to understand baseline calorie burn. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating Basal Metabolic Rate (BMR) to understand baseline calorie burn.",
+    "faq": [
+      {
+        "q": "Is this Bmr calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise Basal Metabolic Rate (BMR) to understand baseline calorie burn. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "calories": {
+    "description": "The Calories Calculator is a specialized tool designed to help you accurately determine calories burned during various physical activities and exercises. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating calories burned during various physical activities and exercises.",
+    "faq": [
+      {
+        "q": "Is this Calories calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise calories burned during various physical activities and exercises. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "whr": {
+    "description": "The Whr Calculator is a specialized tool designed to help you accurately determine Waist-to-Hip Ratio (WHR) to evaluate body fat distribution. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating Waist-to-Hip Ratio (WHR) to evaluate body fat distribution.",
+    "faq": [
+      {
+        "q": "Is this Whr calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise Waist-to-Hip Ratio (WHR) to evaluate body fat distribution. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "idealWeight": {
+    "description": "The Ideal Weight Calculator is a specialized tool designed to help you accurately determine ideal body weight estimates based on age, height, and gender. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating ideal body weight estimates based on age, height, and gender.",
+    "faq": [
+      {
+        "q": "Is this Ideal Weight calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise ideal body weight estimates based on age, height, and gender. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "waterIntake": {
+    "description": "The Water Intake Calculator is a specialized tool designed to help you accurately determine daily hydration goals tailored to your weight and activity. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating daily hydration goals tailored to your weight and activity.",
+    "faq": [
+      {
+        "q": "Is this Water Intake calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise daily hydration goals tailored to your weight and activity. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "smokingCost": {
+    "description": "The Smoking Cost Calculator is a specialized tool designed to help you accurately determine financial costs and health impacts of long-term smoking. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating financial costs and health impacts of long-term smoking.",
+    "faq": [
+      {
+        "q": "Is this Smoking Cost calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise financial costs and health impacts of long-term smoking. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "menstrualCycle": {
+    "description": "The Menstrual Cycle Calculator is a specialized tool designed to help you accurately determine menstrual cycles, ovulation days, and fertile windows. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating menstrual cycles, ovulation days, and fertile windows.",
+    "faq": [
+      {
+        "q": "Is this Menstrual Cycle calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise menstrual cycles, ovulation days, and fertile windows. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "childGrowth": {
+    "description": "The Child Growth Calculator is a specialized tool designed to help you accurately determine infant and child growth charts relative to standard percentiles. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating infant and child growth charts relative to standard percentiles.",
+    "faq": [
+      {
+        "q": "Is this Child Growth calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise infant and child growth charts relative to standard percentiles. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "caffeine": {
+    "description": "The Caffeine Calculator is a specialized tool designed to help you accurately determine daily caffeine intake against safe health limits. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating daily caffeine intake against safe health limits.",
+    "faq": [
+      {
+        "q": "Is this Caffeine calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise daily caffeine intake against safe health limits. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "childObesity": {
+    "description": "The Child Obesity Calculator is a specialized tool designed to help you accurately determine childhood obesity levels using adjusted pediatric BMI. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating childhood obesity levels using adjusted pediatric BMI.",
+    "faq": [
+      {
+        "q": "Is this Child Obesity calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise childhood obesity levels using adjusted pediatric BMI. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "macro": {
+    "description": "The Macro Calculator is a specialized tool designed to help you accurately determine macronutrient splits (Carbs, Protein, Fat) for dietary planning. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating macronutrient splits (Carbs, Protein, Fat) for dietary planning.",
+    "faq": [
+      {
+        "q": "Is this Macro calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise macronutrient splits (Carbs, Protein, Fat) for dietary planning. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "bac": {
+    "description": "The Bac Calculator is a specialized tool designed to help you accurately determine Blood Alcohol Concentration (BAC) limits and sobriety estimates. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating Blood Alcohol Concentration (BAC) limits and sobriety estimates.",
+    "faq": [
+      {
+        "q": "Is this Bac calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise Blood Alcohol Concentration (BAC) limits and sobriety estimates. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "tdee": {
+    "description": "Total Daily Energy Expenditure (TDEE) estimates the number of calories your body burns in a day, accounting for both your resting metabolism and your daily physical activity levels. It's the ultimate metric for weight management.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating Total Daily Energy Expenditure (TDEE) for weight management.",
+    "faq": [
+      {
+        "q": "Is this Tdee calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise Total Daily Energy Expenditure (TDEE) for weight management. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "sleep": {
+    "description": "The Sleep Calculator is a specialized tool designed to help you accurately determine optimal sleep cycles and wake-up times to feel refreshed. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating optimal sleep cycles and wake-up times to feel refreshed.",
+    "faq": [
+      {
+        "q": "Is this Sleep calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise optimal sleep cycles and wake-up times to feel refreshed. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "petAge": {
+    "description": "The Pet Age Calculator is a specialized tool designed to help you accurately determine dog and cat ages converted into equivalent human years. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating dog and cat ages converted into equivalent human years.",
+    "faq": [
+      {
+        "q": "Is this Pet Age calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise dog and cat ages converted into equivalent human years. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "age": {
+    "description": "The Age Calculator is a specialized tool designed to help you accurately determine international age, chronological age, and zodiac signs. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating international age, chronological age, and zodiac signs.",
+    "faq": [
+      {
+        "q": "Is this Age calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise international age, chronological age, and zodiac signs. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "date": {
+    "description": "The Date Calculator is a specialized tool designed to help you accurately determine days elapsed or remaining for important D-Day events. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating days elapsed or remaining for important D-Day events.",
+    "faq": [
+      {
+        "q": "Is this Date calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise days elapsed or remaining for important D-Day events. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "militaryService": {
+    "description": "The Military Service Calculator is a specialized tool designed to help you accurately determine military discharge dates and service completion percentages. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating military discharge dates and service completion percentages.",
+    "faq": [
+      {
+        "q": "Is this Military Service calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise military discharge dates and service completion percentages. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "percent": {
+    "description": "The Percent Calculator is a specialized tool designed to help you accurately determine percentage changes, fractions, and ratio derivations. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating percentage changes, fractions, and ratio derivations.",
+    "faq": [
+      {
+        "q": "Is this Percent calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise percentage changes, fractions, and ratio derivations. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "vat": {
+    "description": "The Vat Calculator is a specialized tool designed to help you accurately determine Value Added Tax (VAT), gross amounts, and net amounts. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating Value Added Tax (VAT), gross amounts, and net amounts.",
+    "faq": [
+      {
+        "q": "Is this Vat calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise Value Added Tax (VAT), gross amounts, and net amounts. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "area": {
+    "description": "The Area Calculator is a specialized tool designed to help you accurately determine surface area of 2D geometric shapes like circles and rectangles. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating surface area of 2D geometric shapes like circles and rectangles.",
+    "faq": [
+      {
+        "q": "Is this Area calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise surface area of 2D geometric shapes like circles and rectangles. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "volume": {
+    "description": "The Volume Calculator is a specialized tool designed to help you accurately determine volume of 3D geometric shapes like cylinders and spheres. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating volume of 3D geometric shapes like cylinders and spheres.",
+    "faq": [
+      {
+        "q": "Is this Volume calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise volume of 3D geometric shapes like cylinders and spheres. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "gpa": {
+    "description": "The Gpa Calculator is a specialized tool designed to help you accurately determine academic Grade Point Averages (GPA) across different grading scales. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating academic Grade Point Averages (GPA) across different grading scales.",
+    "faq": [
+      {
+        "q": "Is this Gpa calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise academic Grade Point Averages (GPA) across different grading scales. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "unitPrice": {
+    "description": "The Unit Price Calculator is a specialized tool designed to help you accurately determine unit prices to determine the most cost-effective grocery deals. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating unit prices to determine the most cost-effective grocery deals.",
+    "faq": [
+      {
+        "q": "Is this Unit Price calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise unit prices to determine the most cost-effective grocery deals. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "time": {
+    "description": "The Time Calculator is a specialized tool designed to help you accurately determine duration differences between two precise dates and times. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating duration differences between two precise dates and times.",
+    "faq": [
+      {
+        "q": "Is this Time calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise duration differences between two precise dates and times. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "baseConverter": {
+    "description": "The Base Converter Calculator is a specialized tool designed to help you accurately determine number base conversions like Binary, Hex, and Decimal. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating number base conversions like Binary, Hex, and Decimal.",
+    "faq": [
+      {
+        "q": "Is this Base Converter calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise number base conversions like Binary, Hex, and Decimal. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "discount": {
+    "description": "The Discount Calculator is a specialized tool designed to help you accurately determine final sale prices and total savings after percent discounts. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating final sale prices and total savings after percent discounts.",
+    "faq": [
+      {
+        "q": "Is this Discount calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise final sale prices and total savings after percent discounts. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "cookingConverter": {
+    "description": "The Cooking Converter Calculator is a specialized tool designed to help you accurately determine recipe measurement conversions between cups, spoons, and mL. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating recipe measurement conversions between cups, spoons, and mL.",
+    "faq": [
+      {
+        "q": "Is this Cooking Converter calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise recipe measurement conversions between cups, spoons, and mL. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "globalSizeConverter": {
+    "description": "The Global Size Converter Calculator is a specialized tool designed to help you accurately determine international clothing and shoe size charts. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating international clothing and shoe size charts.",
+    "faq": [
+      {
+        "q": "Is this Global Size Converter calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise international clothing and shoe size charts. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "gasCost": {
+    "description": "The Gas Cost Calculator is a specialized tool designed to help you accurately determine trip fuel expenses based on distance, efficiency, and gas price. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating trip fuel expenses based on distance, efficiency, and gas price.",
+    "faq": [
+      {
+        "q": "Is this Gas Cost calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise trip fuel expenses based on distance, efficiency, and gas price. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "areaConverter": {
+    "description": "The Area Converter Calculator is a specialized tool designed to help you accurately determine land area conversions like Pyung, Acres, and Hectares. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating land area conversions like Pyung, Acres, and Hectares.",
+    "faq": [
+      {
+        "q": "Is this Area Converter calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise land area conversions like Pyung, Acres, and Hectares. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "lengthConverter": {
+    "description": "The Length Converter Calculator is a specialized tool designed to help you accurately determine distance and length conversions across metric and imperial systems. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating distance and length conversions across metric and imperial systems.",
+    "faq": [
+      {
+        "q": "Is this Length Converter calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise distance and length conversions across metric and imperial systems. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "volumeConverter": {
+    "description": "The Volume Converter Calculator is a specialized tool designed to help you accurately determine liquid volume conversions including gallons and liters. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating liquid volume conversions including gallons and liters.",
+    "faq": [
+      {
+        "q": "Is this Volume Converter calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise liquid volume conversions including gallons and liters. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "weightConverter": {
+    "description": "The Weight Converter Calculator is a specialized tool designed to help you accurately determine mass and weight conversions like pounds, ounces, and kilograms. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating mass and weight conversions like pounds, ounces, and kilograms.",
+    "faq": [
+      {
+        "q": "Is this Weight Converter calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise mass and weight conversions like pounds, ounces, and kilograms. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "ohmsLaw": {
+    "description": "The Ohms Law Calculator is a specialized tool designed to help you accurately determine voltage, current, resistance, and power using Ohm's Law. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "V = I × R (Voltage = Current × Resistance)\nP = V × I (Power = Voltage × Current)",
+    "faq": [
+      {
+        "q": "Is this Ohms Law calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise voltage, current, resistance, and power using Ohm's Law. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "voltageDrop": {
+    "description": "The Voltage Drop Calculator is a specialized tool designed to help you accurately determine electrical voltage drops across wire distances and gauges. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating electrical voltage drops across wire distances and gauges.",
+    "faq": [
+      {
+        "q": "Is this Voltage Drop calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise electrical voltage drops across wire distances and gauges. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "fertilizer": {
+    "description": "The Fertilizer Calculator is a specialized tool designed to help you accurately determine fertilizer dilution ratios and chemical dosing for agriculture. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating fertilizer dilution ratios and chemical dosing for agriculture.",
+    "faq": [
+      {
+        "q": "Is this Fertilizer calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise fertilizer dilution ratios and chemical dosing for agriculture. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "vpd": {
+    "description": "The Vpd Calculator is a specialized tool designed to help you accurately determine Vapor Pressure Deficit (VPD) to optimize greenhouse climates. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating Vapor Pressure Deficit (VPD) to optimize greenhouse climates.",
+    "faq": [
+      {
+        "q": "Is this Vpd calculation completely accurate?",
+        "a": "Yes, our tool utilizes standard formulas and real-time updates to provide precise Vapor Pressure Deficit (VPD) to optimize greenhouse climates. However, always consider results as estimations for professional scenarios."
+      },
+      {
+        "q": "Is my inputted data saved?",
+        "a": "No, all calculations are performed locally in your browser. We respect your privacy and do not store your personal inputs."
+      }
+    ]
+  },
+  "kerala": {
+    "description": "The Kerala Lottery Generator relies on verifiable random number generation to produce potential winning combinations tailored to Indian Kerala state lotto rules.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating Kerala Lottery random number variations.",
+    "faq": [
+      {
+        "q": "Do these numbers increase my chances of winning?",
+        "a": "No. Lottery draws are purely random events. Our generator provides random numbers, but it does not predict future outcomes or improve odds."
+      }
+    ]
+  },
+  "lottoTax": {
+    "description": "The Lotto Tax Calculator is a specialized tool designed to help you accurately determine net lottery payout reductions based on state and federal taxes. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating net lottery payout reductions based on state and federal taxes.",
+    "faq": [
+      {
+        "q": "Do these numbers increase my chances of winning?",
+        "a": "No. Lottery draws are purely random events. Our generator provides random numbers, but it does not predict future outcomes or improve odds."
+      }
+    ]
+  },
+  "lotto": {
+    "description": "The Lotto Calculator is a specialized tool designed to help you accurately determine standard 6/45 lottery number combinations. Whether you are planning ahead or need quick daily answers, this tool provides instantly reliable results tailored to your specific inputs.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating standard 6/45 lottery number combinations.",
+    "faq": [
+      {
+        "q": "Do these numbers increase my chances of winning?",
+        "a": "No. Lottery draws are purely random events. Our generator provides random numbers, but it does not predict future outcomes or improve odds."
+      }
+    ]
+  },
+  "universalLotto": {
+    "description": "The Universal Lotto Generator is a comprehensive tool predicting number sets for major worldwide lotteries, including US Powerball, Mega Millions, and EuroJackpot, using a balanced random distribution algorithm.",
+    "howTo": [
+      "Enter the required values in the designated input fields.",
+      "Adjust any optional settings (like measurement units) to match your region.",
+      "Click the calculate button to process your data.",
+      "Review the detailed breakdown and final result provided below."
+    ],
+    "formula": "Standard logic and mathematical formulas tailored for calculating custom lotto combinations (e.g., Powerball, Mega Millions).",
+    "faq": [
+      {
+        "q": "Do these numbers increase my chances of winning?",
+        "a": "No. Lottery draws are purely random events. Our generator provides random numbers, but it does not predict future outcomes or improve odds."
+      }
+    ]
+  }
+}

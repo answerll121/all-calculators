@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
 
+import CalculatorInfo from '../../CalculatorInfo';
+
 const WaterIntakeCalculator = () => {
     const { t } = useTranslation();
     const [weight, setWeight] = useState(65);
@@ -31,6 +33,7 @@ const WaterIntakeCalculator = () => {
                     </div>
                 )}
             </div>
+            <CalculatorInfo calculatorId="waterIntake" />
         </div>
     );
 };

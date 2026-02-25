@@ -1,57 +1,123 @@
 const fs = require('fs');
 
-const localeFiles = ['es.js', 'de.js', 'pt.js', 'ar.js', 'hi.js'].map(f => `c:/Users/hanong/site builder/src/locales/${f}`);
-const localesData = {
-    'es.js': { open: 'Abrir Calculadora', close: 'Cerrar' },
-    'de.js': { open: 'Taschenrechner Öffnen', close: 'Schließen' },
-    'pt.js': { open: 'Abrir Calculadora', close: 'Fechar' },
-    'ar.js': { open: 'فتح الحاسبة', close: 'إغلاق' },
-    'hi.js': { open: 'कैलकुलेटर खोलें', close: 'बंद करें' }
-};
+const data = require('./full_translations.json');
 
-for (const file of localeFiles) {
+['es', 'de', 'pt', 'ar', 'hi'].forEach(lang => {
+    let file = `src/locales/${lang}.js`;
     let content = fs.readFileSync(file, 'utf8');
-    const filename = file.split('/').pop();
-    const t = localesData[filename];
-    const replaceStr = `"general_calculator": `;
-    const replacement = `"action_open_calc": "${t.open}",\n    "action_close": "${t.close}",\n    "general_calculator": `;
-    content = content.replace(replaceStr, replacement);
-    fs.writeFileSync(file, content);
-}
 
-// i18n.js multi-replacements
-let i18nPath = 'c:/Users/hanong/site builder/src/i18n.js';
-let i18nContent = fs.readFileSync(i18nPath, 'utf8');
+    // Inject common keys
+    const commonKeys = `"label_about_calc": ${JSON.stringify(data[lang]._common.about || "About")},\n    "label_how_to_use": ${JSON.stringify(data[lang]._common.howTo || "How to Use")},\n    "label_formula_logic": ${JSON.stringify(data[lang]._common.formula || "Formula/Logic")},\n    "label_faq": ${JSON.stringify(data[lang]._common.faq || "FAQ")},`;
 
-// English
-i18nContent = i18nContent.replace(
-    /"general_calculator": "General Calculator",/,
-    '"action_open_calc": "Open Calculator",\n    "action_close": "Close Calculator",\n    "general_calculator": "General Calculator",'
-);
-
-// Korean
-i18nContent = i18nContent.replace(
-    /"general_calculator": "일반 계산기",/,
-    '"action_open_calc": "메인 계산기 열기",\n            "action_close": "닫기",\n            "general_calculator": "일반 계산기",'
-);
-
-// Japanese (find exact general_calculator translation first)
-// Let's guess the string or just replace it by finding the matches
-const jaMatch = i18nContent.match(/"general_calculator": "(.*?)",/g);
-if (jaMatch && jaMatch.length >= 3) {
-    // ja is likely index 2 (en=0, ko=1, ja=2, zh=3)
-    i18nContent = i18nContent.replace(
-        jaMatch[2],
-        `"action_open_calc": "メイン電卓を開く",\n            "action_close": "閉じる",\n            ${jaMatch[2]}`
-    );
-    // zh is likely index 3
-    if (jaMatch.length >= 4) {
-        i18nContent = i18nContent.replace(
-            jaMatch[3],
-            `"action_open_calc": "打开计算器",\n            "action_close": "关闭",\n            ${jaMatch[3]}`
-        );
+    if (!content.includes('label_about_calc')) {
+        content = content.replace(/"category_finance"/, commonKeys + '\n    "category_finance"');
     }
+
+    const infoObj = Object.assign({}, data[lang]);
+    delete infoObj._common;
+    const infoStr = `"info": ` + JSON.stringify(infoObj, null, 4) + `,`;
+
+    const replaceExistingInfo = (text) => {
+        let idx = text.indexOf(`"info": {`);
+        if (idx === -1) idx = text.indexOf(`info: {`);
+        if (idx !== -1) {
+            let braceCount = 0;
+            let start = text.indexOf('{', idx);
+            let end = -1;
+            for (let i = start; i < text.length; i++) {
+                if (text[i] === '{') braceCount++;
+                else if (text[i] === '}') {
+                    braceCount--;
+                    if (braceCount === 0) {
+                        end = i;
+                        break;
+                    }
+                }
+            }
+            if (end !== -1) {
+                // If there's a comma after, it's fine. infoStr has a comma.
+                return text.substring(0, idx) + infoStr + '\n' + text.substring(end + 1).replace(/^\s*,\s*/, '');
+            }
+        }
+        return null;
+    };
+
+    let replaced = replaceExistingInfo(content);
+    if (replaced) {
+        content = replaced;
+    } else {
+        const legalRegex = /"legal"\s*:\s*\{/;
+        if (content.match(legalRegex)) {
+            content = content.replace(legalRegex, infoStr + '\n    "legal": {');
+        } else {
+            const lastBrace = content.lastIndexOf('}');
+            content = content.substring(0, lastBrace) + ',\n' + infoStr + '\n' + content.substring(lastBrace);
+        }
+    }
+
+    fs.writeFileSync(file, content, 'utf8');
+    console.log(`Updated ${file}`);
+});
+
+let i18nContent = fs.readFileSync('src/i18n.js', 'utf8');
+
+function updateI18nBlock(content, lang, searchStartStr) {
+    const commonKeys = `"label_about_calc": ${JSON.stringify(data[lang]._common.about || "About")},\n    "label_how_to_use": ${JSON.stringify(data[lang]._common.howTo || "How to Use")},\n    "label_formula_logic": ${JSON.stringify(data[lang]._common.formula || "Formula/Logic")},\n    "label_faq": ${JSON.stringify(data[lang]._common.faq || "FAQ")},`;
+
+    let blockStart = content.indexOf(searchStartStr);
+    if (blockStart === -1) return content;
+
+    let catStart = content.indexOf('"category_finance"', blockStart);
+    if (catStart !== -1 && !content.substring(blockStart, catStart).includes('label_about_calc')) {
+        content = content.substring(0, catStart) + commonKeys + '\n    ' + content.substring(catStart);
+    }
+
+    blockStart = content.indexOf(searchStartStr);
+
+    const infoObj = Object.assign({}, data[lang]);
+    delete infoObj._common;
+    const infoStr = `"info": ` + JSON.stringify(infoObj, null, 4) + `,`;
+
+    let legalIdx = content.indexOf('"legal": {', blockStart);
+    let legalIdx2 = content.indexOf('legal: {', blockStart);
+    let actualLegalIdx = -1;
+    if (legalIdx !== -1 && legalIdx2 !== -1) actualLegalIdx = Math.min(legalIdx, legalIdx2);
+    else actualLegalIdx = Math.max(legalIdx, legalIdx2);
+
+    if (actualLegalIdx !== -1) {
+        let slice = content.substring(blockStart, actualLegalIdx);
+        let idx = slice.indexOf(`"info": {`);
+        if (idx === -1) idx = slice.indexOf(`info: {`);
+
+        if (idx !== -1) {
+            let braceCount = 0;
+            let start = slice.indexOf('{', idx);
+            let end = -1;
+            for (let i = start; i < slice.length; i++) {
+                if (slice[i] === '{') braceCount++;
+                else if (slice[i] === '}') {
+                    braceCount--;
+                    if (braceCount === 0) {
+                        end = i;
+                        break;
+                    }
+                }
+            }
+            if (end !== -1) {
+                slice = slice.substring(0, idx) + infoStr.replace(/,$/, '') + slice.substring(end + 1);
+                content = content.substring(0, blockStart) + slice + content.substring(actualLegalIdx);
+            }
+        } else {
+            content = content.substring(0, actualLegalIdx) + infoStr + '\n    ' + content.substring(actualLegalIdx);
+        }
+    }
+    return content;
 }
 
-fs.writeFileSync(i18nPath, i18nContent);
-console.log('Translations inserted successfully.');
+i18nContent = updateI18nBlock(i18nContent, 'en', 'const enTranslation = {');
+i18nContent = updateI18nBlock(i18nContent, 'ko', 'ko: {');
+i18nContent = updateI18nBlock(i18nContent, 'ja', 'ja: {');
+i18nContent = updateI18nBlock(i18nContent, 'zh', 'zh: {');
+
+fs.writeFileSync('src/i18n.js', i18nContent, 'utf8');
+console.log("Updated i18n.js");

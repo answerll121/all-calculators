@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
 
+import CalculatorInfo from '../../CalculatorInfo';
+
 const UnitPriceCalculator = () => {
     const { t } = useTranslation();
     const [p1, setP1] = useState(1000);
@@ -52,6 +54,7 @@ const UnitPriceCalculator = () => {
                     </div>
                 )}
             </div>
+            <CalculatorInfo calculatorId="unitPrice" />
         </div>
     );
 };

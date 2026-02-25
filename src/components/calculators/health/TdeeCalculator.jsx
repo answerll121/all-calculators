@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import { Activity, Scale, Ruler } from 'lucide-react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import NumberInput from '../../common/NumberInput';
@@ -144,6 +146,7 @@ const TdeeCalculator = () => {
                     </div>
                 </div>
             </div>
+            <CalculatorInfo calculatorId="tdee" />
         </div>
     );
 };

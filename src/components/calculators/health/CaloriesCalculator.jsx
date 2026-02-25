@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import NumberInput from '../../common/NumberInput';
 import ResultCard from '../../common/ResultCard';
 import HistoryPanel from '../../common/HistoryPanel';
@@ -53,7 +55,7 @@ const CaloriesCalculator = () => {
             <CalculatorTitle title={t('calc_calories')} id="calories" />
             <div className="space-y-4">
                 <div className="bg-gray-50 dark:bg-gray-700/50 p-3 rounded-xl">
-                    <label className="block text-sm font-medium mb-2 text-gray-700 dark:text-gray-300">{t('category_health') === 'Health' ? 'Activity' : '?�동'}</label>
+                    <label className="block text-sm font-medium mb-2 text-gray-700 dark:text-gray-300">{t('category_health') === 'Health' ? 'Activity' : '?�동'}</label>
                     {/* fallback label, ideally add 'label_activity' key */}
                     <select
                         value={activity}
@@ -85,6 +87,7 @@ const CaloriesCalculator = () => {
                 )}
                 <HistoryPanel history={history} />
             </div>
+            <CalculatorInfo calculatorId="calories" />
         </div>
     );
 };

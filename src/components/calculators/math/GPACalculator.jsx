@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import { GraduationCap, Plus, Trash2 } from 'lucide-react';
 
 const GpaCalculator = () => {
@@ -172,6 +174,7 @@ const GpaCalculator = () => {
                     </div>
                 )}
             </div>
+            <CalculatorInfo calculatorId="gpa" />
         </div>
     );
 };

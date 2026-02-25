@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import CalculatorTitle from '../../common/CalculatorTitle';
 
 const DiscountCalculator = () => {
@@ -79,6 +81,7 @@ const DiscountCalculator = () => {
                     </div>
                 </div>
             </div>
+            <CalculatorInfo calculatorId="discount" />
         </div>
     );
 };

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import { useCurrency } from '../../../context/CurrencyContext';
 import { Coffee, Users, DollarSign, Percent } from 'lucide-react';
 
@@ -128,6 +130,7 @@ const TipCalculator = () => {
                     </div>
                 </div>
             </div>
+            <CalculatorInfo calculatorId="tip" />
         </div>
     );
 };

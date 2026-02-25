@@ -4,6 +4,10 @@ export default {
     "hero_subtitle": "Cálculos inteligentes para o seu dia a dia.",
     "app_title": "Todas as Calculadoras",
     "search_placeholder": "Pesquisar calculadoras...",
+    "label_about_calc": "Sobre esta calculadora",
+    "label_how_to_use": "Como usar",
+    "label_formula_logic": "Fórmula / Lógica",
+    "label_faq": "Perguntas Frequentes",
     "category_finance": "Finanças",
     "category_health": "Saúde",
     "category_math": "Matemática",
@@ -419,6 +423,1148 @@ export default {
     "msg_tdee_desc": "Calorias para manter o peso",
     "msg_bmr_desc": "Calorias queimadas em repouso",
     "label_tdee_result": "Calorias de Manutenção (TDEE)",
+    "info": {
+    "margin": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "loan": {
+        "description": "Calcule os pagamentos mensais do empréstimo e os juros totais com base no principal, taxa e prazo.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "savings": {
+        "description": "Descubra o valor total e os juros ganhos economizando constantemente um valor mensal fixo.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "deposit": {
+        "description": "Calcule os juros estimados e o pagamento líquido para seu depósito a prazo fixo.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "salary": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "severance": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "estate": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "stock": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "exchange": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "inflation": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "giftTax": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "401k": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "rothIra": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "creditCardPayoff": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "salaryHourly": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "dutchPay": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "tip": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "bmi": {
+        "description": "Insira sua altura e peso para calcular seu Índice de Massa Corporal (IMC) e verificar sua saúde.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "bmr": {
+        "description": "Calcule sua Taxa Metabólica Basal (TMB) - as calorias que seu corpo queima em repouso.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "calories": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "whr": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "idealWeight": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "waterIntake": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "smokingCost": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "menstrualCycle": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "childGrowth": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "caffeine": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "childObesity": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "macro": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "bac": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "tdee": {
+        "description": "Descubra sua ingestão diária recomendada de calorias para perda, manutenção ou ganho de peso.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "sleep": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "petAge": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "age": {
+        "description": "Insira sua data de nascimento para descobrir instantaneamente sua idade exata, signo e zodíaco.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "date": {
+        "description": "Acompanhe os dias restantes ou passados de eventos importantes como aniversários ou casamentos.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "militaryService": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "percent": {
+        "description": "Uma ferramenta versátil para calcular porcentagens ou qual proporção representa do todo.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "vat": {
+        "description": "Insira o preço base ou total para separar automaticamente o IVA e o valor principal.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "area": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "volume": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "gpa": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "unitPrice": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "time": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "baseConverter": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "discount": {
+        "description": "Verifique rapidamente o valor do pagamento final e as economias inserindo o preço original e o desconto.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "cookingConverter": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "globalSizeConverter": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "gasCost": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "areaConverter": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "lengthConverter": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "volumeConverter": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "weightConverter": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "ohmsLaw": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "voltageDrop": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "fertilizer": {
+        "description": "Determine a quantidade exata de fertilizante necessária com base na sua proporção de diluição.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "vpd": {
+        "description": "Calcule o Déficit de Pressão de Vapor (VPD) para diagnosticar o ambiente da sua estufa.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "kerala": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "lottoTax": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "lotto": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    },
+    "universalLotto": {
+        "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
+        "howTo": [
+            "Insira os valores estritamente necessários nos respectivos campos.",
+            "Selecione as unidades aplicáveis.",
+            "Pressione 'Calcular' e veja as respostas."
+        ],
+        "formula": "A ferramenta processa seus dados em tempo real utilizando fórmulas de uso público padrão.",
+        "faq": [
+            {
+                "q": "Isso é exato?",
+                "a": "Sim, os resultados baseiam-se em cálculos e taxas amplamente aceitos e utilizados na indústria."
+            },
+            {
+                "q": "Minhas informações privadas são salvas?",
+                "a": "Não processamos backend neste serviço, seus dados nunca são registrados."
+            }
+        ]
+    }
+},
     "legal": {
         "privacy_title": "Política de Privacidade",
         "terms_title": "Termos de Serviço",

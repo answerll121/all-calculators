@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
 
+import CalculatorInfo from '../../CalculatorInfo';
+
 const ChildObesityCalculator = () => {
     const { t } = useTranslation();
     const [age, setAge] = useState(10);
@@ -61,6 +63,7 @@ const ChildObesityCalculator = () => {
                     </div>
                 )}
             </div>
+            <CalculatorInfo calculatorId="childObesity" />
         </div>
     );
 };

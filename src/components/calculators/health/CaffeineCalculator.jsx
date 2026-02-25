@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
 
+import CalculatorInfo from '../../CalculatorInfo';
+
 const CaffeineCalculator = () => {
     const { t } = useTranslation();
     const [coffee, setCoffee] = useState(1);
@@ -47,6 +49,7 @@ const CaffeineCalculator = () => {
                     </div>
                 )}
             </div>
+            <CalculatorInfo calculatorId="caffeine" />
         </div>
     );
 };

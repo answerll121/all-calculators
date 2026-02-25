@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
 
+import CalculatorInfo from '../../CalculatorInfo';
+
 const CycleCalculator = () => {
     const { t } = useTranslation();
     const [lastPeriod, setLastPeriod] = useState(new Date().toISOString().split('T')[0]);
@@ -51,6 +53,7 @@ const CycleCalculator = () => {
                     </div>
                 )}
             </div>
+            <CalculatorInfo calculatorId="menstrualCycle" />
         </div>
     );
 };

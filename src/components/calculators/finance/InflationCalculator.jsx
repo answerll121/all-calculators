@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import { useCurrency } from '../../../context/CurrencyContext';
 import CalculatorTitle from '../../common/CalculatorTitle';
 
@@ -48,6 +50,7 @@ const InflationCalculator = () => {
                     </div>
                 )}
             </div>
+            <CalculatorInfo calculatorId="inflation" />
         </div>
     );
 };

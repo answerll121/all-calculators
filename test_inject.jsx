@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import CalculatorInfo from '../../CalculatorInfo';
-
 import NumberInput from '../../common/NumberInput';
 import ResultCard from '../../common/ResultCard';
 import HistoryPanel from '../../common/HistoryPanel';
 import { useCurrency } from '../../../context/CurrencyContext';
 import CalculatorTitle from '../../common/CalculatorTitle';
 
-import AssetChart from '../../common/AssetChart'; const CompoundInterestCalculator = () => {
+import 
+import CalculatorInfo from '../../CalculatorInfo';
+AssetChart from '../../common/AssetChart'; const CompoundInterestCalculator = () => {
     const { t } = useTranslation();
     const { symbol, formatAmount } = useCurrency();
     const [mode, setMode] = useState('lump'); // 'lump' or 'accum'
@@ -219,7 +219,6 @@ import AssetChart from '../../common/AssetChart'; const CompoundInterestCalculat
 
                 <HistoryPanel history={history} />
             </div>
-            <CalculatorInfo calculatorId="compoundInterest" />
         </div>
     );
 };

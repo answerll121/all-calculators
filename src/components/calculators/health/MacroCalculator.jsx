@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import { Activity, Apple, Scale, Ruler } from 'lucide-react';
 import { Pie } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
@@ -265,6 +267,7 @@ const MacroCalculator = () => {
                     {t('msg_health_disclaimer')}
                 </p>
             </div>
+            <CalculatorInfo calculatorId="macro" />
         </div>
     );
 };

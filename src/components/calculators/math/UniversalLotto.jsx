@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import { RefreshCw } from 'lucide-react';
 
 const UniversalLotto = ({
@@ -125,6 +127,7 @@ const UniversalLotto = ({
                     {t('label_generate')}
                 </button>
             </div>
+            <CalculatorInfo calculatorId="universalLotto" />
         </div>
     );
 };

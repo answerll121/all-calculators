@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import { useCurrency } from '../../../context/CurrencyContext';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useFavorites } from '../../../context/FavoritesContext';
@@ -113,6 +115,7 @@ const ExchangeCalculator = () => {
                     </div>
                 )}
             </div>
+            <CalculatorInfo calculatorId="exchange" />
         </div>
     );
 };

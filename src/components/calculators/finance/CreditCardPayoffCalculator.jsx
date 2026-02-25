@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import { useCurrency } from '../../../context/CurrencyContext';
 import { DollarSign, Percent, CreditCard, Calendar } from 'lucide-react';
 
@@ -133,6 +135,7 @@ const CreditCardPayoffCalculator = () => {
                     {t('msg_financial_disclaimer')}
                 </p>
             </div>
+            <CalculatorInfo calculatorId="creditCardPayoff" />
         </div>
     );
 };

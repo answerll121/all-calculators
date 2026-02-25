@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
 
+import CalculatorInfo from '../../CalculatorInfo';
+
 const AreaCalculator = () => {
     const { t } = useTranslation();
     const [shape, setShape] = useState('rectangle');
@@ -45,6 +47,7 @@ const AreaCalculator = () => {
                     </div>
                 )}
             </div>
+            <CalculatorInfo calculatorId="area" />
         </div>
     );
 };

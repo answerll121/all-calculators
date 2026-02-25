@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import NumberInput from '../../common/NumberInput';
 import ResultCard from '../../common/ResultCard';
 import HistoryPanel from '../../common/HistoryPanel';
@@ -88,6 +90,7 @@ const DepositCalculator = () => {
                 )}
                 <HistoryPanel history={history} />
             </div>
+            <CalculatorInfo calculatorId="deposit" />
         </div>
     );
 };

@@ -4,6 +4,10 @@ export default {
     "hero_subtitle": "Cálculos inteligentes para tu vida diaria.",
     "app_title": "Todas las Calculadoras",
     "search_placeholder": "Buscar calculadoras...",
+    "label_about_calc": "Acerca de esta calculadora",
+    "label_how_to_use": "Cómo utilizar",
+    "label_formula_logic": "Fórmula / Lógica",
+    "label_faq": "Preguntas frecuentes",
     "category_finance": "Finanzas",
     "category_health": "Salud",
     "category_math": "Matemáticas",
@@ -388,6 +392,1148 @@ export default {
     "msg_tdee_desc": "Calorías para mantener el peso",
     "msg_bmr_desc": "Calorías quemadas en reposo",
     "label_tdee_result": "Calorías de Mantenimiento (TDEE)",
+    "info": {
+    "margin": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "loan": {
+        "description": "Calcule sus pagos mensuales de préstamo y el interés total según el monto principal, la tasa y el plazo.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "savings": {
+        "description": "Descubra el monto total y los intereses ganados al ahorrar constantemente una suma mensual.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "deposit": {
+        "description": "Calcule el interés estimado y el pago después de impuestos para su depósito a plazo fijo.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "salary": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "severance": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "estate": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "stock": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "exchange": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "inflation": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "giftTax": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "401k": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "rothIra": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "creditCardPayoff": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "salaryHourly": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "dutchPay": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "tip": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "bmi": {
+        "description": "Ingrese su altura y peso para calcular su Índice de Masa Corporal (IMC) y verificar su estado de salud.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "bmr": {
+        "description": "Calcule su Tasa Metabólica Basal (TMB), las calorías que su cuerpo quema en reposo.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "calories": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "whr": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "idealWeight": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "waterIntake": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "smokingCost": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "menstrualCycle": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "childGrowth": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "caffeine": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "childObesity": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "macro": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "bac": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "tdee": {
+        "description": "Descubra su consumo diario recomendado de calorías para perder peso o mantenerlo según su actividad.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "sleep": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "petAge": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "age": {
+        "description": "Ingrese su fecha de nacimiento para encontrar al instante su edad exacta, zodiaco chino y signo astrológico.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "date": {
+        "description": "Rastree los días restantes o pasados para eventos importantes como aniversarios, exámenes o bodas.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "militaryService": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "percent": {
+        "description": "Una herramienta versátil para calcular rápidamente porcentajes o qué proporción representa una parte.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "vat": {
+        "description": "Ingrese el precio neto o bruto para separar automáticamente el IVA y el monto principal.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "area": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "volume": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "gpa": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "unitPrice": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "time": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "baseConverter": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "discount": {
+        "description": "Verifique rápidamente su pago final y el ahorro ingresando el precio original y el porcentaje de descuento.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "cookingConverter": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "globalSizeConverter": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "gasCost": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "areaConverter": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "lengthConverter": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "volumeConverter": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "weightConverter": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "ohmsLaw": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "voltageDrop": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "fertilizer": {
+        "description": "Determine la cantidad exacta de fertilizante necesaria en función de la proporción de dilución.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "vpd": {
+        "description": "Calcule el Déficit de Presión de Vapor (VPD) ingresando temperatura y humedad.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "kerala": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "lottoTax": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "lotto": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    },
+    "universalLotto": {
+        "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
+        "howTo": [
+            "Ingrese los valores requeridos en los campos de entrada.",
+            "Ajuste la configuración opcional según corresponda.",
+            "Haga clic en calcular y verifique los resultados a continuación."
+        ],
+        "formula": "La herramienta utiliza operaciones matemáticas estándar evaluadas en tiempo real.",
+        "faq": [
+            {
+                "q": "¿Es exacto el resultado?",
+                "a": "Sí, todos los cálculos emplean algoritmos estándar. Considérelo una estimación precisa."
+            },
+            {
+                "q": "¿Mis datos están a salvo?",
+                "a": "Absolutamente, nada se guarda. Todo el cálculo es local."
+            }
+        ]
+    }
+},
     "legal": {
         "privacy_title": "Política de Privacidad",
         "terms_title": "Términos de Servicio",

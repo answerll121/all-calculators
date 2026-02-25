@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import { useCurrency } from '../../../context/CurrencyContext';
 import { Calculator, Globe, DollarSign, Wallet } from 'lucide-react';
 
@@ -190,6 +192,7 @@ const LottoTaxCalculator = () => {
                     {t('msg_tax_disclaimer')}
                 </p>
             </div>
+            <CalculatorInfo calculatorId="lottoTax" />
         </div>
     );
 };

@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
 
+import CalculatorInfo from '../../CalculatorInfo';
+
 const TimeCalculator = () => {
     const { t } = useTranslation();
     const [date1, setDate1] = useState(new Date().toISOString().split('T')[0]);
@@ -38,6 +40,7 @@ const TimeCalculator = () => {
                     </div>
                 )}
             </div>
+            <CalculatorInfo calculatorId="time" />
         </div>
     );
 };

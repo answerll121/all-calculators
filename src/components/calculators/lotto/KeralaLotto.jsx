@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import { RefreshCw } from 'lucide-react';
 
 const KeralaLotto = ({ title, id, icon }) => {
@@ -65,6 +67,7 @@ const KeralaLotto = ({ title, id, icon }) => {
                     {t('label_generate')}
                 </button>
             </div>
+            <CalculatorInfo calculatorId="kerala" />
         </div>
     );
 };

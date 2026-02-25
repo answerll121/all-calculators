@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import { Coffee, Dog, Cat } from 'lucide-react'; // Assuming Dog/Cat icons available or use generic
 import CalculatorTitle from '../../common/CalculatorTitle';
 import NumberInput from '../../common/NumberInput';
@@ -69,6 +71,7 @@ const PetAgeCalculator = () => {
                     </p>
                 </div>
             </div>
+            <CalculatorInfo calculatorId="petAge" />
         </div>
     );
 };

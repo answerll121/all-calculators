@@ -10,6 +10,10 @@ import { seoTranslations } from './locales/seoLocales.js';
 const enTranslation = {
     "app_title": "All Calculators",
     "search_placeholder": "Search calculators...",
+    "label_about_calc": "About this Calculator",
+    "label_how_to_use": "How to Use",
+    "label_formula_logic": "Formula / Logic",
+    "label_faq": "FAQ",
     "category_finance": "Finance",
     "category_health": "Health",
     "category_math": "Math",
@@ -444,71 +448,1207 @@ const enTranslation = {
 
     // Rich Content for CalculatorInfo (SEO)
     "info": {
-        "loan": {
-            "description": "A Loan Calculator is a powerful financial tool that helps you estimate your monthly loan payments. Whether you're looking at a mortgage, auto loan, or personal loan, understanding your monthly repayment obligations is crucial for maintaining financial health. This calculator considers the principal amount, interest rate, and loan term to provide an accurate amortization schedule.",
-            "howTo": [
-                "Enter the total loan amount (Principal).",
-                "Input the annual interest rate (APR).",
-                "Specify the loan term in years or months.",
-                "Click 'Calculate' to see your monthly payment, total interest, and full repayment amount."
-            ],
-            "formula": "Monthly Payment = [P x r x (1 + r)^n] / [(1 + r)^n - 1]\nWhere:\nP = Principal loan amount\nr = Monthly interest rate (Annual Rate / 12)\nn = Number of months",
-            "faq": [
-                {
-                    "q": "How is the monthly payment calculated?",
-                    "a": "We use the standard amortization formula. This ensures that a portion of your payment goes towards interest and the rest reduces your principal balance."
-                },
-                {
-                    "q": "What is the difference between APR and interest rate?",
-                    "a": "The interest rate is the cost of borrowing money, while the APR (Annual Percentage Rate) includes the interest rate plus other fees like origination charges. Our calculator uses the interest rate you provide."
-                },
-                {
-                    "q": "Can I make extra payments?",
-                    "a": "Yes! Making extra payments directly reduces your principal balance, which decreases the total interest paid and shortens your loan term."
-                }
-            ]
-        },
-        "bmi": {
-            "description": "BMI (Body Mass Index) is a simple index of weight-for-height that is commonly used to classify underweight, overweight and obesity in adults. It is defined as the weight in kilograms divided by the square of the height in meters (kg/m²). While BMI doesn't measure body fat directly, it is a useful screening tool for health risks.",
-            "howTo": [
-                "Select your system of measurement (Metric or Imperial).",
-                "Enter your height and weight.",
-                "Click 'Calculate' to see your BMI score and classification.",
-                "Review the result to understand your weight status."
-            ],
-            "formula": "Metric: BMI = weight (kg) / [height (m)]²\nImperial: BMI = 703 × weight (lbs) / [height (in)]²",
-            "faq": [
-                {
-                    "q": "What is a healthy BMI range?",
-                    "a": "For most adults, a BMI between 18.5 and 24.9 is considered healthy. Below 18.5 is underweight, 25-29.9 is overweight, and 30 or above is obese."
-                },
-                {
-                    "q": "Is BMI accurate for everyone?",
-                    "a": "BMI is a general indicator and may not be accurate for athletes with high muscle mass, pregnant women, or elderly people, as it does not distinguish between muscle and fat."
-                }
-            ]
-        },
-        "lotto": {
-            "description": "The Lotto Generator is a tool designed to help you pick random numbers for various lottery games around the world. It uses a random number generation algorithm to select numbers within the specific range of your chosen game, providing a quick and unbiased way to fill out your ticket.",
-            "howTo": [
-                "Select your country or specific lottery game.",
-                "The generator will automatically configure the number range and count.",
-                "Click 'Generate Numbers' to get a random set.",
-                "Use 'Show More' to generate multiple sets at once."
-            ],
-            "formula": "Random Number Generation (RNG) algorithm used to pick unique integers from the game's specific range (e.g., 1-45).",
-            "faq": [
-                {
-                    "q": "Do these numbers increase my chances of winning?",
-                    "a": "No. Lottery draws are purely random events. Our generator provides random numbers, but it does not predict future outcomes or improve odds."
-                },
-                {
-                    "q": "Can I use this for any lottery?",
-                    "a": "We support major lotteries from South Korea, USA, Japan, China, Europe, and more. Select the specific game mode for accurate ranges."
-                }
-            ]
-        }
+    "margin": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
     },
+    "loan": {
+        "description": "Calculate your monthly loan payments and total interest based on your principal, interest rate, and term. Supports equal installments.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "savings": {
+        "description": "Find out the total amount and interest earned by consistently saving a fixed monthly amount.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "deposit": {
+        "description": "Calculate the estimated interest and after-tax payout for your lump sum fixed deposit when it matures.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "salary": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "severance": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "estate": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "stock": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "exchange": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "inflation": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "giftTax": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "401k": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "rothIra": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "creditCardPayoff": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "salaryHourly": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "dutchPay": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "tip": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "bmi": {
+        "description": "Enter your height and weight to calculate your Body Mass Index (BMI) and check your health status.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "bmr": {
+        "description": "Calculate your Basal Metabolic Rate (BMR) – the calories your body burns at rest – based on gender, age, height, and weight.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "calories": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "whr": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "idealWeight": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "waterIntake": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "smokingCost": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "menstrualCycle": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "childGrowth": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "caffeine": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "childObesity": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "macro": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "bac": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "tdee": {
+        "description": "Discover your recommended daily calorie intake for weight loss, maintenance, or muscle gain based on your activity level.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "sleep": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "petAge": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "age": {
+        "description": "Enter your birthdate to instantly find your exact international age, Chinese zodiac, and astrological sign.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "date": {
+        "description": "Track the remaining or passed days for important events like anniversaries, exams, or weddings.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "militaryService": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "percent": {
+        "description": "A versatile tool to quickly calculate percentages or find out what ratio a portion represents of a whole.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "vat": {
+        "description": "Enter the supply or total price to automatically separate the VAT and principal amount instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "area": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "volume": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "gpa": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "unitPrice": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "time": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "baseConverter": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "discount": {
+        "description": "Quickly check your final payment amount and savings by entering the original price and discount percentage.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "cookingConverter": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "globalSizeConverter": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "gasCost": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "areaConverter": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "lengthConverter": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "volumeConverter": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "weightConverter": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "ohmsLaw": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "voltageDrop": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "fertilizer": {
+        "description": "Determine the exact amount of fertilizer needed based on your target water volume and dilution ratio.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "vpd": {
+        "description": "Calculate Vapor Pressure Deficit (VPD) by entering temperature and humidity to diagnose your greenhouse environment.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "kerala": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "lottoTax": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "lotto": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    },
+    "universalLotto": {
+        "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
+        "howTo": [
+            "Enter all required values in the input fields.",
+            "Select any optional settings or preferred units.",
+            "Click the Calculate button.",
+            "Review your detailed results directly below."
+        ],
+        "formula": "The tool utilizes standard mathematical operations and verified logic to output accurate real-time results based entirely on user inputs.",
+        "faq": [
+            {
+                "q": "Is the calculation accurate?",
+                "a": "Yes, we use precise formulas optimized for general use. However, consider all results as estimates for professional or legal purposes."
+            },
+            {
+                "q": "Is my data stored?",
+                "a": "No, all calculations happen locally in your browser to strictly ensure your privacy."
+            }
+        ]
+    }
+},
 
     // Legal & Compliance
     "legal": {
@@ -562,7 +1702,11 @@ const resources = {
         translation: {
             "app_title": "세상의 모든 계산기",
             "search_placeholder": "계산기 검색...",
-            "category_finance": "금융",
+            "label_about_calc": "계산기 소개",
+    "label_how_to_use": "사용 방법",
+    "label_formula_logic": "계산 원리 / 공식",
+    "label_faq": "자주 묻는 질문",
+    "category_finance": "금융",
             "category_health": "건강",
             "category_math": "수학",
             "category_lifestyle": "생활/편의",
@@ -943,31 +2087,1207 @@ const resources = {
 
             // Rich Content for CalculatorInfo (SEO)
             "info": {
-                "loan": {
-                    "description": "대출 이자 계산기는 대출 원금, 이자율, 대출 기간을 입력하여 매월 상환해야 할 원리금과 총 이자 비용을 계산해 주는 필수 금융 도구입니다. 주택 담보 대출(모기지), 신용 대출, 자동차 할부 등 다양한 금융 상품의 상환 계획을 세울 때 유용합니다.",
-                    "howTo": [
-                        "대출 원금(빌릴 금액)을 입력하세요.",
-                        "연 이자율(%)을 입력하세요.",
-                        "대출 기간을 년 또는 개월 단위로 설정하세요.",
-                        "'계산하기' 버튼을 누르면 월 상환금과 총 이자가 표시됩니다."
-                    ],
-                    "formula": "월 상환금 = [원금 x 월이율 x (1 + 월이율)^기간] / [(1 + 월이율)^기간 - 1]\n여기서 월이율은 연이율을 12로 나눈 값입니다.\n원리금 균등 상환 방식을 기준으로 계산됩니다.",
-                    "faq": [
-                        {
-                            "q": "대출 이자는 어떻게 계산되나요?",
-                            "a": "일반적인 원리금 균등 상환 방식을 사용하여, 매월 동일한 금액을 상환하면서 이자와 원금의 비율이 조정되는 구조로 계산됩니다."
-                        },
-                        {
-                            "q": "중도 상환 수수료는 포함되나요?",
-                            "a": "아니요, 이 계산기는 순수 대출 이자와 원금 상환액만을 계산합니다. 중도 상환 수수료는 은행 상품마다 다르므로 별도 확인이 필요합니다."
-                        },
-                        {
-                            "q": "대출 기간을 길게 잡으면 유리한가요?",
-                            "a": "대출 기간이 길어지면 월 상환 부담은 줄어들지만, 전체적으로 납부해야 할 총 이자 금액은 늘어납니다."
-                        }
-                    ]
-                }
+    "margin": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
             },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "loan": {
+        "description": "대출 금액, 금리, 상환 기간을 바탕으로 매월 상환해야 할 금액과 총 이자를 계산합니다. (원리금균등, 원금균등 방식 지원)",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "savings": {
+        "description": "매월 일정한 금액을 저축했을 때, 목표 기간 후 모을 수 있는 총액과 이자 수익을 계산해 줍니다.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "deposit": {
+        "description": "목돈을 일정 기간 예치했을 때 만기 시 받을 수 있는 예상 이자와 세후 수령액을 계산합니다.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "salary": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "severance": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "estate": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "stock": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "exchange": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "inflation": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "giftTax": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "401k": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "rothIra": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "creditCardPayoff": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "salaryHourly": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "dutchPay": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "tip": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "bmi": {
+        "description": "키와 몸무게를 입력하여 체질량지수(BMI)를 확인하고, 정상, 과체중, 비만 등의 건강 상태를 진단하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "bmr": {
+        "description": "성별, 나이, 키, 몸무게를 바탕으로 숨만 쉬어도 소모되는 하루 기초대사량(BMR)을 계산합니다.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "calories": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "whr": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "idealWeight": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "waterIntake": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "smokingCost": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "menstrualCycle": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "childGrowth": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "caffeine": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "childObesity": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "macro": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "bac": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "tdee": {
+        "description": "나의 기초대사량과 하루 활동량을 고려하여 체중 유지, 감량, 증량에 필요한 일일 권장 칼로리를 알려줍니다.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "sleep": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "petAge": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "age": {
+        "description": "생년월일을 입력하면 올해 적용되는 정확한 '만 나이'와 띠, 별자리를 한 번에 알려줍니다.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "date": {
+        "description": "연인과의 기념일(100일, 1주년)이나 시험, 결혼 등 중요한 일정까지 며칠이 남았는지(혹은 지났는지) 계산합니다.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "militaryService": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "percent": {
+        "description": "전체값의 일정 비율, 혹은 특정 값이 전체에서 차지하는 퍼센트를 쉽고 빠르게 계산하는 다목적 도구입니다.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "vat": {
+        "description": "공급가액 또는 합계금액을 입력하면 부가세(10%)와 원금을 자동으로 분리하여 계산해 줍니다.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "area": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "volume": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "gpa": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "unitPrice": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "time": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "baseConverter": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "discount": {
+        "description": "원래 가격과 할인율(%)을 입력하면 최종 결제 금액과 얼마를 절약했는지 즉시 확인 가능합니다.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "cookingConverter": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "globalSizeConverter": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "gasCost": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "areaConverter": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "lengthConverter": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "volumeConverter": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "weightConverter": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "ohmsLaw": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "voltageDrop": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "fertilizer": {
+        "description": "식물 영양제나 농약 살포 시, 필요한 물의 양과 목표 희석 배수(예: 500배)에 맞춰 정확한 비료 투입량을 계산합니다.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "vpd": {
+        "description": "온도와 상대습도를 입력하여 식물 생장에 가장 중요한 지표인 수분 결핍차(VPD)를 측정하고, 현재 하우스 환경을 진단합니다.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "kerala": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "lottoTax": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "lotto": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    },
+    "universalLotto": {
+        "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
+        "howTo": [
+            "입력칸에 필요한 값을 정확하게 입력하세요.",
+            "단위 설정 등 필요한 옵션을 선택하세요.",
+            "계산하기 버튼을 눌러주세요.",
+            "아래 제공되는 상세한 결과값을 확인하세요."
+        ],
+        "formula": "입력된 값을 바탕으로 검증된 표준 수학적 알고리즘을 사용하여 실시간으로 결과를 산출합니다.",
+        "faq": [
+            {
+                "q": "이 계산 결과는 정확한가요?",
+                "a": "네, 공인된 표준 공식을 적용하여 계산됩니다. 다만, 전문적인 목적(의학/세무/법률 등)의 경우 오직 참고용으로만 사용해 주세요."
+            },
+            {
+                "q": "입력한 기록이 저장되나요?",
+                "a": "아니요. 모든 계산은 브라우저 내에서 안전하게 처리되며, 개인정보와 수치 데이터는 절대 저장되지 않습니다."
+            }
+        ]
+    }
+},
 
             // Legal & Compliance
             legal: {
@@ -1232,7 +3552,11 @@ const resources = {
         translation: {
             "app_title": "世界のすべての電卓",
             "search_placeholder": "電卓を検索...",
-            "category_finance": "金融",
+            "label_about_calc": "電卓について",
+    "label_how_to_use": "使い方",
+    "label_formula_logic": "計算原理・公式",
+    "label_faq": "よくある質問",
+    "category_finance": "金融",
             "category_health": "健康",
             "category_math": "数学",
             "category_lifestyle": "ライフスタイル",
@@ -1539,67 +3863,1207 @@ const resources = {
             "msg_bmr_desc": "安静時の消費カロリー",
             "label_tdee_result": "維持カロリー (TDEE)",
             "info": {
-                "loan": {
-                    "description": "ローン計算機は、融資額、金利、期間を入力することで、月々の返済額と総利息を計算できる必須金融ツールです。住宅ローン、自動車ローン、個人ローンなどの返済計画に役立ちます。",
-                    "howTo": [
-                        "融資額（元金）を入力してください。",
-                        "年利（％）を入力してください。",
-                        "返済期間を入力してください（年/月）。",
-                        "「計算する」をクリックして、月々の返済額と総利息を確認してください。"
-                    ],
-                    "formula": "元利均等返済：毎月一定額を返済\n元金均等返済：毎月一定の元金＋残高利息を返済",
-                    "faq": [
-                        {
-                            "q": "月々の返済額はどのように計算されますか？",
-                            "a": "一般的に元利均等返済方式を使用し、期間中毎月一定額を支払います。"
-                        },
-                        {
-                            "q": "繰り上げ返済の手数料は含まれますか？",
-                            "a": "いいえ、この計算機は純粋な利息と元金のみを計算します。手数料は金融機関により異なります。"
-                        }
-                    ]
-                },
-                "bmi": {
-                    "description": "BMI（ボディマス指数）は、身長と体重から肥満度を測定する指標です。成人の体重管理や健康リスクのスクリーニングに役立ちます。",
-                    "howTo": [
-                        "単位システムを選択してください（メートル法/ヤード・ポンド法）。",
-                        "身長と体重を入力してください。",
-                        "「計算する」をクリックして、BMIスコアと判定を確認してください。",
-                        "結果を見て、現在の体重ステータスを把握しましょう。"
-                    ],
-                    "formula": "BMI = 体重(kg) / [身長(m)]²",
-                    "faq": [
-                        {
-                            "q": "健康的なBMIの範囲は？",
-                            "a": "一般的に18.5〜24.9の間が普通体重（健康）とされています。18.5未満は低体重、25以上は肥満と判定されます。"
-                        },
-                        {
-                            "q": "BMIは誰にでも正確ですか？",
-                            "a": "筋肉量の多いアスリートや妊婦、高齢者の場合、体脂肪率を正確に反映しない場合があります。"
-                        }
-                    ]
-                },
-                "lotto": {
-                    "description": "ロト番号生成機は、各国の宝くじルールに基づいてランダムな当選予想番号を抽出するツールです。公平なアルゴリズムを使用しています。",
-                    "howTo": [
-                        "希望する宝くじ（国/種類）を選択してください。",
-                        "ゲームのルール（番号範囲）に合わせて設定が自動変更されます。",
-                        "「番号生成」ボタンをクリックしてください。",
-                        "「もっと見る」で複数のセットを一度に生成できます。"
-                    ],
-                    "formula": "検証済みの乱数生成アルゴリズム（RNG）を使用し、重複のない番号を抽出します。",
-                    "faq": [
-                        {
-                            "q": "この番号で当選確率は上がりますか？",
-                            "a": "いいえ。宝くじは独立した確率事象であり、当選を保証するものではありません。娯楽としてお楽しみください。"
-                        },
-                        {
-                            "q": "海外の宝くじにも対応していますか？",
-                            "a": "はい、日本のロト7だけでなく、米国のパワーボール、ユーロミリオンズなど主要な宝くじに対応しています。"
-                        }
-                    ]
-                }
+    "margin": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
             },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "loan": {
+        "description": "借入額、金利、返済期間を基に毎月の返済額と総利息を計算します。（元利均等・元金均等方式対応）",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "savings": {
+        "description": "毎月一定額を貯蓄した場合の目標期間後の総額と利息収入を計算します。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "deposit": {
+        "description": "まとまったお金を預けた際の満期時の予想利息と税引後受取額を計算します。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "salary": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "severance": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "estate": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "stock": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "exchange": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "inflation": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "giftTax": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "401k": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "rothIra": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "creditCardPayoff": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "salaryHourly": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "dutchPay": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "tip": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "bmi": {
+        "description": "身長と体重を入力してBMIを確認し、正常・肥胖などの健康状態を診断します。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "bmr": {
+        "description": "性別、年齢、身長、体重を基に、安静時の1日の基礎代謝量（BMR）を計算します。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "calories": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "whr": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "idealWeight": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "waterIntake": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "smokingCost": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "menstrualCycle": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "childGrowth": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "caffeine": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "childObesity": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "macro": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "bac": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "tdee": {
+        "description": "基礎代謝量と活動レベルを考慮し、体重維持・減量に必要な1日の推奨カロリーをお知らせします。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "sleep": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "petAge": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "age": {
+        "description": "生年月日を入力すると、正確な満年齢、干支、星座を一度にお知らせします。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "date": {
+        "description": "記念日や試験など、重要な予定まで残り何日か、または何日過ぎたかを計算します。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "militaryService": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "percent": {
+        "description": "全体の一定割合、または全体に対する特定の割合を素早く簡単に計算できる多目的ツールです。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "vat": {
+        "description": "供給金額または合計金額を入力すると、消費税(VAT)と元金を自動的に分けて計算します。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "area": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "volume": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "gpa": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "unitPrice": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "time": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "baseConverter": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "discount": {
+        "description": "元の価格と割引率を入力するだけで、最終支払額といくら節約できたかをすぐに確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "cookingConverter": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "globalSizeConverter": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "gasCost": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "areaConverter": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "lengthConverter": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "volumeConverter": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "weightConverter": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "ohmsLaw": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "voltageDrop": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "fertilizer": {
+        "description": "植物の栄養剤や農薬を散布する際、水量と希釈倍数に合わせて正確な肥料の量を計算します。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "vpd": {
+        "description": "温度と湿度を入力して植物の成長に最も重要な水蒸気圧赤字(VPD)を測定・診断します。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "kerala": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "lottoTax": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "lotto": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    },
+    "universalLotto": {
+        "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
+        "howTo": [
+            "入力欄に必要な値を正確に入力してください。",
+            "単位設定など、必要なオプションを選択してください。",
+            "「計算する」ボタンを押してください。",
+            "下に表示される詳細な結果を確認してください。"
+        ],
+        "formula": "入力された値を基に検証済みの標準的な数学アルゴリズムを使用して、リアルタイムで結果を算出します。",
+        "faq": [
+            {
+                "q": "この計算結果は正確ですか？",
+                "a": "はい、公認された標準公式を適用して計算されます。ただし、専門的な目的（医学/税務/法律など）の場合は、あくまで参考用としてご利用ください。"
+            },
+            {
+                "q": "入力したデータは保存されますか？",
+                "a": "いいえ。すべての計算はブラウザ内で安全に処理され、個人情報と数値データは一切保存されません。"
+            }
+        ]
+    }
+},
             "legal": {
                 "privacy_title": "プライバシーポリシー",
                 "terms_title": "利用規約",
@@ -1649,7 +5113,11 @@ const resources = {
         translation: {
             "app_title": "世界所有计算器",
             "search_placeholder": "搜索计算器...",
-            "category_finance": "金融",
+            "label_about_calc": "计算器简介",
+    "label_how_to_use": "使用方法",
+    "label_formula_logic": "计算原理/公式",
+    "label_faq": "常见问题解答",
+    "category_finance": "金融",
             "category_health": "健康",
             "category_math": "数学",
             "category_math": "数学",
@@ -1891,7 +5359,1209 @@ const resources = {
             "label_fat": "脂肪",
             "label_activity": "活动水平",
             "label_goal": "目标",
-            "legal": {
+            "info": {
+    "margin": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "loan": {
+        "description": "根据贷款金额、利率和还款期限，计算每月还款额及总利息。支持等额本息和等额本金还款方式。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "savings": {
+        "description": "计算每月存入固定金额时，在目标期限后可获得的本金总额和利息收益。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "deposit": {
+        "description": "计算将一笔资金存入定期存款时，到期可获得的预计利息和税后总额。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "salary": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "severance": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "estate": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "stock": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "exchange": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "inflation": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "giftTax": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "401k": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "rothIra": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "creditCardPayoff": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "salaryHourly": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "dutchPay": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "tip": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "bmi": {
+        "description": "输入身高和体重计算身体质量指数（BMI），并判断您的健康状况（偏瘦、正常、超重或肥胖）。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "bmr": {
+        "description": "根据性别、年龄、身高和体重计算您的基础代谢率（BMR），即身体在静息状态下的每日消耗卡路里。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "calories": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "whr": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "idealWeight": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "waterIntake": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "smokingCost": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "menstrualCycle": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "childGrowth": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "caffeine": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "childObesity": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "macro": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "bac": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "tdee": {
+        "description": "结合您的基础代谢率和日常活动量，为您提供维持、减轻或增加体重所需的每日建议卡路里摄入量。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "sleep": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "petAge": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "age": {
+        "description": "输入出生日期，即可一次性查询到您今年的准确周岁年龄、生肖以及星座。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "date": {
+        "description": "计算距离重要事件（如恋爱纪念日、考试、婚礼等）还剩多少天，或者已经过去多少天。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "militaryService": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "percent": {
+        "description": "一款多功能工具，可用于快速计算数值的百分比，或了解某个数值在总数中所占的比例。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "vat": {
+        "description": "输入不含税价格或含税总价，即可自动分离并计算出增值税（VAT）和本金金额。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "area": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "volume": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "gpa": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "unitPrice": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "time": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "baseConverter": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "discount": {
+        "description": "只需输入原价和折扣率（%），即可快速查看最终支付金额以及您节省了多少钱。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "cookingConverter": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "globalSizeConverter": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "gasCost": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "areaConverter": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "lengthConverter": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "volumeConverter": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "weightConverter": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "ohmsLaw": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "voltageDrop": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "fertilizer": {
+        "description": "在施用植物营养液或农药时，根据目标水量和稀释倍数（例如：500倍），准确计算所需的肥料量。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "vpd": {
+        "description": "输入温度和相对湿度，测量对植物生长至关重要的饱和水汽压差（VPD），并诊断当前温室环境是否处于最佳状态。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "kerala": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "lottoTax": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "lotto": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    },
+    "universalLotto": {
+        "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
+        "howTo": [
+            "在输入框中准确输入所需的值。",
+            "选择任何可选设置（如首选单位）。",
+            "点击“计算”按钮。",
+            "在下方查看详细结果。"
+        ],
+        "formula": "基于输入的值，采用经过验证的标准数学算法进行实时运算。",
+        "faq": [
+            {
+                "q": "这个计算结果准确吗？",
+                "a": "是的，我们使用标准公式进行计算。但如果是专业用途（医疗/税务/法律等），请仅作为参考。"
+            },
+            {
+                "q": "我输入的数据会被保存吗？",
+                "a": "不会。所有计算都在您的浏览器本地完成，绝对不会被记录或保存，以保障您的隐私。"
+            }
+        ]
+    }
+},
+    "legal": {
                 "privacy_title": "隐私政策",
                 "terms_title": "服务条款",
                 "close": "关闭",

@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
 
+import CalculatorInfo from '../../CalculatorInfo';
+
 const AgeCalculator = () => {
     const { t } = useTranslation();
     const [birthDate, setBirthDate] = useState('2000-01-01');
@@ -78,6 +80,7 @@ const AgeCalculator = () => {
                     </div>
                 </div>
             </div>
+            <CalculatorInfo calculatorId="age" />
         </div>
     );
 };

@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
 
+import CalculatorInfo from '../../CalculatorInfo';
+
 const GlobalSizeConverter = () => {
     const { t } = useTranslation();
     const [category, setCategory] = useState('shoes');
@@ -204,6 +206,7 @@ const GlobalSizeConverter = () => {
                     </table>
                 </div>
             </div>
+            <CalculatorInfo calculatorId="globalSizeConverter" />
         </div>
     );
 };

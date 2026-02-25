@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
 
+import CalculatorInfo from '../../CalculatorInfo';
+
 const VolumeCalculator = () => {
     const { t } = useTranslation();
     const [shape, setShape] = useState('cube');
@@ -52,6 +54,7 @@ const VolumeCalculator = () => {
                     </div>
                 )}
             </div>
+            <CalculatorInfo calculatorId="volume" />
         </div>
     );
 };

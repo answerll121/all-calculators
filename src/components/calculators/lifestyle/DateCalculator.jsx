@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
 
+import CalculatorInfo from '../../CalculatorInfo';
+
 const DateCalculator = () => {
     const { t } = useTranslation();
     const [baseDate, setBaseDate] = useState(new Date().toISOString().split('T')[0]);
@@ -72,6 +74,7 @@ const DateCalculator = () => {
                     </div>
                 </div>
             </div>
+            <CalculatorInfo calculatorId="date" />
         </div>
     );
 };

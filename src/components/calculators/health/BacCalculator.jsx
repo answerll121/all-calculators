@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
+import CalculatorInfo from '../../CalculatorInfo';
+
 import { Wine, AlertTriangle, Info } from 'lucide-react';
 
 const BacCalculator = () => {
@@ -155,6 +157,7 @@ const BacCalculator = () => {
                     </p>
                 </div>
             </div>
+            <CalculatorInfo calculatorId="bac" />
         </div>
     );
 };

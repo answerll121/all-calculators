@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import { useTranslation } from 'react-i18next';
 
+import CalculatorInfo from '../../CalculatorInfo';
+
 const WHRCalculator = () => {
     const { t } = useTranslation();
     const [waist, setWaist] = useState(80);
@@ -51,6 +53,7 @@ const WHRCalculator = () => {
                     </div>
                 )}
             </div>
+            <CalculatorInfo calculatorId="whr" />
         </div>
     );
 };
