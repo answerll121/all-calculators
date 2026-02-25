@@ -92,7 +92,7 @@ const RealEstateCalculator = () => {
                     </div>
                 )}
             </div>
-            <CalculatorInfo calculatorId="realEstate" />
+            <CalculatorInfo calculatorId="estate" />
         </div>
     );
 };

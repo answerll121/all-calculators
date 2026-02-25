@@ -219,7 +219,7 @@ import AssetChart from '../../common/AssetChart'; const CompoundInterestCalculat
 
                 <HistoryPanel history={history} />
             </div>
-            <CalculatorInfo calculatorId="compoundInterest" />
+            <CalculatorInfo calculatorId="savings" />
         </div>
     );
 };
