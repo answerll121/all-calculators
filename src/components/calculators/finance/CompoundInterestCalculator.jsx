@@ -10,8 +10,9 @@ import AssetChart from '../../common/AssetChart'; const CompoundInterestCalculat
     const { t } = useTranslation();
     const { symbol, formatAmount } = useCurrency();
     const [mode, setMode] = useState('lump'); // 'lump' or 'accum'
+    const [periodType, setPeriodType] = useState('monthly'); // 'monthly' or 'yearly'
     const [principal, setPrincipal] = useState(10000000);
-    const [monthlyDeposit, setMonthlyDeposit] = useState(100000);
+    const [depositAmount, setDepositAmount] = useState(100000);
     const [rate, setRate] = useState(5);
     const [period, setPeriod] = useState(12);
     const [result, setResult] = useState(null);
@@ -20,13 +21,14 @@ import AssetChart from '../../common/AssetChart'; const CompoundInterestCalculat
 
     useEffect(() => {
         calculate(false);
-    }, [mode, principal, monthlyDeposit, rate, period]);
+    }, [mode, periodType, principal, depositAmount, rate, period]);
 
     const calculate = (addToHistory) => {
-        const r = rate / 100 / 12; // Monthly rate
-        const n = parseFloat(period) || 0; // Total months
+        const isMonthly = periodType === 'monthly';
+        const r = isMonthly ? (rate / 100 / 12) : (rate / 100);
+        const n = parseFloat(period) || 0; // Total periods
         const p = parseFloat(principal) || 0;
-        const pmt = parseFloat(monthlyDeposit) || 0;
+        const pmt = parseFloat(depositAmount) || 0;
 
         let finalAmount = 0;
         let totalPrincipal = 0;
@@ -35,7 +37,7 @@ import AssetChart from '../../common/AssetChart'; const CompoundInterestCalculat
         const dataPrincipal = [];
 
         // Generate data points (e.g., every year or every month depending on length)
-        const step = n > 24 ? 12 : 1; // Plot yearly if > 2 years, else monthly
+        const step = isMonthly ? (n > 24 ? 12 : 1) : 1;
 
         for (let i = 0; i <= n; i += step) {
             let fv = 0;
@@ -86,7 +88,7 @@ import AssetChart from '../../common/AssetChart'; const CompoundInterestCalculat
 
         // Chart Data
         setChartData(labels.map((lbl, idx) => ({
-            name: n > 24 ? `${lbl}Y` : `${lbl}M`,
+            name: isMonthly ? (n > 24 ? `${lbl}M` : `${lbl}M`) : `${lbl}Y`,
             total: dataTotal[idx],
             interest: dataTotal[idx] - dataPrincipal[idx],
             principal: dataPrincipal[idx]
@@ -103,7 +105,7 @@ import AssetChart from '../../common/AssetChart'; const CompoundInterestCalculat
 
     const handleReset = () => {
         setPrincipal(10000000);
-        setMonthlyDeposit(100000);
+        setDepositAmount(100000);
         setRate(5);
         setPeriod(12);
     };
@@ -128,6 +130,21 @@ import AssetChart from '../../common/AssetChart'; const CompoundInterestCalculat
                 </button>
             </div>
 
+            <div className="flex p-1 mb-8 bg-gray-100 dark:bg-gray-900/50 rounded-[20px] relative">
+                <button
+                    onClick={() => setPeriodType('monthly')}
+                    className={`flex-1 py-3 rounded-[16px] text-sm font-semibold transition-all duration-300 ${periodType === 'monthly' ? 'bg-white dark:bg-gray-700 shadow-sm text-teal-600 dark:text-teal-400' : 'text-gray-500 hover:text-gray-700 dark:hover:text-gray-300'}`}
+                >
+                    {t('freq_monthly', '월 단위 (Monthly)')}
+                </button>
+                <button
+                    onClick={() => setPeriodType('yearly')}
+                    className={`flex-1 py-3 rounded-[16px] text-sm font-semibold transition-all duration-300 ${periodType === 'yearly' ? 'bg-white dark:bg-gray-700 shadow-sm text-teal-600 dark:text-teal-400' : 'text-gray-500 hover:text-gray-700 dark:hover:text-gray-300'}`}
+                >
+                    {t('freq_yearly', '년 단위 (Yearly)')}
+                </button>
+            </div>
+
             <div className="space-y-6">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <div className="space-y-6">
@@ -140,9 +157,9 @@ import AssetChart from '../../common/AssetChart'; const CompoundInterestCalculat
 
                         {mode === 'accum' && (
                             <NumberInput
-                                label={t('label_monthly_deposit')}
-                                value={monthlyDeposit}
-                                onChange={setMonthlyDeposit}
+                                label={periodType === 'monthly' ? t('label_monthly_deposit', 'Monthly Deposit') : t('label_yearly_deposit', 'Yearly Deposit')}
+                                value={depositAmount}
+                                onChange={setDepositAmount}
                                 unit={symbol}
                             />
                         )}
@@ -157,10 +174,10 @@ import AssetChart from '../../common/AssetChart'; const CompoundInterestCalculat
                                 unit="%"
                             />
                             <NumberInput
-                                label={t('label_period')}
+                                label={periodType === 'monthly' ? t('label_period_months', '기간 (개월)') : t('label_period_years', '기간 (년)')}
                                 value={period}
                                 onChange={setPeriod}
-                                unit={t('units.mo')}
+                                unit={periodType === 'monthly' ? t('units.mo') : t('units.yr')}
                             />
                         </div>
 
