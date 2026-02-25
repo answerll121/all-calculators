@@ -204,11 +204,11 @@ const Home = () => {
                     <div className="max-w-2xl">
                         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-tight break-keep">{t('app_title')}</h1>
                         <p className="text-blue-100 text-base sm:text-lg mb-6 sm:mb-8 opacity-90">{t('hero_subtitle')}</p>
-                        <div className="relative max-w-lg">
+                        <div className="relative max-w-lg z-50">
                             <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={20} />
                             <input
                                 type="text"
-                                placeholder="원하는 계산기를 검색해 보세요"
+                                placeholder={t('search_placeholder', '원하는 계산기를 검색해 보세요')}
                                 value={searchTerm}
                                 onFocus={() => setIsSearchFocused(true)}
                                 onBlur={() => setTimeout(() => setIsSearchFocused(false), 200)}
@@ -216,8 +216,8 @@ const Home = () => {
                                 className="w-full pl-12 pr-4 py-3 sm:py-4 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 text-white placeholder-blue-200 focus:outline-none focus:bg-white/20 transition-all text-base sm:text-lg"
                             />
                             {isSearchFocused && !searchTerm && (
-                                <div className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-gray-800 rounded-2xl shadow-xl border border-gray-100 dark:border-gray-700 overflow-hidden z-20">
-                                    <div className="p-3 text-xs font-semibold text-gray-400 uppercase tracking-wider">{t('label_recent_search', 'Recent')}</div>
+                                <div className="absolute top-full left-0 right-0 mt-2 bg-white dark:bg-gray-800 rounded-2xl shadow-xl border border-gray-100 dark:border-gray-700 overflow-hidden z-50">
+                                    <div className="p-3 text-xs font-semibold text-gray-400 uppercase tracking-wider">{t('label_recent_search', 'Recent Searches')}</div>
                                     {recentSearches.map((term, index) => (
                                         <button key={index} onClick={() => setSearchTerm(term)} className="w-full text-left px-4 py-3 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700 flex items-center gap-2">
                                             {term}
@@ -319,8 +319,8 @@ const Home = () => {
                 {getFilteredCalculators('all').length === 0 && (
                     <div className="text-center py-20">
                         <Search size={48} className="mx-auto text-gray-300 dark:text-gray-600 mb-4" />
-                        <h3 className="text-lg font-medium text-gray-900 dark:text-white">검색 결과가 없습니다</h3>
-                        <p className="text-gray-500 mt-2">다른 검색어로 시도해 보세요.</p>
+                        <h3 className="text-lg font-medium text-gray-900 dark:text-white">{t('msg_no_results', '검색 결과가 없습니다')}</h3>
+                        <p className="text-gray-500 mt-2">{t('msg_try_another', '다른 검색어로 시도해 보세요.')}</p>
                     </div>
                 )}
             </div>

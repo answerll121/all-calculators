@@ -73,6 +73,7 @@ export default {
     "related_tools": "संबंधित उपकरण",
     "min_val_error": "मूल्य सकारात्मक होना चाहिए",
     "max_val_error": "मूल्य बहुत अधिक है",
+    "label_recent_search": "हाल की खोजें",
     "label_bonus": "बोनस नंबर",
     "mode_lump": "एकमुश्त जमा",
     "mode_accum": "मासिक संचय",

@@ -57,6 +57,7 @@ export default {
     "related_tools": "Ferramentas Relacionadas",
     "min_val_error": "Valor deve ser positivo",
     "max_val_error": "Valor muito alto",
+    "label_recent_search": "Pesquisas Recentes",
     "label_bonus": "Número Bônus",
     "mode_lump": "Depósito Único",
     "mode_accum": "Acumulação Mensal",

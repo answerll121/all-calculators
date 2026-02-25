@@ -69,6 +69,7 @@ const enTranslation = {
     "calc_base": "Base Converter",
     "calc_compound": "Compound Interest",
     "history": "Recent History",
+    "label_recent_search": "Recent Searches",
     "copy": "Copy to Clipboard",
     "reset": "Reset",
     "related_tools": "Related Tools",
@@ -642,6 +643,7 @@ const resources = {
             "calc_base": "진수 변환",
             "calc_compound": "거치식/적립식 복리 계산기",
             "history": "최근 계산 내역",
+            "label_recent_search": "최근 검색어",
             "copy": "복사",
             "reset": "초기화",
             "related_tools": "추천 계산기",
@@ -1456,6 +1458,7 @@ const resources = {
             "label_gas_price": "ガソリン価格",
             "label_trip_cost": "予想ガソリン代",
             "label_fuel_needed": "必要燃料",
+            "label_recent_search": "最近の検索",
             "calc_401k": "401(k)計算機",
             "calc_roth_vs_trad": "Roth vs Traditional IRA",
             "label_current_age": "現在の年齢",
@@ -1740,6 +1743,7 @@ const resources = {
             "rel_other": "其他",
             "label_multi_home": "多套房业主",
             "msg_estate_note": "预计购置税",
+            "label_recent_search": "最近搜索",
             "label_weeks_per_year": "遣散费: 每年周数",
             "label_lifetime_used": "终身免税额已用",
             "label_state_tax_rate": "州税率 (%)",
@@ -1975,16 +1979,16 @@ const resources = {
 };
 
 i18n
-.use(initReactI18next)
-// ... (existing content)
-.init({
-    resources,
-    lng: 'en', // default language changed to English
-    fallbackLng: 'en',
-    // ...
-    interpolation: {
-        escapeValue: false
-    }
-});
+    .use(initReactI18next)
+    // ... (existing content)
+    .init({
+        resources,
+        lng: 'en', // default language changed to English
+        fallbackLng: 'en',
+        // ...
+        interpolation: {
+            escapeValue: false
+        }
+    });
 
 export default i18n;
