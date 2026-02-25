@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import {
     Calculator, ArrowRightLeft, Search, TrendingUp, Heart, Sigma, Coffee, Star,
-    Ticket, Ruler, Coins, Activity, Shapes, Calendar, ChevronDown, ChevronUp
+    Ticket, Ruler, Coins, Activity, Shapes, Calendar, ChevronDown, ChevronUp, Clock
 } from 'lucide-react';
 import { useFavorites } from '../context/FavoritesContext';
 import GeneralCalculator from '../components/tools/GeneralCalculator';
@@ -11,7 +11,7 @@ import SEO from '../components/common/SEO';
 
 const Home = () => {
     const { t } = useTranslation();
-    const { favorites, toggleFavorite, isFavorite } = useFavorites();
+    const { favorites, toggleFavorite, isFavorite, recents } = useFavorites();
     const [searchTerm, setSearchTerm] = useState('');
     const [isSearchFocused, setIsSearchFocused] = useState(false);
     const recentSearches = [t('calc_loan'), t('calc_bmi'), t('calc_exchange')];
@@ -25,6 +25,8 @@ const Home = () => {
         { id: 'health', label: t('category_health'), icon: <Activity size={24} className="text-rose-500" />, desc: "Track your body stats", color: "bg-rose-100 dark:bg-rose-900/30", text: "text-rose-600 dark:text-rose-400" },
         { id: 'math', label: t('category_math'), icon: <Shapes size={24} className="text-amber-500" />, desc: "Solve complex problems", color: "bg-amber-100 dark:bg-amber-900/30", text: "text-amber-600 dark:text-amber-400" },
         { id: 'lifestyle', label: t('category_lifestyle'), icon: <Coffee size={24} className="text-indigo-500" />, desc: "Everyday convenience tools", color: "bg-indigo-100 dark:bg-indigo-900/30", text: "text-indigo-600 dark:text-indigo-400" },
+        { id: 'smartfarm', label: t('category_smartfarm', 'Smart Farm'), icon: <Activity size={24} className="text-lime-500" />, desc: "Agriculture & Hydroponics", color: "bg-lime-100 dark:bg-lime-900/30", text: "text-lime-600 dark:text-lime-400" },
+        { id: 'electrical', label: t('category_electrical', 'Electrical'), icon: <Activity size={24} className="text-yellow-500" />, desc: "Electrical Engineering", color: "bg-yellow-100 dark:bg-yellow-900/30", text: "text-yellow-600 dark:text-yellow-400" },
         { id: 'lotto', label: t('category_lotto_main'), icon: <Ticket size={24} className="text-purple-500" />, desc: "Test your luck", color: "bg-purple-100 dark:bg-purple-900/30", text: "text-purple-600 dark:text-purple-400" },
     ];
 
@@ -104,6 +106,14 @@ const Home = () => {
         { id: 'lotto_superenalotto', title: t('calc_superenalotto'), link: '/lotto#lotto_superenalotto', category: 'lotto', icon: <Ticket className="text-purple-500" />, desc: t('desc_lotto_superenalotto'), featured: true },
         { id: 'lotto_megasena', title: t('calc_megasena'), link: '/lotto#lotto_megasena', category: 'lotto', icon: <Ticket className="text-purple-500" />, desc: t('desc_lotto_megasena'), featured: true },
         { id: 'lotto_kerala', title: t('calc_kerala'), link: '/lotto#lotto_kerala', category: 'lotto', icon: <Ticket className="text-purple-500" />, desc: t('desc_lotto_kerala'), featured: true },
+
+        // Smart Farm
+        { id: 'fertilizer', title: t('calc_fertilizer', 'Fertilizer Dilution'), link: '/smartfarm#fertilizer', category: 'smartfarm', icon: <Activity className="text-lime-500" />, desc: t('desc_fertilizer', 'Calculate exact fertilizer amount required'), featured: true },
+        { id: 'vpd', title: t('calc_vpd', 'VPD Calculator'), link: '/smartfarm#vpd', category: 'smartfarm', icon: <Activity className="text-lime-500" />, desc: t('desc_vpd', 'Calculate Vapor Pressure Deficit'), featured: true },
+
+        // Electrical
+        { id: 'ohms_law', title: t('calc_ohms_law', "Ohm's Law"), link: '/electrical#ohms_law', category: 'electrical', icon: <Activity className="text-yellow-500" />, desc: t('desc_ohms_law', 'Calculate Voltage, Current, Resistance, Power'), featured: true },
+        { id: 'voltage_drop', title: t('calc_voltage_drop', 'Voltage Drop & Wire Size'), link: '/electrical#voltage_drop', category: 'electrical', icon: <Activity className="text-yellow-500" />, desc: t('desc_voltage_drop', 'Calculate voltage drop and minimum wire size'), featured: true },
     ];
 
     const getFilteredCalculators = (categoryId) => {
@@ -122,6 +132,25 @@ const Home = () => {
         e.stopPropagation();
         toggleFavorite(id);
     };
+
+    const renderCalculatorCard = (item) => (
+        <Link key={item.id} to={item.link} className="group flex flex-col justify-between p-5 sm:p-6 bg-white dark:bg-gray-800 rounded-[20px] border border-gray-100 dark:border-gray-700 shadow-sm hover:shadow-lg hover:-translate-y-2 hover:border-blue-300 dark:hover:border-blue-500 transition-all duration-300 relative h-full">
+            <div className="absolute top-4 right-4 z-10">
+                <button onClick={(e) => toggleFav(e, item.id)} className="p-2 rounded-full hover:bg-rose-50 dark:hover:bg-rose-900/30 transition-colors">
+                    <Heart size={20} className={isFavorite(item.id) ? "fill-rose-500 text-rose-500" : "text-gray-300 hover:text-rose-400"} />
+                </button>
+            </div>
+            <div>
+                <div className="mb-4">
+                    <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-gray-50 dark:bg-gray-700/50 group-hover:scale-105 transition-transform duration-300">
+                        {item.icon}
+                    </div>
+                </div>
+                <h3 className="text-base sm:text-lg font-bold text-gray-900 dark:text-white mb-2 leading-snug">{item.title}</h3>
+                <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 line-clamp-2 leading-relaxed">{item.desc}</p>
+            </div>
+        </Link>
+    );
 
     // Scroll Spy Logic
     const [activeCategory, setActiveCategory] = useState('');
@@ -162,6 +191,8 @@ const Home = () => {
             else if (cat.id === 'finance') style += "bg-blue-500 border-blue-500 text-white ring-blue-400";
             else if (cat.id === 'health') style += "bg-rose-500 border-rose-500 text-white ring-rose-400";
             else if (cat.id === 'math') style += "bg-amber-500 border-amber-500 text-white ring-amber-400";
+            else if (cat.id === 'smartfarm') style += "bg-lime-500 border-lime-500 text-white ring-lime-400";
+            else if (cat.id === 'electrical') style += "bg-yellow-500 border-yellow-500 text-white ring-yellow-400";
             else if (cat.id === 'lifestyle') style += "bg-indigo-500 border-indigo-500 text-white ring-indigo-400";
             else if (cat.id === 'lotto') style += "bg-purple-500 border-purple-500 text-white ring-purple-400";
         } else {
@@ -171,6 +202,8 @@ const Home = () => {
             else if (cat.id === 'finance') style += "border-blue-200 text-blue-600 dark:border-blue-900/50 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20";
             else if (cat.id === 'health') style += "border-rose-200 text-rose-600 dark:border-rose-900/50 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20";
             else if (cat.id === 'math') style += "border-amber-200 text-amber-600 dark:border-amber-900/50 dark:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20";
+            else if (cat.id === 'smartfarm') style += "border-lime-200 text-lime-600 dark:border-lime-900/50 dark:text-lime-400 hover:bg-lime-50 dark:hover:bg-lime-900/20";
+            else if (cat.id === 'electrical') style += "border-yellow-200 text-yellow-600 dark:border-yellow-900/50 dark:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-yellow-900/20";
             else if (cat.id === 'lifestyle') style += "border-indigo-200 text-indigo-600 dark:border-indigo-900/50 dark:text-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-900/20";
             else if (cat.id === 'lotto') style += "border-purple-200 text-purple-600 dark:border-purple-900/50 dark:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-900/20";
         }
@@ -276,6 +309,61 @@ const Home = () => {
 
             {/* Category Sections */}
             <div className="space-y-16 pb-8">
+
+                {/* My Custom Tools Dashboard */}
+                {searchTerm === '' && (
+                    <div className="space-y-8 pb-8 pt-4">
+                        {(favorites.length > 0 || recents.length > 0) ? (
+                            <section id="custom-tools" className="scroll-mt-24 lg:scroll-mt-28">
+                                <div className="flex items-center gap-4 mb-6">
+                                    <div className="p-3 sm:p-4 rounded-xl bg-rose-100 text-rose-500 dark:bg-rose-900/30 dark:text-rose-400 shadow-sm">
+                                        <Heart size={24} className="fill-rose-500 dark:fill-rose-400" />
+                                    </div>
+                                    <div>
+                                        <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white">{t('label_custom_tools', '내 맞춤 툴')}</h2>
+                                        <p className="text-gray-500 dark:text-gray-400 text-xs sm:text-sm mt-1">{t('desc_custom_tools', '자주 쓰는 계산기를 빠르게 이용하세요.')}</p>
+                                    </div>
+                                </div>
+
+                                {favorites.length > 0 && (
+                                    <div className="mb-8 bg-rose-50/50 dark:bg-rose-900/10 p-6 rounded-3xl border border-rose-100 dark:border-rose-900/40">
+                                        <h3 className="text-lg font-bold text-rose-700 dark:text-rose-300 mb-4 flex items-center gap-2">
+                                            <Heart size={18} className="fill-current" />
+                                            {t('label_favorites', '내 즐겨찾기')}
+                                        </h3>
+                                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+                                            {favorites.map(favId => {
+                                                const item = allCalculators.find(c => c.id === favId);
+                                                return item ? renderCalculatorCard(item) : null;
+                                            })}
+                                        </div>
+                                    </div>
+                                )}
+
+                                {recents.length > 0 && (
+                                    <div className="bg-blue-50/50 dark:bg-blue-900/10 p-6 rounded-3xl border border-blue-100 dark:border-blue-900/40">
+                                        <h3 className="text-lg font-bold text-blue-700 dark:text-blue-300 mb-4 flex items-center gap-2">
+                                            <Clock size={18} />
+                                            {t('label_recents', '최근 본 계산기')}
+                                        </h3>
+                                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+                                            {recents.map(recId => {
+                                                const item = allCalculators.find(c => c.id === recId);
+                                                return item ? renderCalculatorCard(item) : null;
+                                            })}
+                                        </div>
+                                    </div>
+                                )}
+                            </section>
+                        ) : (
+                            <section className="bg-rose-50 dark:bg-rose-900/10 rounded-[32px] p-8 sm:p-12 text-center border border-rose-100 dark:border-rose-900/30 flex flex-col items-center justify-center">
+                                <Heart size={48} className="text-rose-300 dark:text-rose-700 mb-4 animate-bounce duration-1000" />
+                                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{t('msg_no_favorites', '자주 쓰는 계산기에 하트를 눌러보세요!')}</h3>
+                                <p className="text-gray-500 dark:text-gray-400 max-w-md mx-auto">{t('msg_no_favorites_desc', '하트를 누르면 이 공간에 추가되어 언제든 편하게 열어볼 수 있습니다.')}</p>
+                            </section>
+                        )}
+                    </div>
+                )}
                 {categories.map(cat => {
                     const items = getFilteredCalculators(cat.id);
                     if (items.length === 0) return null; // Hide category if no matches from search
@@ -293,24 +381,7 @@ const Home = () => {
                             </div>
 
                             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
-                                {items.map(item => (
-                                    <Link key={item.id} to={item.link} className="group flex flex-col justify-between p-5 sm:p-6 bg-white dark:bg-gray-800 rounded-[20px] border border-gray-100 dark:border-gray-700 shadow-sm hover:shadow-lg hover:-translate-y-2 hover:border-blue-300 dark:hover:border-blue-500 transition-all duration-300 relative h-full">
-                                        <div className="absolute top-4 right-4 z-10">
-                                            <button onClick={(e) => toggleFav(e, item.id)} className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
-                                                <Star size={18} className={isFavorite(item.id) ? "fill-yellow-400 text-yellow-400" : "text-gray-300 hover:text-yellow-400"} />
-                                            </button>
-                                        </div>
-                                        <div>
-                                            <div className="mb-4">
-                                                <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-gray-50 dark:bg-gray-700/50 group-hover:scale-105 transition-transform duration-300">
-                                                    {item.icon}
-                                                </div>
-                                            </div>
-                                            <h3 className="text-base sm:text-lg font-bold text-gray-900 dark:text-white mb-2 leading-snug">{item.title}</h3>
-                                            <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 line-clamp-2 leading-relaxed">{item.desc}</p>
-                                        </div>
-                                    </Link>
-                                ))}
+                                {items.map(item => renderCalculatorCard(item))}
                             </div>
                         </section>
                     );

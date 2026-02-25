@@ -11,6 +11,8 @@ const HealthCalculator = lazy(() => import('./pages/HealthCalculator'));
 const MathCalculator = lazy(() => import('./pages/MathCalculator'));
 const LifestyleCalculator = lazy(() => import('./pages/LifestyleCalculator'));
 const LottoPage = lazy(() => import('./pages/LottoPage'));
+const SmartFarmCalculator = lazy(() => import('./pages/SmartFarmCalculator'));
+const ElectricalCalculator = lazy(() => import('./pages/ElectricalCalculator'));
 
 const LoadingFallback = () => (
   <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900">
@@ -32,6 +34,8 @@ function App() {
             <Route path="health" element={<HealthCalculator />} />
             <Route path="math" element={<MathCalculator />} />
             <Route path="lifestyle" element={<LifestyleCalculator />} />
+            <Route path="smartfarm" element={<SmartFarmCalculator />} />
+            <Route path="electrical" element={<ElectricalCalculator />} />
           </Route>
         </Routes>
       </Suspense>

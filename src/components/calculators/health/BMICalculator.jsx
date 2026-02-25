@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import NumberInput from '../../common/NumberInput';
 import ResultCard from '../../common/ResultCard';
 import HistoryPanel from '../../common/HistoryPanel';
+import GaugeBar from '../../common/GaugeBar';
 
 const BMICalculator = () => {
     const { t } = useTranslation();
@@ -33,7 +34,9 @@ const BMICalculator = () => {
 
         setResult({
             bmi: formattedBMI,
-            status: status
+            status: status,
+            numericBmi: bmi,
+            statusKey: statusKey
         });
 
         if (addToHistory) {
@@ -69,17 +72,30 @@ const BMICalculator = () => {
                 <button onClick={() => calculate(true)} className="w-full py-5 md:py-4 bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-600 hover:to-green-700 text-white font-bold rounded-[24px] shadow-lg shadow-emerald-500/30 transition-all hover:-translate-y-0.5 active:scale-[0.98]">{t('label_calculate')}</button>
 
                 {result && (
-                    <ResultCard
-                        title={t('title_bmi_result')}
-                        value={result.bmi}
-                        unit=""
-                        subText={t('subtext_bmi', { status: result.status })}
-                        onReset={handleReset}
-                        relatedLinks={[
-                            { label: t('calc_ideal_weight'), url: '/health' },
-                            { label: t('calc_bmr'), url: '/health' }
-                        ]}
-                    />
+                    <div className="flex flex-col gap-2">
+                        <ResultCard
+                            title={t('title_bmi_result')}
+                            value={result.bmi}
+                            unit=""
+                            subText={t('subtext_bmi', { status: result.status })}
+                            onReset={handleReset}
+                            relatedLinks={[
+                                { label: t('calc_ideal_weight'), url: '/health' },
+                                { label: t('calc_bmr'), url: '/health' }
+                            ]}
+                        />
+                        <GaugeBar
+                            value={result.numericBmi}
+                            min={10}
+                            max={40}
+                            zones={[
+                                { limit: 18.5, color: 'bg-blue-400', label: t('status_underweight') },
+                                { limit: 23, color: 'bg-emerald-400', label: t('status_normal') },
+                                { limit: 25, color: 'bg-yellow-400', label: t('status_overweight') },
+                                { limit: 40, color: 'bg-rose-500', label: t('status_obese') }
+                            ]}
+                        />
+                    </div>
                 )}
                 <HistoryPanel history={history} />
             </div>

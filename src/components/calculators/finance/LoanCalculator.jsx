@@ -6,6 +6,7 @@ import HistoryPanel from '../../common/HistoryPanel';
 import { useCurrency } from '../../../context/CurrencyContext';
 import CalculatorTitle from '../../common/CalculatorTitle';
 import CalculatorInfo from '../../common/CalculatorInfo';
+import AssetChart from '../../common/AssetChart';
 
 const LoanCalculator = () => {
     const { t } = useTranslation();
@@ -16,6 +17,7 @@ const LoanCalculator = () => {
     const [repaymentMethod, setRepaymentMethod] = useState('equal_principal_interest');
     const [result, setResult] = useState(null);
     const [history, setHistory] = useState([]);
+    const [chartData, setChartData] = useState(null);
 
     useEffect(() => {
         calculate(false);
@@ -44,6 +46,35 @@ const LoanCalculator = () => {
             // First month payment = Principal + Interest on full amount
             firstMonthPayment = monthlyPrincipal + (amount * r);
         }
+
+        const generatedChartData = [];
+        let currentPrincipal = amount;
+        let accumulatedInterest = 0;
+        const step = months > 24 ? 12 : 1;
+
+        for (let i = 1; i <= months; i++) {
+            let monthlyInterest = currentPrincipal * r;
+            let principalPayment = 0;
+
+            if (repaymentMethod === 'equal_principal_interest') {
+                principalPayment = monthlyPayment - monthlyInterest;
+            } else {
+                principalPayment = amount / months;
+            }
+
+            currentPrincipal -= principalPayment;
+            accumulatedInterest += monthlyInterest;
+
+            if (i % step === 0 || i === months) {
+                generatedChartData.push({
+                    name: step === 12 ? `${i / 12}Y` : `${i}M`,
+                    principal: Math.round(amount - currentPrincipal),
+                    remaining: Math.round(currentPrincipal > 0 ? currentPrincipal : 0),
+                    interest: Math.round(accumulatedInterest)
+                });
+            }
+        }
+        setChartData(generatedChartData);
 
         const formattedMonthly = new Intl.NumberFormat().format(Math.round(firstMonthPayment));
 
@@ -126,14 +157,29 @@ const LoanCalculator = () => {
                 </button>
 
                 {result && (
-                    <ResultCard
-                        title={result.isVariable ? t('label_first_month_payment') : t('label_monthly_payment')}
-                        value={result.monthly}
-                        unit={symbol}
-                        subText={`${t('label_total_interest')}: ${result.interest} ${symbol}`}
-                        onReset={handleReset}
-                        relatedLinks={[{ label: t('calc_salary'), url: '/finance' }]}
-                    />
+                    <div className="flex flex-col gap-6">
+                        <ResultCard
+                            title={result.isVariable ? t('label_first_month_payment') : t('label_monthly_payment')}
+                            value={result.monthly}
+                            unit={symbol}
+                            subText={`${t('label_total_interest')}: ${result.interest} ${symbol}`}
+                            onReset={handleReset}
+                            relatedLinks={[{ label: t('calc_salary'), url: '/finance' }]}
+                        />
+                        {chartData && (
+                            <div className="bg-gray-50 dark:bg-gray-700/30 rounded-2xl p-4 mt-2">
+                                <AssetChart
+                                    data={chartData}
+                                    type="stacked-bar"
+                                    dataKeys={[
+                                        { key: 'principal', name: t('label_principal_paid') || 'Principal Paid', color: '#3b82f6' },
+                                        { key: 'interest', name: t('label_interest'), color: '#f43f5e' }
+                                    ]}
+                                    valueFormatter={(val) => new Intl.NumberFormat().format(Math.round(val))}
+                                />
+                            </div>
+                        )}
+                    </div>
                 )}
 
                 <HistoryPanel history={history} />

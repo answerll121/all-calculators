@@ -6,9 +6,7 @@ import HistoryPanel from '../../common/HistoryPanel';
 import { useCurrency } from '../../../context/CurrencyContext';
 import CalculatorTitle from '../../common/CalculatorTitle';
 
-const FinancialChart = React.lazy(() => import('../../common/FinancialChart'));
-
-const CompoundInterestCalculator = () => {
+import AssetChart from '../../common/AssetChart'; const CompoundInterestCalculator = () => {
     const { t } = useTranslation();
     const { symbol, formatAmount } = useCurrency();
     const [mode, setMode] = useState('lump'); // 'lump' or 'accum'
@@ -87,27 +85,12 @@ const CompoundInterestCalculator = () => {
         });
 
         // Chart Data
-        setChartData({
-            labels: labels,
-            datasets: [
-                {
-                    label: t('label_total_balance'),
-                    data: dataTotal,
-                    borderColor: 'rgb(59, 130, 246)',
-                    backgroundColor: 'rgba(59, 130, 246, 0.1)',
-                    fill: true,
-                    tension: 0.4
-                },
-                {
-                    label: t('label_principal'),
-                    data: dataPrincipal,
-                    borderColor: 'rgb(156, 163, 175)',
-                    backgroundColor: 'transparent',
-                    borderDash: [5, 5],
-                    tension: 0.4
-                }
-            ]
-        });
+        setChartData(labels.map((lbl, idx) => ({
+            name: n > 24 ? `${lbl}Y` : `${lbl}M`,
+            total: dataTotal[idx],
+            interest: dataTotal[idx] - dataPrincipal[idx],
+            principal: dataPrincipal[idx]
+        })));
 
 
         if (addToHistory && resAmount > 0) {
@@ -125,29 +108,6 @@ const CompoundInterestCalculator = () => {
         setPeriod(12);
     };
 
-    const chartOptions = {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-            legend: { position: 'top' },
-            tooltip: {
-                callbacks: {
-                    label: function (context) {
-                        return context.dataset.label + ': ' + formatAmount(context.parsed.y, true);
-                    }
-                }
-            }
-        },
-        scales: {
-            y: {
-                ticks: {
-                    callback: function (value) {
-                        return formatAmount(value, true);
-                    }
-                }
-            }
-        }
-    };
 
     return (
         <div className="p-8 bg-white dark:bg-gray-800 rounded-[32px] shadow-[var(--shadow-soft)] border border-gray-100 dark:border-gray-700">
@@ -223,10 +183,16 @@ const CompoundInterestCalculator = () => {
                             />
                         )}
                         {chartData && (
-                            <div className="h-64 bg-gray-50 dark:bg-gray-700/30 rounded-2xl p-4">
-                                <React.Suspense fallback={<div className="h-full flex items-center justify-center text-gray-400">Loading Chart...</div>}>
-                                    <FinancialChart options={chartOptions} data={chartData} />
-                                </React.Suspense>
+                            <div className="bg-gray-50 dark:bg-gray-700/30 rounded-2xl p-4">
+                                <AssetChart
+                                    data={chartData}
+                                    type="stacked-bar"
+                                    dataKeys={[
+                                        { key: 'principal', name: t('label_principal'), color: '#3b82f6' },
+                                        { key: 'interest', name: t('label_interest'), color: '#10b981' }
+                                    ]}
+                                    valueFormatter={(val, isAxis) => formatAmount(val, isAxis)}
+                                />
                             </div>
                         )}
                     </div>

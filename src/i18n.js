@@ -5,6 +5,7 @@ import deTranslation from './locales/de.js';
 import ptTranslation from './locales/pt.js';
 import arTranslation from './locales/ar.js';
 import hiTranslation from './locales/hi.js';
+import { seoTranslations } from './locales/seoLocales.js';
 
 const enTranslation = {
     "app_title": "All Calculators",
@@ -1977,6 +1978,12 @@ const resources = {
     ar: { translation: arTranslation },
     hi: { translation: hiTranslation }
 };
+
+Object.keys(seoTranslations).forEach(lang => {
+    if (resources[lang] && resources[lang].translation) {
+        Object.assign(resources[lang].translation, seoTranslations[lang]);
+    }
+});
 
 i18n
     .use(initReactI18next)

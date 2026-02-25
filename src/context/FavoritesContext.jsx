@@ -1,27 +1,13 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext } from 'react';
+import useLocalStorage from '../hooks/useLocalStorage';
 
 const FavoritesContext = createContext();
 
 export const useFavorites = () => useContext(FavoritesContext);
 
 export const FavoritesProvider = ({ children }) => {
-    const [favorites, setFavorites] = useState(() => {
-        try {
-            const saved = localStorage.getItem('calcu_favorites');
-            return saved ? JSON.parse(saved) : [];
-        } catch (e) {
-            console.error('Failed to load favorites', e);
-            return [];
-        }
-    });
-
-    useEffect(() => {
-        try {
-            localStorage.setItem('calcu_favorites', JSON.stringify(favorites));
-        } catch (e) {
-            console.error('Failed to save favorites', e);
-        }
-    }, [favorites]);
+    const [favorites, setFavorites] = useLocalStorage('calcu_favorites', []);
+    const [recents, setRecents] = useLocalStorage('calcu_recents', []);
 
     const toggleFavorite = (id) => {
         setFavorites(prev => {
@@ -35,8 +21,16 @@ export const FavoritesProvider = ({ children }) => {
 
     const isFavorite = (id) => favorites.includes(id);
 
+    const addRecent = (id) => {
+        if (!id) return;
+        setRecents(prev => {
+            const filtered = prev.filter(r => r !== id);
+            return [id, ...filtered].slice(0, 5); // Max 5 recent calculators
+        });
+    };
+
     return (
-        <FavoritesContext.Provider value={{ favorites, toggleFavorite, isFavorite }}>
+        <FavoritesContext.Provider value={{ favorites, toggleFavorite, isFavorite, recents, addRecent }}>
             {children}
         </FavoritesContext.Provider>
     );
