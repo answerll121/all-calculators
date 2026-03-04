@@ -28,10 +28,10 @@ const TimeDifferenceCalculator = () => {
         const tomorrow = new Date(now);
         tomorrow.setDate(tomorrow.getDate() + 1);
 
-        // Format to YYYY-MM-DDTHH:mm for input[type="datetime-local"]
+        // Format to YYYY-MM-DDTHH:mm:ss for input[type="datetime-local"]
         const formatDateTime = (date) => {
             const tzoffset = (new Date()).getTimezoneOffset() * 60000;
-            const localISOTime = (new Date(date - tzoffset)).toISOString().slice(0, 16);
+            const localISOTime = (new Date(date - tzoffset)).toISOString().slice(0, 19);
             return localISOTime;
         };
 
@@ -68,7 +68,12 @@ const TimeDifferenceCalculator = () => {
         let days = d2.getDate() - d1.getDate();
         let hours = d2.getHours() - d1.getHours();
         let minutes = d2.getMinutes() - d1.getMinutes();
+        let seconds = d2.getSeconds() - d1.getSeconds();
 
+        if (seconds < 0) {
+            seconds += 60;
+            minutes--;
+        }
         if (minutes < 0) {
             minutes += 60;
             hours--;
@@ -89,7 +94,7 @@ const TimeDifferenceCalculator = () => {
         }
 
         const newResult = {
-            years, months, days, hours, minutes, isNegative,
+            years, months, days, hours, minutes, seconds, isNegative,
             startStr: start.toLocaleString(),
             endStr: end.toLocaleString()
         };
@@ -107,7 +112,7 @@ const TimeDifferenceCalculator = () => {
         const now = new Date();
         const formatDateTime = (date) => {
             const tzoffset = (new Date()).getTimezoneOffset() * 60000;
-            const localISOTime = (new Date(date - tzoffset)).toISOString().slice(0, 16);
+            const localISOTime = (new Date(date - tzoffset)).toISOString().slice(0, 19);
             return localISOTime;
         };
         setStartDate(formatDateTime(now));
@@ -140,6 +145,7 @@ const TimeDifferenceCalculator = () => {
                             </label>
                             <input
                                 type="datetime-local"
+                                step="1"
                                 value={startDate}
                                 onChange={(e) => setStartDate(e.target.value)}
                                 className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700/50 border border-gray-200 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-indigo-500 text-gray-900 dark:text-white transition-all text-lg"
@@ -151,6 +157,7 @@ const TimeDifferenceCalculator = () => {
                             </label>
                             <input
                                 type="datetime-local"
+                                step="1"
                                 value={endDate}
                                 onChange={(e) => setEndDate(e.target.value)}
                                 className="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700/50 border border-gray-200 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-indigo-500 text-gray-900 dark:text-white transition-all text-lg"
@@ -183,13 +190,14 @@ const TimeDifferenceCalculator = () => {
                                 {t('result', 'Result')}
                                 {result.isNegative && " (Past)"}
                             </h3>
-                            <div className="grid grid-cols-2 lg:grid-cols-5 gap-3">
+                            <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-3">
                                 {[
                                     { label: t('label_diff_years', 'Years'), value: result.years, color: 'text-rose-600 bg-rose-50 dark:bg-rose-900/20' },
                                     { label: t('label_diff_months', 'Months'), value: result.months, color: 'text-amber-600 bg-amber-50 dark:bg-amber-900/20' },
                                     { label: t('label_diff_days', 'Days'), value: result.days, color: 'text-emerald-600 bg-emerald-50 dark:bg-emerald-900/20' },
                                     { label: t('label_diff_hours', 'Hours'), value: result.hours, color: 'text-blue-600 bg-blue-50 dark:bg-blue-900/20' },
                                     { label: t('label_diff_minutes', 'Minutes'), value: result.minutes, color: 'text-indigo-600 bg-indigo-50 dark:bg-indigo-900/20' },
+                                    { label: t('label_diff_seconds', 'Seconds'), value: result.seconds, color: 'text-purple-600 bg-purple-50 dark:bg-purple-900/20' },
                                 ].map((item, index) => (
                                     <div key={index} className={`flex flex-col items-center justify-center p-4 rounded-2xl ${item.color}`}>
                                         <span className="text-3xl font-black">{item.value}</span>
@@ -229,8 +237,9 @@ const TimeDifferenceCalculator = () => {
                                     {h.months > 0 && `${h.months}${t('label_diff_months', 'M')} `}
                                     {h.days > 0 && `${h.days}${t('label_diff_days', 'D')} `}
                                     {h.hours > 0 && `${h.hours}${t('label_diff_hours', 'h')} `}
-                                    {h.minutes > 0 && `${h.minutes}${t('label_diff_minutes', 'm')}`}
-                                    {h.years === 0 && h.months === 0 && h.days === 0 && h.hours === 0 && h.minutes === 0 && "0"}
+                                    {h.minutes > 0 && `${h.minutes}${t('label_diff_minutes', 'm')} `}
+                                    {h.seconds > 0 && `${h.seconds}${t('label_diff_seconds', 's')}`}
+                                    {h.years === 0 && h.months === 0 && h.days === 0 && h.hours === 0 && h.minutes === 0 && h.seconds === 0 && "0"}
                                 </span>
                             </div>
                         ))}
