@@ -84,6 +84,7 @@ const Home = () => {
         { id: 'base', title: t('calc_base'), link: '/math#base', category: 'math', icon: <Sigma className="text-amber-500" />, desc: 'Base Converter', featured: false },
 
         // Lifestyle
+        { id: 'time_diff', title: t('calc_time_diff', 'Time Difference Calendar'), link: '/lifestyle#time_diff', category: 'lifestyle', icon: <Clock className="text-indigo-500" />, desc: t('desc_time_diff'), featured: true },
         { id: 'age', title: t('calc_age'), link: '/lifestyle#age', category: 'lifestyle', icon: <Coffee className="text-indigo-500" />, desc: 'International Age', featured: true },
         { id: 'pet_age', title: t('calc_pet_age'), link: '/lifestyle#pet_age', category: 'lifestyle', icon: <Coffee className="text-indigo-500" />, desc: 'Pet Age (Dog/Cat)', featured: true },
         { id: 'dutch', title: t('calc_dutch'), link: '/lifestyle#dutch', category: 'lifestyle', icon: <Coffee className="text-indigo-500" />, desc: 'Dutch Pay / Split Bill', featured: true },

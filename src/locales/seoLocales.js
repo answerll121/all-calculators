@@ -30,7 +30,8 @@ export const seoTranslations = {
         "seo_desc_ohms_law": "전압(V), 전류(I), 저항(R), 전력(P) 중 두 가지 값을 입력하면 나머지 전기 물리량을 자동으로 계산하는 엔지니어용 필수 툴입니다.",
         "seo_desc_voltage_drop": "공급 전압, 부하 전류, 거리를 입력하면 규정에 맞는 최소 전선 굵기(SQ)와 전압 강하율을 도출해 줍니다.",
         "seo_desc_fertilizer": "식물 영양제나 농약 살포 시, 필요한 물의 양과 목표 희석 배수(예: 500배)에 맞춰 정확한 비료 투입량을 계산합니다.",
-        "seo_desc_vpd": "온도와 상대습도를 입력하여 식물 생장에 가장 중요한 지표인 수분 결핍차(VPD)를 측정하고, 현재 하우스 환경을 진단합니다."
+        "seo_desc_vpd": "온도와 상대습도를 입력하여 식물 생장에 가장 중요한 지표인 수분 결핍차(VPD)를 측정하고, 현재 하우스 환경을 진단합니다.",
+        "seo_desc_time": "시작일과 종료일(시간 포함)을 입력하여 년, 월, 일, 시간, 분 단위의 정밀한 시간 차이를 계산합니다."
     },
     en: {
         "fallback_desc": "Calculate your {{title}} effortlessly. This free online tool delivers fast, accurate results to help you manage your daily metrics without any sign-up.",
@@ -61,7 +62,8 @@ export const seoTranslations = {
         "seo_desc_ohms_law": "Calculate Voltage, Current, Resistance, or Power by simply entering two values. An essential tool for engineers.",
         "seo_desc_voltage_drop": "Calculate the minimum required wire size (SQ) and expected voltage drop by entering supply voltage, load current, and distance.",
         "seo_desc_fertilizer": "Determine the exact amount of fertilizer needed based on your target water volume and dilution ratio.",
-        "seo_desc_vpd": "Calculate Vapor Pressure Deficit (VPD) by entering temperature and humidity to diagnose your greenhouse environment."
+        "seo_desc_vpd": "Calculate Vapor Pressure Deficit (VPD) by entering temperature and humidity to diagnose your greenhouse environment.",
+        "seo_desc_time": "Enter start and end dates (including time) to precisely calculate the difference in years, months, days, hours, and minutes."
     },
     ja: {
         "fallback_desc": "この{{title}}ツールは、日常の複雑な数値を素早く正確に計算します。登録不要で誰でも無料で利用できる多目的オンライン計算機です。",
@@ -92,7 +94,8 @@ export const seoTranslations = {
         "seo_desc_ohms_law": "電圧・電流・抵抗・電力のうち2つを入力すると、残りの電気物理量を自動計算する必須ツールです。",
         "seo_desc_voltage_drop": "供給電圧、負荷電流、距離を入力すると、規定に合った最小電線太さ(SQ)と電圧降下率を計算します。",
         "seo_desc_fertilizer": "植物の栄養剤や農薬を散布する際、水量と希釈倍数に合わせて正確な肥料の量を計算します。",
-        "seo_desc_vpd": "温度と湿度を入力して植物の成長に最も重要な水蒸気圧赤字(VPD)を測定・診断します。"
+        "seo_desc_vpd": "温度と湿度を入力して植物の成長に最も重要な水蒸気圧赤字(VPD)を測定・診断します。",
+        "seo_desc_time": "開始日時と終了日時を入力して、年、月、日、時間、分単位の正確な時間差を計算します。"
     },
     zh: {
         "fallback_desc": "这款{{title}}工具助您快速、精准地解决复杂的日常数字挑战。免注册，完全免费的在线多功能计算器。",
@@ -123,7 +126,8 @@ export const seoTranslations = {
         "seo_desc_ohms_law": "电气工程师必备工具：输入电压、电流、电阻、功率中的任意两个值，自动计算出其余两个物理量。",
         "seo_desc_voltage_drop": "输入供电电压、负载电流和距离，计算出符合规定的最小电线截面积（SQ）及电压降百分比。",
         "seo_desc_fertilizer": "在施用植物营养液或农药时，根据目标水量和稀释倍数（例如：500倍），准确计算所需的肥料量。",
-        "seo_desc_vpd": "输入温度和相对湿度，测量对植物生长至关重要的饱和水汽压差（VPD），并诊断当前温室环境是否处于最佳状态。"
+        "seo_desc_vpd": "输入温度和相对湿度，测量对植物生长至关重要的饱和水汽压差（VPD），并诊断当前温室环境是否处于最佳状态。",
+        "seo_desc_time": "输入开始和结束日期（包括时间），精确计算年、月、日、小时和分钟的差异。"
     },
     de: {
         "fallback_desc": "Berechnen Sie {{title}} mühelos. Dieses kostenlose Online-Tool liefert schnelle und genaue Ergebnisse, um Ihre Daten ohne Anmeldung zu verwalten.",
@@ -154,7 +158,8 @@ export const seoTranslations = {
         "seo_desc_ohms_law": "Berechnen Sie Spannung, Strom, Widerstand oder Leistung durch Eingabe von nur zwei Werten.",
         "seo_desc_voltage_drop": "Berechnen Sie den minimal erforderlichen Kabelquerschnitt (SQ) und den zu erwartenden Spannungsabfall.",
         "seo_desc_fertilizer": "Bestimmen Sie die genaue Menge des benötigten Düngers basierend auf Wassermenge und Verdünnungsverhältnis.",
-        "seo_desc_vpd": "Berechnen Sie das Dampfdruckdefizit (VPD) durch Eingabe von Temperatur und Luftfeuchtigkeit."
+        "seo_desc_vpd": "Berechnen Sie das Dampfdruckdefizit (VPD) durch Eingabe von Temperatur und Luftfeuchtigkeit.",
+        "seo_desc_time": "Geben Sie Start- und Enddatum ein, um die Differenz in Jahren, Monaten, Tagen, Stunden und Minuten genau zu berechnen."
     },
     es: {
         "fallback_desc": "Calcule su {{title}} sin esfuerzo. Esta herramienta en línea gratuita ofrece resultados rápidos y precisos sin necesidad de registrarse.",
@@ -185,7 +190,8 @@ export const seoTranslations = {
         "seo_desc_ohms_law": "Calcule el Voltaje, Corriente, Resistencia o Potencia ingresando solo dos valores. Una herramienta esencial.",
         "seo_desc_voltage_drop": "Calcule el tamaño mínimo de cable requerido y la caída de voltaje esperada.",
         "seo_desc_fertilizer": "Determine la cantidad exacta de fertilizante necesaria en función de la proporción de dilución.",
-        "seo_desc_vpd": "Calcule el Déficit de Presión de Vapor (VPD) ingresando temperatura y humedad."
+        "seo_desc_vpd": "Calcule el Déficit de Presión de Vapor (VPD) ingresando temperatura y humedad.",
+        "seo_desc_time": "Ingrese las fechas de inicio y fin para calcular con precisión la diferencia en años, meses, días, horas y minutos."
     },
     pt: {
         "fallback_desc": "Calcule seu {{title}} sem esforço. Esta ferramenta online gratuita oferece resultados rápidos e precisos sem necessidade de registro.",
@@ -216,7 +222,8 @@ export const seoTranslations = {
         "seo_desc_ohms_law": "Calcule Tensão, Corrente, Resistência ou Potência inserindo apenas dois valores.",
         "seo_desc_voltage_drop": "Calcule o tamanho mínimo do cabo (SQ) e a queda de tensão prevista.",
         "seo_desc_fertilizer": "Determine a quantidade exata de fertilizante necessária com base na sua proporção de diluição.",
-        "seo_desc_vpd": "Calcule o Déficit de Pressão de Vapor (VPD) para diagnosticar o ambiente da sua estufa."
+        "seo_desc_vpd": "Calcule o Déficit de Pressão de Vapor (VPD) para diagnosticar o ambiente da sua estufa.",
+        "seo_desc_time": "Insira as datas de início e término para calcular com precisão a diferença em anos, meses, dias, horas e minutos."
     },
     ar: {
         "fallback_desc": "احسب {{title}} بسهولة. توفر هذه الأداة المجانية نتائج سريعة ودقيقة عبر الإنترنت لمساعدتك دون الحاجة إلى التسجيل.",
@@ -247,7 +254,8 @@ export const seoTranslations = {
         "seo_desc_ohms_law": "احسب الجهد أو التيار أو المقاومة أو الطاقة ببساطة عن طريق إدخال قيمتين.",
         "seo_desc_voltage_drop": "احسب الحد الأدنى لحجم السلك المطلوب (SQ) وهبوط الجهد المتوقع.",
         "seo_desc_fertilizer": "حدد الكمية الدقيقة من الأسمدة اللازمة بناءً على حجم المياه ونسبة التخفيف.",
-        "seo_desc_vpd": "احسب عجز ضغط البخار (VPD) لتشخيص بيئة الدفيئة الخاصة بك."
+        "seo_desc_vpd": "احسب عجز ضغط البخار (VPD) لتشخيص بيئة الدفيئة الخاصة بك.",
+        "seo_desc_time": "أدخل تواريخ البدء والانتهاء (بما في ذلك الوقت) لحساب الفرق بدقة بالسنوات والأشهر والأيام والساعات والدقائق."
     },
     hi: {
         "fallback_desc": "अपने {{title}} की आसानी से गणना करें। यह मुफ्त ऑनलाइन उपकरण बिना किसी साइन-अप के तेज और सटीक परिणाम प्रदान करता है।",
@@ -278,6 +286,7 @@ export const seoTranslations = {
         "seo_desc_ohms_law": "केवल दो मान दर्ज करके वोल्टेज, करंट, प्रतिरोध या शक्ति की गणना करें।",
         "seo_desc_voltage_drop": "आपूर्ति वोल्टेज, लोड करंट और दूरी दर्ज करके आवश्यक न्यूनतम वायर आकार और वोल्टेज ड्रॉप की गणना करें।",
         "seo_desc_fertilizer": "अपने पानी की मात्रा और कमजोर पड़ने के अनुपात के आधार पर आवश्यक उर्वरक की सटीक मात्रा निर्धारित करें।",
-        "seo_desc_vpd": "अपने ग्रीनहाउस पर्यावरण का निदान करने के लिए तापमान और आर्द्रता दर्ज करके वाष्प दबाव की कमी (VPD) की गणना करें।"
+        "seo_desc_vpd": "अपने ग्रीनहाउस पर्यावरण का निदान करने के लिए तापमान और आर्द्रता दर्ज करके वाष्प दबाव की कमी (VPD) की गणना करें।",
+        "seo_desc_time": "वर्षों, महीनों, दिनों, घंटों और मिनटों में अंतर की सटीक गणना करने के लिए प्रारंभ और समाप्ति तिथियां (समय सहित) दर्ज करें।"
     }
 };

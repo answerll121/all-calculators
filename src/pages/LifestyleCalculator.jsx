@@ -13,6 +13,7 @@ import GlobalSizeConverter from '../components/calculators/lifestyle/GlobalSizeC
 import TipCalculator from '../components/calculators/lifestyle/TipCalculator';
 import GasCostCalculator from '../components/calculators/lifestyle/GasCostCalculator';
 import PetAgeCalculator from '../components/calculators/lifestyle/PetAgeCalculator';
+import TimeDifferenceCalculator from '../components/calculators/lifestyle/TimeDifferenceCalculator';
 
 const LifestyleCalculator = () => {
     const { t } = useTranslation();
@@ -51,6 +52,7 @@ const LifestyleCalculator = () => {
             </div>
 
             <div className="masonry-grid">
+                <div id="time_diff" className="break-inside-avoid mb-6"><TimeDifferenceCalculator /></div>
                 <div id="military" className="break-inside-avoid mb-6"><MilitaryServiceCalculator /></div>
                 <div id="date" className="break-inside-avoid mb-6"><DateCalculator /></div>
                 <div id="age" className="break-inside-avoid mb-6"><AgeCalculator /></div>

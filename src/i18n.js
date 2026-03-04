@@ -447,6 +447,30 @@ const enTranslation = {
     "label_tdee_result": "Maintenence Calories",
 
     // Rich Content for CalculatorInfo (SEO)
+    
+    "category_smartfarm": "Smart Farm",
+    "category_electrical": "Electrical",
+    "calc_fertilizer": "Fertilizer Dilution",
+    "desc_fertilizer": "Calculate exact fertilizer amount required",
+    "calc_vpd": "VPD Calculator",
+    "desc_vpd": "Calculate Vapor Pressure Deficit",
+    "calc_ohms_law": "Ohm's Law",
+    "desc_ohms_law": "Calculate Voltage, Current, Resistance, Power",
+    "calc_voltage_drop": "Voltage Drop & Wire Size",
+    "desc_voltage_drop": "Calculate voltage drop and minimum wire size",
+    "calc_time_diff": "Time Difference Calculator",
+    "desc_time_diff": "Calculate Date and Time Differences Precisely",
+    "label_start_datetime": "Start Date & Time",
+    "label_end_datetime": "End Date & Time",
+    "label_calc_diff": "Calculate Difference",
+    "label_diff_years": "Years",
+    "label_diff_months": "Months",
+    "label_diff_days": "Days",
+    "label_diff_hours": "Hours",
+    "label_diff_minutes": "Minutes",
+    "label_calc_history": "Calculation History",
+    "label_clear_history": "Clear History",
+    "msg_no_history": "No history available",
     "info": {
     "margin": {
         "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
@@ -2086,7 +2110,31 @@ const resources = {
             "tax_tiered_kr": "구간별 과세 (22% / 33%)",
 
             // Rich Content for CalculatorInfo (SEO)
-            "info": {
+            
+    "category_smartfarm": "스마트팜",
+    "category_electrical": "전자/전기",
+    "calc_fertilizer": "비료 희석 조제",
+    "desc_fertilizer": "필요한 비료 및 물의 양 계산",
+    "calc_vpd": "VPD(포차) 계산",
+    "desc_vpd": "온실 및 작물 포차(VPD) 계산",
+    "calc_ohms_law": "옴의 법칙",
+    "desc_ohms_law": "전압, 전류, 저항, 전력 계산",
+    "calc_voltage_drop": "전압 강하 및 전선",
+    "desc_voltage_drop": "허용 전압 강하 및 전선 굵기 계산",
+    "calc_time_diff": "온라인 시간 차이 계산기",
+    "desc_time_diff": "시작일시와 종료일시의 정밀한 차이 계산",
+    "label_start_datetime": "시작 날짜 및 시간",
+    "label_end_datetime": "종료 날짜 및 시간",
+    "label_calc_diff": "차이 계산",
+    "label_diff_years": "년",
+    "label_diff_months": "개월",
+    "label_diff_days": "일",
+    "label_diff_hours": "시간",
+    "label_diff_minutes": "분",
+    "label_calc_history": "이전 계산 기록",
+    "label_clear_history": "초기화",
+    "msg_no_history": "계산 기록이 없습니다",
+    "info": {
     "margin": {
         "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
         "howTo": [
@@ -3801,7 +3849,31 @@ const resources = {
             "msg_tdee_desc": "現在の体重を維持するためのカロリー",
             "msg_bmr_desc": "安静時の消費カロリー",
             "label_tdee_result": "維持カロリー (TDEE)",
-            "info": {
+            
+    "category_smartfarm": "スマートファーム",
+    "category_electrical": "電気・電子",
+    "calc_fertilizer": "肥料希釈",
+    "desc_fertilizer": "必要な肥料と水の量を計算",
+    "calc_vpd": "VPD計算",
+    "desc_vpd": "飽差（VPD）を計算",
+    "calc_ohms_law": "オームの法則",
+    "desc_ohms_law": "電圧、電流、抵抗、電力の計算",
+    "calc_voltage_drop": "電圧降下",
+    "desc_voltage_drop": "電圧降下とワイヤーサイズの計算",
+    "calc_time_diff": "時間差計算",
+    "desc_time_diff": "日時の差を正確に計算",
+    "label_start_datetime": "開始日時",
+    "label_end_datetime": "終了日時",
+    "label_calc_diff": "差を計算",
+    "label_diff_years": "年",
+    "label_diff_months": "ヶ月",
+    "label_diff_days": "日",
+    "label_diff_hours": "時間",
+    "label_diff_minutes": "分",
+    "label_calc_history": "計算履歴",
+    "label_clear_history": "履歴をクリア",
+    "msg_no_history": "履歴がありません",
+    "info": {
     "margin": {
         "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
         "howTo": [
@@ -5298,7 +5370,31 @@ const resources = {
             "label_fat": "脂肪",
             "label_activity": "活动水平",
             "label_goal": "目标",
-            "info": {
+            
+    "category_smartfarm": "智慧农业",
+    "category_electrical": "电气/电子",
+    "calc_fertilizer": "肥料稀释",
+    "desc_fertilizer": "计算所需的准确肥料量",
+    "calc_vpd": "VPD计算器",
+    "desc_vpd": "计算饱和水汽压差 (VPD)",
+    "calc_ohms_law": "欧姆定律",
+    "desc_ohms_law": "计算电压、电流、电阻、功率",
+    "calc_voltage_drop": "电压降",
+    "desc_voltage_drop": "计算电压降和最小导线尺寸",
+    "calc_time_diff": "时间差计算器",
+    "desc_time_diff": "精确计算日期和时间差",
+    "label_start_datetime": "开始日期和时间",
+    "label_end_datetime": "结束日期和时间",
+    "label_calc_diff": "计算差值",
+    "label_diff_years": "年",
+    "label_diff_months": "月",
+    "label_diff_days": "日",
+    "label_diff_hours": "小时",
+    "label_diff_minutes": "分钟",
+    "label_calc_history": "计算历史",
+    "label_clear_history": "清除历史",
+    "msg_no_history": "没有历史记录",
+    "info": {
     "margin": {
         "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
         "howTo": [
