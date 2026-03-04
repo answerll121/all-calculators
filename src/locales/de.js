@@ -427,6 +427,12 @@ export default {
     "msg_bmr_desc": "Kalorienverbrauch im Ruhezustand",
     "label_tdee_result": "Erhaltungskalorien (TDEE)",
     "info": {
+    "timeDiff": {
+        "description": "Der Online-Zeitunterschiedsrechner ist ein kostenloses Tool, das den Unterschied zwischen zwei Daten und Zeiten genau berechnet. Es liefert präzise Ergebnisse in Jahren, Monaten, Tagen, Stunden, Minuten und Sekunden.",
+        "howTo": ["Wählen Sie Startdatum und -uhrzeit.","Wählen Sie Enddatum und -uhrzeit.","Klicken Sie auf die Schaltfläche 'Unterschied berechnen', um den Abstand zwischen den beiden Zeiten zu sehen."],
+        "formula": "Endzeit - Startzeit = Jahre, Monate, Tage, Stunden, Minuten, Sekunden",
+        "faq": [{"q":"Kann ich vergangene Zeiten berechnen?","a":"Ja, wenn die Endzeit vor der Startzeit liegt, erfolgt die Berechnung in die Vergangenheit."},{"q":"Wird der Berechnungsverlauf gespeichert?","a":"Ja, aktuelle Berechnungsaufzeichnungen werden automatisch auf Ihrem Gerät gespeichert."}]
+    },
     "margin": {
         "description": "Dieser Rechner liefert schnelle und genaue Ergebnisse. Ein kostenloses Online-Tool zur effektiven Datenverwaltung ohne Anmeldung.",
         "howTo": [

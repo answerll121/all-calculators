@@ -393,6 +393,12 @@ export default {
     "msg_bmr_desc": "Calorías quemadas en reposo",
     "label_tdee_result": "Calorías de Mantenimiento (TDEE)",
     "info": {
+    "timeDiff": {
+        "description": "La Calculadora de Diferencia de Tiempo en Línea es una herramienta gratuita que calcula con precisión la diferencia entre dos fechas y horas. Proporciona resultados precisos en años, meses, días, horas, minutos y segundos.",
+        "howTo": ["Seleccione la fecha y hora de inicio.","Seleccione la fecha y hora de finalización.","Haga clic en el botón 'Calcular Diferencia' para ver el intervalo entre las dos horas."],
+        "formula": "Hora de finalización - Hora de inicio = Años, Meses, Días, Horas, Minutos, Segundos",
+        "faq": [{"q":"¿Puedo calcular horas pasadas?","a":"Sí, si la hora de finalización es anterior a la hora de inicio, el cálculo se realizará en dirección pasada."},{"q":"¿Se guarda el historial de cálculos?","a":"Sí, los registros de cálculos recientes se guardan automáticamente en su dispositivo."}]
+    },
     "margin": {
         "description": "Esta calculadora proporciona resultados rápidos y precisos. Una herramienta en línea gratuita para administrar los datos de manera eficaz sin registrarse.",
         "howTo": [

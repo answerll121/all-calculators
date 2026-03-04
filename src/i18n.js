@@ -473,6 +473,12 @@ const enTranslation = {
     "label_clear_history": "Clear History",
     "msg_no_history": "No history available",
     "info": {
+    "timeDiff": {
+        "description": "The Online Time Difference Calculator is a free tool that accurately calculates the difference between two dates and times. It provides precise results in years, months, days, hours, minutes, and seconds, making it useful for schedule management and D-day tracking.",
+        "howTo": ["Select the start date and time.","Select the end date and time.","Click the 'Calculate Difference' button to see the gap between the two times."],
+        "formula": "End Time - Start Time = Years, Months, Days, Hours, Minutes, Seconds",
+        "faq": [{"q":"Can I calculate past times?","a":"Yes, if the end time is before the start time, the calculation will be made in the past direction."},{"q":"Is the calculation history saved?","a":"Yes, recent calculation records are automatically saved on your device for later reference."}]
+    },
         "margin": {
             "description": "This specialized calculator provides quick, accurate results tailored to your specific inputs. Whether managing daily tasks or planning ahead, our tool offers reliable data instantly.",
             "howTo": [
@@ -2137,6 +2143,12 @@ const resources = {
             "label_clear_history": "초기화",
             "msg_no_history": "계산 기록이 없습니다",
             "info": {
+    "timeDiff": {
+        "description": "온라인 시간 차이 계산기는 두 날짜와 시간 사이의 차이를 정확하게 계산해주는 무료 도구입니다. 연, 월, 일, 시간, 분, 초 단위까지 정밀한 결과를 제공하여 일정 관리나 디데이 계산에 유용하게 활용할 수 있습니다.",
+        "howTo": ["시작 날짜 및 시간을 선택하세요.","종료 날짜 및 시간을 선택하세요.","'차이 계산' 버튼을 클릭하여 두 시간 사이의 간격을 확인하세요."],
+        "formula": "종료 시간 - 시작 시간 = 년, 월, 일, 시간, 분, 초",
+        "faq": [{"q":"과거의 시간도 계산할 수 있나요?","a":"네, 종료 시간이 시작 시간보다 앞설 경우 (과거) 방향으로 계산됩니다."},{"q":"계산 기록은 저장되나요?","a":"네, 최근 계산 기록이 기기에 로컬 스토리지로 보관되어 나중에 다시 확인할 수 있습니다."}]
+    },
                 "margin": {
                     "description": "이 계산기는 입력값에 맞춰 빠르고 정확한 결과를 제공합니다. 일상적인 수치부터 전문적인 계획까지, 실시간으로 신뢰할 수 있는 데이터를 확인하세요.",
                     "howTo": [
@@ -3877,6 +3889,12 @@ const resources = {
             "label_clear_history": "履歴をクリア",
             "msg_no_history": "履歴がありません",
             "info": {
+    "timeDiff": {
+        "description": "オンライン時間差計算機は、2つの日付と時間の間の差を正確に計算する無料ツールです。年、月、日、時間、分、秒単位まで精密な結果を提供し、スケジュール管理やD-dayの追跡に役立ちます。",
+        "howTo": ["開始日時を選択します。","終了日時を選択します。","「差を計算」ボタンをクリックして、2つの時間の間のギャップを確認します。"],
+        "formula": "終了時間 - 開始時間 = 年、月、日、時間、分、秒",
+        "faq": [{"q":"過去の時間も計算できますか？","a":"はい、終了時間が開始時間よりも前の場合、過去の方向で計算されます。"},{"q":"計算履歴は保存されますか？","a":"はい、最近の計算記録はデバイスに自動的に保存され、後で参照できます。"}]
+    },
                 "margin": {
                     "description": "この計算機は、入力に合わせて迅速かつ正確な結果を提供します。日常的な数値から専門的な計画まで、リアルタイムで信頼できるデータを確認できます。",
                     "howTo": [
@@ -5399,6 +5417,12 @@ const resources = {
             "label_clear_history": "清除历史",
             "msg_no_history": "没有历史记录",
             "info": {
+    "timeDiff": {
+        "description": "在线时间差计算器是一个免费工具，可以准确计算两个日期和时间之间的差异。它提供精确到年、月、日、小时、分钟和秒的详细结果，非常适合日程管理和倒计时跟踪。",
+        "howTo": ["选择开始日期和时间。","选择结束日期和时间。","点击“计算差异”按钮查看两次之间的时间间隔。"],
+        "formula": "结束时间 - 开始时间 = 年，月，日，小时，分钟，秒",
+        "faq": [{"q":"可以计算过去的时间吗？","a":"是的，如果结束时间在开始时间之前，计算将向过去的方向进行。"},{"q":"计算历史会保存吗？","a":"是的，最近的计算记录会自动保存在您的设备上，以便日后查看。"}]
+    },
                 "margin": {
                     "description": "此计算器会根据您的输入快速提供准确的结果。无论是日常杂项还是专业规划，都能随时随地提供可靠数据。",
                     "howTo": [

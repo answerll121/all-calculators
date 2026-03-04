@@ -424,6 +424,12 @@ export default {
     "msg_bmr_desc": "Calorias queimadas em repouso",
     "label_tdee_result": "Calorias de Manutenção (TDEE)",
     "info": {
+    "timeDiff": {
+        "description": "A Calculadora de Diferença de Tempo Online é uma ferramenta gratuita que calcula com precisão a diferença entre duas datas e horas. Ele fornece resultados precisos em anos, meses, dias, horas, minutos e segundos.",
+        "howTo": ["Selecione a data e hora de início.","Selecione a data e hora de término.","Clique no botão 'Calcular Diferença' para ver o intervalo entre as duas horas."],
+        "formula": "Hora de Término - Hora de Início = Anos, Meses, Dias, Horas, Minutos, Segundos",
+        "faq": [{"q":"Posso calcular tempos passados?","a":"Sim, se o tempo final for anterior ao tempo inicial, o cálculo será feito na direção passada."},{"q":"O histórico de cálculos é salvo?","a":"Sim, os registros de cálculos recentes são salvos automaticamente no seu dispositivo."}]
+    },
     "margin": {
         "description": "Esta calculadora online fornece resultados rápidos e precisos instantaneamente em seu navegador sem a necessidade de um registro.",
         "howTo": [

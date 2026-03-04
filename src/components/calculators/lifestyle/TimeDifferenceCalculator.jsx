@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Calculator, RotateCcw, Calendar, History, Trash2, Clock } from 'lucide-react';
-import CalculatorInfo from '../../common/CalculatorInfo';
-import AdPlaceholder from '../../common/AdPlaceholder';
+import CalculatorInfo from '../../CalculatorInfo';
 
 const TimeDifferenceCalculator = () => {
     const { t } = useTranslation();
@@ -247,7 +246,6 @@ const TimeDifferenceCalculator = () => {
                 </div>
             )}
 
-            <AdPlaceholder />
             <CalculatorInfo calculatorId="timeDiff" />
         </div>
     );
